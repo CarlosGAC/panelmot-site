@@ -9,7 +9,7 @@ export default {
 
     return [
       {
-        path: '/blog',
+        path: '/Blog',
         getData: () => ({
           posts,
         }),
@@ -27,7 +27,7 @@ export default {
     [
       require.resolve('react-static-plugin-source-filesystem'),
       {
-        location: path.resolve('./src/pages'),
+        location: path.resolve('./src/components/Pages'),
       },
     ],
     require.resolve('react-static-plugin-reach-router'),
