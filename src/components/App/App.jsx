@@ -5,6 +5,7 @@ import { Link, Router } from 'components/Router'
 import Dynamic from '../../containers/Dynamic'
 
 import './app.css'
+import CookieConsent from "react-cookie-consent";
 
 // Any routes that start with 'dynamic' will be treated as non-static routes
 addPrefetchExcludes(['dynamic'])
@@ -25,6 +26,16 @@ function App() {
             <Routes path="*" />
           </Router>
         </React.Suspense>
+        <CookieConsent
+          location="bottom"
+          buttonText="Acepto"
+          cookieName="PanelmotPVCconsentCookie"
+          style={{background:"#2B373B"}}
+          buttonStyle={{color: "#4e503b", fontSize: "16px"}}
+          expires={150}
+        >
+          Este sitio web utiliza cookies para mejorar la experiencia de usuario. {" "}
+        </CookieConsent>
       </div>
     </Root>
   )
