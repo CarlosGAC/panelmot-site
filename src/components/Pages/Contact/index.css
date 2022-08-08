@@ -7,17 +7,14 @@
 }
 
 .ContactSection {
-    font-size: 32px;
     font-weight: 800;
 }
 
 .section-title {
     font-weight: bolder;
-    font-size: 64px;
 }
 
 .section-description {
-    font-size: 24px;
     font-weight: normal;
     margin-bottom: 70px;
 }
@@ -26,13 +23,21 @@
     font-weight: bold;
 }
 
+.form-control {
+    font-size: 20px;
+}
 .contact-button {
-        margin-top: 20px;
-        border: none;
-        background-color: #58C33D;
-        color: white;
-        border-radius: 12px;
-        font-weight: bold;
+    margin-top: 20px;
+    border: none;
+    background-color: #58C33D;
+    color: white;
+    border-radius: 12px;
+    font-weight: bold;
+    
+    min-width: 30%;
+    max-width: 60%;
+    min-height: 80px;
+    max-height: auto;
 }
 
 i {
@@ -55,16 +60,7 @@ i {
 }
 
 .contact-row {
-    margin-bottom: 10px;
     height: 64px;
-}
-
-input[type="text"]{
-    font-size: 24px;
-}
-
-input[type="email"] {
-    font-size: 24px;
 }
 
 textarea {
@@ -74,4 +70,8 @@ textarea {
 svg {
     height: 50px;
     width: 50px;
+}
+
+.contact-data-container {
+    text-align: left;
 }
