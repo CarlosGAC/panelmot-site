@@ -2,19 +2,24 @@
     border-radius: 50%;
     width: 300px;
     height: 300px;
+    margin-bottom: 50px;
+    margin-top: 100px;
 }
 
 .ContactSection {
     font-size: 32px;
+    font-weight: 800;
 }
 
 .section-title {
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 64px;
 }
 
 .section-description {
     font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 70px;
 }
 
 .form-label {
@@ -28,10 +33,45 @@
         color: white;
         border-radius: 12px;
         font-weight: bold;
-        width: 50%;
-        height: 80px;
 }
 
 i {
     margin-right: 40px;
+}
+
+.form-control {
+    border-color: black !important;
+    border-width: 2px !important;
+    background-color: white;
+}
+
+.contact-data {
+    font-weight: bold;
+}
+
+.contact-link {
+    font-weight: bold;
+    color: inherit;
+}
+
+.contact-row {
+    margin-bottom: 10px;
+    height: 64px;
+}
+
+input[type="text"]{
+    font-size: 24px;
+}
+
+input[type="email"] {
+    font-size: 24px;
+}
+
+textarea {
+    font-size: 24px !important;
+}
+
+svg {
+    height: 50px;
+    width: 50px;
 }

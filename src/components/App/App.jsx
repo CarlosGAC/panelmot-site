@@ -5,7 +5,7 @@ import { Link, Router } from 'components/Router'
 import Dynamic from '../../containers/Dynamic'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import 'normalize.css'
 import './app.css'
 
 // Any routes that start with 'dynamic' will be treated as non-static routes
