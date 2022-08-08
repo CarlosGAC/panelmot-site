@@ -1,0 +1,33 @@
+.img-logo {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.ContactSection {
+    font-size: 32px;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.section-description {
+    font-size: 24px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.contact-button {
+        margin-top: 20px;
+        border: none;
+        background-color: #58C33D;
+        color: white;
+        border-radius: 12px;
+        font-weight: bold;
+        width: 50%;
+        height: 80px;
+}
