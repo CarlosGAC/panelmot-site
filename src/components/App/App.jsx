@@ -8,6 +8,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'normalize.css'
 import './app.css'
 
+import AboutUs from '../Pages/AboutUs/AboutUs'
+import Contact from '../Pages/Contact/Contact'
+import FAQ from '../Pages/FAQ/FAQ'
+
 // Any routes that start with 'dynamic' will be treated as non-static routes
 addPrefetchExcludes(['dynamic'])
 
@@ -24,12 +28,10 @@ function App() {
         <Link to="/FAQ">FAQ</Link>
       </nav>
       <div className="content">
-        <React.Suspense fallback={<em>Loading...</em>}>
-          <Router>
-            <Dynamic path="dynamic" />
-            <Routes path="*" />
-          </Router>
-        </React.Suspense>
+        <AboutUs/>
+        <FAQ/>
+        <Contact/>
+
       </div>
     </Root>
   )
