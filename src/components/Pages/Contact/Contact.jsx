@@ -8,6 +8,17 @@ import { FaFacebookSquare } from 'react-icons/fa'
 import { HiOutlineLocationMarker } from 'react-icons/hi'
 
 function FAQ() {
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+
+        const nameInput = event.target.name.value;
+        const mailInput = event.target.email.value;
+        const messageInput = event.target.message.value;
+
+        window.open("https://api.whatsapp.com/send?phone=5213411046630&text=" + "Buen día, mi nombre es " + nameInput +  ", " + messageInput + ". Mi correo electrónico es " + mailInput);
+    }
+
     return (
         <>
             <section className='ContactSection'>
@@ -16,18 +27,18 @@ function FAQ() {
                         <div className="col-xl-8 col-md-6 col-sm-12 col-xs-12">
                             <h2 className="section-title display-2">Contáctanos</h2>
                             <p className="section-description h4 mt-4 mb-5">Si te interesan nuestros productos, no dudes en contactarnos!</p>
-                            <form className="col-xl-7 col-md-12 col-sm-12 col-xs-12">
+                            <form onSubmit={handleSubmit} className="col-xl-7 col-md-12 col-sm-12 col-xs-12">
                                 <div className="mb-3">
                                     <label for="exampleInputEmail1" className="form-label h3"><b>Nombre completo:</b></label>
-                                    <input type="text" className="form-control" id="exampleInputEmail1" />
+                                    <input type="text" className="form-control" id="exampleInputEmail1" name="name" />
                                 </div>
                                 <div className="mb-3">
                                     <label for="exampleInputPassword1" className="form-label h3"><b>Correo electrónico</b></label>
-                                    <input type="email" className="form-control h2" id="exampleInputPassword1" />
+                                    <input type="email" className="form-control h2" id="exampleInputPassword1" name="email" />
                                 </div>
                                 <div className="mb-3">
                                     <label className="form-label h3" for="exampleCheck1"><b>Mensaje:</b></label>
-                                    <textarea className="form-control" id="exampleCheck1" rows="8" />
+                                    <textarea className="form-control" id="exampleCheck1" rows="8" name="message" />
                                 </div>
                                 <button type="submit" className="contact-button h3"><b>Enviar</b></button>
                             </form>
