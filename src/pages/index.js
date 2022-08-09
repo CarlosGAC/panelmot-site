@@ -1,9 +1,10 @@
 import React from 'react'
+import HomeSection from '../components/Organism/HomeSection/HomeSection';
 
 const Index = () => (
-  <div style={{ textAlign: 'center' }}>
-    <h1>Welcome to React-Static</h1>
-  </div>
+  <>
+    <HomeSection />
+  </>
 )
 
 export default Index;

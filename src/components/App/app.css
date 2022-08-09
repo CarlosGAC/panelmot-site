@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito Sans');
+
+:root {
+  font-size: 18px;
+  font-family: 'Nunito Sans','HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F9F9F9;
+  color: #000;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #108db8;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+@media only screen and (max-width: 400px) {
+  h1 {
+      font-size: 2rem;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  width: 100%;
+  background: #108db8;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  padding: 1rem;
+  display: inline-block;
+}
