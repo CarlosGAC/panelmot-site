@@ -5,7 +5,7 @@ import { Link, Router } from 'components/Router'
 import Dynamic from '../../containers/Dynamic'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import 'normalize.css'
 import './app.css'
 
 // Any routes that start with 'dynamic' will be treated as non-static routes
@@ -20,6 +20,7 @@ function App() {
         <Link to="/Blog">Blog</Link>
         <Link to="/dynamic">Dynamic</Link>
         <Link to="/AboutUs">About Us</Link>
+        <Link to="/Contact">Contact</Link>
       </nav>
       <div className="content">
         <React.Suspense fallback={<em>Loading...</em>}>
