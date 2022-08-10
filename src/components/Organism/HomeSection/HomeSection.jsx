@@ -1,25 +1,26 @@
-import React from 'react'
-import { Carousel } from 'react-bootstrap'
+import React, { useState } from 'react'
 
 import Button from '../../Atoms/Button/Button'
+import BannerCarousel from '../../Molecules/BannerCarousel'
+import { RiArrowLeftSLine, RiArrowRightSLine } from 'react-icons/ri'
 import { Link } from 'components/Router'
 
 import * as Styled from './HomeSection.styled'
 import { BannersData } from '../../../data/MockData'
 
-const Items = ({ data }) => {
-  return data.map((banner, index) =>
-    <Carousel.Item key={index}>
-      <img className="d-block w-100" src={banner.src} alt={banner.alt} />
-      <Carousel.Caption>
-          <h3>{banner.id} slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-    </Carousel.Item>
-  );
-} 
-
 function HomeSection() {
+  const [current, setCurrent] = useState(0);
+  const bannersLength = BannersData.banners.length;
+
+  const nextSlide = () => {
+    setCurrent(current === bannersLength - 1 ? 0 : current + 1);
+  }
+
+  const prevSlide = () => {
+    setCurrent(current === 0 ? bannersLength - 1 : current - 1);
+  }
+  
+  console.log("Left clicked: " + current);
   return (
     <Styled.Container>
       <Styled.Content>
@@ -29,9 +30,9 @@ function HomeSection() {
           <Button label="Explorar Catalogo" />
         </Link>
       </Styled.Content>
-      {/* <Carousel>
-        <Items data={BannersData.banners} />
-      </Carousel> */}
+      <Styled.LeftArrow onClick={prevSlide} />
+      <Styled.RightArrow onClick={nextSlide} />
+      <BannerCarousel data={BannersData.banners} current={current}/>
     </Styled.Container>
   )
 }
