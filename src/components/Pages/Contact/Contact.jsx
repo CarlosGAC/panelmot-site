@@ -22,21 +22,21 @@ function FAQ() {
     return (
         <>
             <section className='ContactSection'>
-                <div className="container-fluid">
+                <div >
                     <div className="row mb-5">
                         <div className="col-xl-8 col-md-6 col-sm-12 col-xs-12">
                             <h2 className="section-title display-2">Contáctanos</h2>
                             <p className="section-description h4 mt-4 mb-5">Si te interesan nuestros productos, no dudes en contactarnos!</p>
                             <form onSubmit={handleSubmit} className="col-xl-7 col-md-12 col-sm-12 col-xs-12">
-                                <div className="mb-3">
+                                <div className="mb-5">
                                     <label for="exampleInputEmail1" className="form-label h3"><b>Nombre completo:</b></label>
                                     <input type="text" className="form-control" id="exampleInputEmail1" name="name" />
                                 </div>
-                                <div className="mb-3">
+                                <div className="mb-5">
                                     <label for="exampleInputPassword1" className="form-label h3"><b>Correo electrónico</b></label>
                                     <input type="email" className="form-control h2" id="exampleInputPassword1" name="email" />
                                 </div>
-                                <div className="mb-3">
+                                <div className="mb-5">
                                     <label className="form-label h3" for="exampleCheck1"><b>Mensaje:</b></label>
                                     <textarea className="form-control" id="exampleCheck1" rows="8" name="message" />
                                 </div>

@@ -3,6 +3,10 @@
   scroll-behavior: smooth;
 }
 
+.section-container {
+  margin-bottom: 250px;
+}
+
 body {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: normal;
@@ -34,6 +38,13 @@ nav a {
 
 .content {
   padding: 1rem;
+  width: 84%;
+}
+
+.spa {
+  display: flex;
+  justify-content: center;
+  align-items:center;
 }
 
 html {

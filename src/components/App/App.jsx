@@ -27,12 +27,14 @@ function App() {
         <Link to="/Contact">Contact</Link>
         <Link to="/FAQ">FAQ</Link>
       </nav>
-      <div className="content">
-        <AboutUs/>
-        <FAQ/>
-        <Contact/>
-
+      <div className="spa">
+        <div className="content">
+          <AboutUs/>
+          <FAQ/>
+          <Contact/>
+        </div>
       </div>
+
     </Root>
   )
 }

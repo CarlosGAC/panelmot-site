@@ -11,6 +11,7 @@ import Col from 'react-bootstrap/Col'
 function About() {
   return (
     <>
+    <section className="section-container justify-content-center">
     <Container>
 
       <Row className="mb-5">
@@ -27,12 +28,14 @@ function About() {
       <Row className="text-center mt-5" >
         <h3 className="display-4">Asociados con:</h3>
       </Row>
-      <Row className="justify-content-center">
+      <Row className="justify-content-center mt-5 mb-5">
         <Col xl="12">
           <img src={monteoliva_logo} alt="Monte Oliva TW Logo" className="monteoliva-logo"/>
         </Col>
       </Row>
     </Container>
+    </section>
+
     </>
   )
 }

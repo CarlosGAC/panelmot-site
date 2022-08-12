@@ -8,7 +8,7 @@ import "./index.css"
 function FAQ() {
   return (
     <>
-      <section className='FAQSection content'>
+      <section className='FAQSection section-container justify-content-center'>
         <div class="row">
           <h2 className='faq-title display-2'>Preguntas Frecuentes</h2>
         </div>
