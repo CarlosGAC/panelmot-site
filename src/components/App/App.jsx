@@ -11,6 +11,7 @@ import './app.css'
 import AboutUs from '../Pages/AboutUs/AboutUs'
 import Contact from '../Pages/Contact/Contact'
 import FAQ from '../Pages/FAQ/FAQ'
+import Articles from '../Pages/Articles/Articles'
 
 // Any routes that start with 'dynamic' will be treated as non-static routes
 addPrefetchExcludes(['dynamic'])
@@ -29,6 +30,7 @@ function App() {
       </nav>
       <div className="spa">
         <div className="content">
+          <Articles />
           <AboutUs/>
           <FAQ/>
           <Contact/>

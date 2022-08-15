@@ -1,0 +1,1 @@
+export { default as ProductsData} from './products-section-carousel.data.json'

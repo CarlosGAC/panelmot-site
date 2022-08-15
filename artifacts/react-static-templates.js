@@ -8,6 +8,8 @@ export default {
 '__react_static_root__/src/components/Pages/About/index.js': require('__react_static_root__/src/components/Pages/About/index.js').default,
 '__react_static_root__/src/components/Pages/AboutUs/AboutUs.jsx': require('__react_static_root__/src/components/Pages/AboutUs/AboutUs.jsx').default,
 '__react_static_root__/src/components/Pages/AboutUs/index.js': require('__react_static_root__/src/components/Pages/AboutUs/index.js').default,
+'__react_static_root__/src/components/Pages/Articles/Articles.jsx': require('__react_static_root__/src/components/Pages/Articles/Articles.jsx').default,
+'__react_static_root__/src/components/Pages/Articles/index.js': require('__react_static_root__/src/components/Pages/Articles/index.js').default,
 '__react_static_root__/src/components/Pages/Blog/Blog.jsx': require('__react_static_root__/src/components/Pages/Blog/Blog.jsx').default,
 '__react_static_root__/src/components/Pages/Blog/index.js': require('__react_static_root__/src/components/Pages/Blog/index.js').default,
 '__react_static_root__/src/components/Pages/Contact/Contact.jsx': require('__react_static_root__/src/components/Pages/Contact/Contact.jsx').default,
