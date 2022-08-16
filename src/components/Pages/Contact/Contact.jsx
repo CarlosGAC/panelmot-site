@@ -1,11 +1,23 @@
 import React from 'react'
 
 import "./index.css"
-import panelmot_logo from '../../../images/panelmot_logo.jpg'
+
+import panelmotLogo from '../../../images/panelmot_logo.jpg'
+
 import { BsTelephone } from 'react-icons/bs'
 import { GoMail } from 'react-icons/go'
 import { FaFacebookSquare } from 'react-icons/fa'
 import { HiOutlineLocationMarker } from 'react-icons/hi'
+
+import Row from 'react-bootstrap/esm/Row'
+import Col from 'react-bootstrap/esm/Col'
+
+import SectionTitle from '../../Atoms/SectionTitle/SectionTitle'
+import ContactTextInput from '../../Molecules/ContactTextInput/ContactTextInput'
+import ContactImage from '../../Atoms/ContactImage/ContactImage'
+import ContactDataRow from '../../Molecules/ContactDataRow/ContactDataRow'
+import FAQLink from '../../Atoms/FAQLink/FAQLink'
+import ContactFooter from '../../Molecules/ContactFooter/ContactFooter'
 
 function FAQ() {
 
@@ -16,92 +28,81 @@ function FAQ() {
         const mailInput = event.target.email.value;
         const messageInput = event.target.message.value;
 
-        window.open("https://api.whatsapp.com/send?phone=5213411046630&text=" + "Buen día, mi nombre es " + nameInput +  ", " + messageInput + ". Mi correo electrónico es " + mailInput);
+        window.open("https://api.whatsapp.com/send?phone=5213411046630&text=" + "Buen día, mi nombre es " + nameInput + ", " + messageInput + ". Mi correo electrónico es " + mailInput);
     }
 
     return (
         <>
-            <section className='ContactSection'>
-                <div >
-                    <div className="row mb-5">
-                        <div className="col-xl-8 col-md-6 col-sm-12 col-xs-12">
-                            <h2 className="section-title display-2">Contáctanos</h2>
-                            <p className="section-description h4 mt-4 mb-5">Si te interesan nuestros productos, no dudes en contactarnos!</p>
-                            <form onSubmit={handleSubmit} className="col-xl-7 col-md-12 col-sm-12 col-xs-12">
-                                <div className="mb-5">
-                                    <label for="exampleInputEmail1" className="form-label h3"><b>Nombre completo:</b></label>
-                                    <input type="text" className="form-control" id="exampleInputEmail1" name="name" />
-                                </div>
-                                <div className="mb-5">
-                                    <label for="exampleInputPassword1" className="form-label h3"><b>Correo electrónico</b></label>
-                                    <input type="email" className="form-control h2" id="exampleInputPassword1" name="email" />
-                                </div>
-                                <div className="mb-5">
-                                    <label className="form-label h3" for="exampleCheck1"><b>Mensaje:</b></label>
-                                    <textarea className="form-control" id="exampleCheck1" rows="8" name="message" />
-                                </div>
-                                <button type="submit" className="contact-button h3"><b>Enviar</b></button>
-                            </form>
-                        </div>
-                        <div className='col-xl-4 col-md-6 col-sm-12 col-xs-12 contact-data justify-content-center'>
+            <section>
+                <Row className="mb-5">
+                    <Col xl="8" l="8" md="6" sm="12" xs="12">
+                        <Row className="mb-5">
 
-                            <img className="img-logo" src={panelmot_logo} alt="panelmot logo" />
-                            
-                            
-                            <div className="contact-data-container">
+                            <Row className="mb-1">
+                                <SectionTitle
+                                    label={"Contáctanos"}
+                                />
+                            </Row>
+                            <p className="h4">Si te interesan nuestros productos, no dudes en contactarnos!</p>
+                        </Row>
+                        <Row className="mb-4">
+                            <Col xl="7" md="12" sm="12" xs="12">
+                                <form onSubmit={handleSubmit}>
+                                    <ContactTextInput
+                                        type={"text"}
+                                        label={"Nombre Completo"}
+                                        id={"nameInput"}
+                                        name={"name"}
+                                    />
 
-                                <div className='row contact-row mb-2 col-12'>
-                                    <div className='col-2'>
-                                    <i><BsTelephone /></i>
-                                    </div>
-                                    <div className='col-10'>
-                                        <p className="h2"><b>342 108 4567</b></p>
-                                    </div>
-                                </div>
+                                    <ContactTextInput
+                                        type={"text"}
+                                        label={"Correo Electrónico"}
+                                        id={"emailInput"}
+                                        name={"email"}
+                                    />
 
-                                <div className='row contact-row mb-2 col-12'>
-                                <div className='col-2'>
-                                    <i><GoMail /></i>
-                                    </div>
-                                    <div className='col-10'>
-                                    <a className="contact-link h2" href="mailto:panelpvcmot@gmail.com"><b>panelpvcmot@gmail.com</b></a>
-                                    </div>
-                                </div>
+                                    <ContactTextInput
+                                        type={"textarea"}
+                                        label={"Mensaje"}
+                                        id={"messageInput"}
+                                        name={"message"}
+                                    />
+                                    <button type="submit" className="contact-button h3"><b>Enviar</b></button>
+                                </form>
+                            </Col>
+                        </Row>
 
-                                <div className='row contact-row mb-2 col-12'>
-                                <div className='col-2'>
-                                <i><FaFacebookSquare /></i>
-                                    </div>
-                                    <div className='col-10'>
-                                    <a className="contact-link h2" href="https://www.facebook.com/PANEL-PVC-172312544911856"><b><u>Panel PVC</u></b></a>
-                                    </div>
-                                </div>
+                    </Col>
 
-                                <div className='row contact-row mb-2 col-12'>
-                                <div className='col-2'>
-                                    <i><HiOutlineLocationMarker /></i>
-                                </div>
-                                <div className='col-10'>
-                                    <p className="h2"><b>Guadalajara, Jalisco</b></p>
-                                </div>
-                                    <div className='col-12 col-lg-12'>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='row'>
-                        <div className='col-5'>
-                            <p className='h4'>Página Web desarrollada por <a href="https://eldritchgames.com.mx">Eldritch Games</a></p>
-                        </div>
-                        <div className='col-3'>
-                            <a href="#" className='h4'>Aviso de Privacidad</a>
-                        </div>
-                        <div className='col-4'>
-                            <p className='h4'><u>Copyright © 2021 by Panelmot PVC</u></p>
-                        </div>
-                    </div>
-                </div>
+                    <Col xl="4" l="4" md="6" sm="12" xs="12" className='justify-content-center'>
+
+                        <ContactImage
+                            imageSrc={panelmotLogo}
+                        />
+                        <ContactDataRow
+                            icon={<BsTelephone />}
+                            content={<p className="h2"><b>342 108 4567</b></p>}
+                        />
+
+                        <ContactDataRow
+                            icon={<GoMail />}
+                            content={<p className="h2"><b>panelpvcmot@gmail.com</b></p>}
+                        />
+
+                        <ContactDataRow
+                            icon={<FaFacebookSquare />}
+                            content={<FAQLink label={"Panel PVC"} linkRef={"https://www.facebook.com/PANEL-PVC-172312544911856"} />}
+                        />
+
+                        <ContactDataRow
+                            icon={<HiOutlineLocationMarker />}
+                            content={<p className="h2"><b>Guadalajara, Jalisco</b></p>}
+                        />
+                    </Col>
+                </Row>
+
+                <ContactFooter />
             </section>
 
         </>
