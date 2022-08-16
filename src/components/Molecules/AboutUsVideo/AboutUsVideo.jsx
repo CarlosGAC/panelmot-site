@@ -7,7 +7,7 @@ function AboutUsVideo( {videoSrc }) {
         <Row className="justify-content-center">
             <Col l="12" md="12" xl="12">
                 <div className="ratio ratio-16x9">
-                    <iframe className="embed-responsive-item" src={videoSrc} allowFullScreen></iframe>
+                    <video className="embed-responsive-item" src={videoSrc} allowFullScreen controls></video>
                 </div>
             </Col>
         </Row>

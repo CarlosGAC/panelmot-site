@@ -8,8 +8,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'normalize.css'
 import './app.css'
 
-import AboutUs from '../Pages/AboutUs/AboutUs'
-import Contact from '../Pages/Contact/Contact'
+import AboutUs from '../Organisms/AboutUs/AboutUs'
+import Contact from '../Organisms/Contact/Contact'
 import FAQ from '../Organisms/FAQ/FAQ';
 
 // Any routes that start with 'dynamic' will be treated as non-static routes

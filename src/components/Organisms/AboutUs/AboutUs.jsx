@@ -11,17 +11,13 @@ import AboutUsPartners from '../../Molecules/AboutUsPartners/AboutUsPartners'
 function About() {
   return (
     <>
-    <section className="section-container justify-content-center">
-    <Container>
-
-      <AboutUsHeader />      
-      <AboutUsVideo videoSrc={video}/>
-      <AboutUsPartners />
-      
-
-    </Container>
-    </section>
-
+      <section className="section-container justify-content-center">
+        <Container>
+          <AboutUsHeader />
+          <AboutUsVideo videoSrc={video} />
+          <AboutUsPartners />
+        </Container>
+      </section>
     </>
   )
 }
