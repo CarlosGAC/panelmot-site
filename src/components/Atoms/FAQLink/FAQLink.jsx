@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import * as Styled from './FAQLink.styled.js'
 
 function FAQLink({ label, linkRef }) {
-    return(
-        <Styled.FAQLink href={linkRef ? linkRef : "#"}>{label ? label : "Section Title" }</Styled.FAQLink>
+    return (
+        <Styled.FAQLink href={linkRef ? linkRef : "#"} className="h2">{label ? label : "Section Title"}</Styled.FAQLink>
     )
 }
 
