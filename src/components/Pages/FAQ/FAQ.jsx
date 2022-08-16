@@ -9,7 +9,7 @@ function FAQ() {
   return (
     <>
       <section className='FAQSection section-container justify-content-center'>
-        <div class="row">
+        <div className="row">
           <h2 className='faq-title display-2'>Preguntas Frecuentes</h2>
         </div>
         <Accordion defaultActiveKey={['0']} alwaysOpen className='row accordion-flush'>

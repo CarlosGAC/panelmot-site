@@ -2,7 +2,6 @@ import React from 'react'
 import { Root, Routes, addPrefetchExcludes } from 'react-static'
 //
 import { Link, Router } from 'components/Router'
-import Dynamic from '../../containers/Dynamic'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'normalize.css'
@@ -36,7 +35,7 @@ function App() {
           <Contact/>
         </div>
       </div>
-
+      
     </Root>
   )
 }

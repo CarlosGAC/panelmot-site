@@ -50,3 +50,9 @@ nav a {
 html {
   font-size: 1rem;
 }
+
+.selected-category {
+  text-decoration: underline;
+  text-decoration-color: green;
+  text-decoration-thickness: 5px;
+}
