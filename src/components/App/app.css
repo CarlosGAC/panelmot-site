@@ -51,3 +51,7 @@ nav a {
 html {
   font-size: 1rem;
 }
+
+h1,h2,h3,h4,p, label {
+  color: black;
+}
