@@ -12,7 +12,7 @@ function AboutUsPartners({ imageSrc }) {
             </Row>
             <Row className="justify-content-center mt-5 mb-5">
                 <Col xl="12">
-                    <img src={monteolivaLogo} alt="El logotipo de Mote Oliva TW" className="monteoliva-logo" />
+                    <img loading="lazy" src={monteolivaLogo} alt="El logotipo de Mote Oliva TW" className="monteoliva-logo" />
                 </Col>
             </Row>
         </>

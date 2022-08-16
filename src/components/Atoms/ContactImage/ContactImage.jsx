@@ -4,7 +4,7 @@ import * as Styled from './ContactImage.styled.js'
 
 function ContactImage({ imageSrc, altText }) {
     return (
-        <Styled.ContactImage src={imageSrc} alt={altText}></Styled.ContactImage>
+        <Styled.ContactImage loading="lazy" src={imageSrc} alt={altText}></Styled.ContactImage>
     )
 }
 
