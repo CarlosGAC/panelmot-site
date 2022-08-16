@@ -18,7 +18,7 @@ function QuestionBlock({ question, answer, buttonLabel, buttonAction, linkLabel,
     
                 <Row>
                     <FAQButton
-                        
+                        buttonLabel={buttonLabel}
                     />
                 </Row>
             </Accordion.Body>
