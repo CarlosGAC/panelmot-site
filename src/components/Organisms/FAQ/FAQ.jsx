@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import { Row, Col } from 'react-bootstrap'
 import Accordion from 'react-bootstrap/Accordion'
 import SectionTitle from '../../Atoms/SectionTitle/SectionTitle'
 import QuestionBlock from '../../Molecules/QuestionBlock/QuestionBlock'

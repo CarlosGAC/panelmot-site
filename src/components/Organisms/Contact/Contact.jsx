@@ -9,8 +9,7 @@ import { GoMail } from 'react-icons/go'
 import { FaFacebookSquare } from 'react-icons/fa'
 import { HiOutlineLocationMarker } from 'react-icons/hi'
 
-import Row from 'react-bootstrap/esm/Row'
-import Col from 'react-bootstrap/esm/Col'
+import { Row, Col } from 'react-bootstrap'
 
 import SectionTitle from '../../Atoms/SectionTitle/SectionTitle'
 import ContactTextInput from '../../Molecules/ContactTextInput/ContactTextInput'

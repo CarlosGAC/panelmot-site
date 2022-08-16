@@ -12,7 +12,7 @@
   "disableRuntime": false,
   "preloadPollInterval": 300,
   "productionSourceMaps": false,
-  "silent": false,
+  "silent": true,
   "entry": "index.js",
   "plugins": [
     [

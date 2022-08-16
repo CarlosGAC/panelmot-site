@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Accordion from 'react-bootstrap/esm/Accordion'
-import Row from 'react-bootstrap/esm/Row'
+import Accordion from 'react-bootstrap/Accordion'
+import { Row } from 'react-bootstrap'
 import FAQLink from '../../Atoms/FAQLink/FAQLink'
 import FAQButton from '../../Atoms/FAQButton/FAQButton'
 
