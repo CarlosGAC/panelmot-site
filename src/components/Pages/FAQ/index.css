@@ -26,31 +26,3 @@
     width: 90%;
     margin-top: 2rem;
 }
-
-.faq-title {
-    font-size: 64px;
-    text-align: center;
-    margin-bottom: 70px;
-    font-weight: bold;
-}
-
-.faq-link {
-    font-weight: bold;
-    color: black;
-    text-decoration: underline;
-    margin-top: 20px;
-}
-
-.faq-button {
-    margin-top: 20px;
-    border: none;
-    background-color: #58C33D;
-    color: white;
-    border-radius: 12px;
-    font-weight: bold;
-    
-    min-width: 30%;
-    max-width: 60%;
-    min-height: 80px;
-    max-height: auto;
-}
