@@ -25,4 +25,6 @@
 .accordion-item {
     width: 90%;
     margin-top: 2rem;
+    background-color: #F9F9F9;
+    border: none;
 }
