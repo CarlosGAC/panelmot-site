@@ -82,6 +82,7 @@ function FAQ() {
 
                         <ContactImage
                             imageSrc={panelmotLogo}
+                            alt={"La imagen es el logotipo de PanelMot PVC"}
                         />
                         <ContactDataRow
                             icon={<BsTelephone />}
