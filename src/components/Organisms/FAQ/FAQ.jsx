@@ -13,7 +13,7 @@ function FAQ() {
   return (
     <>
       <section className='section-container justify-content-center'>
-        <Row className="text-center">
+        <Row className="text-center mb-5">
           <SectionTitle label={"Preguntas Frecuentes"}></SectionTitle>
         </Row>
         <Accordion defaultActiveKey={['0']} alwaysOpen className='row accordion-flush'>
