@@ -18,6 +18,7 @@ import ContactImage from '../../Atoms/ContactImage/ContactImage'
 import ContactDataRow from '../../Molecules/ContactDataRow/ContactDataRow'
 import FAQLink from '../../Atoms/FAQLink/FAQLink'
 import ContactFooter from '../../Molecules/ContactFooter/ContactFooter'
+import FAQButton from '../../Atoms/FAQButton/FAQButton'
 
 function FAQ() {
 
@@ -46,7 +47,7 @@ function FAQ() {
                             <p className="h4">Si te interesan nuestros productos, no dudes en contactarnos!</p>
                         </Row>
                         <Row className="mb-4">
-                            <Col xl="7" md="12" sm="12" xs="12">
+                            <Col xl="6" md="12" sm="12" xs="12">
                                 <form onSubmit={handleSubmit}>
                                     <ContactTextInput
                                         type={"text"}
@@ -68,7 +69,9 @@ function FAQ() {
                                         id={"messageInput"}
                                         name={"message"}
                                     />
-                                    <button type="submit" className="contact-button h3"><b>Enviar</b></button>
+
+                                    <FAQButton buttonLabel={"Enviar"} type={"submit"}
+                                    />
                                 </form>
                             </Col>
                         </Row>
