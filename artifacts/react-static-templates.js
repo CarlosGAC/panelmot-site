@@ -12,8 +12,6 @@ export default {
 '__react_static_root__/src/components/Pages/Blog/index.js': require('__react_static_root__/src/components/Pages/Blog/index.js').default,
 '__react_static_root__/src/components/Pages/Contact/Contact.jsx': require('__react_static_root__/src/components/Pages/Contact/Contact.jsx').default,
 '__react_static_root__/src/components/Pages/Contact/index.js': require('__react_static_root__/src/components/Pages/Contact/index.js').default,
-'__react_static_root__/src/components/Pages/FAQ/FAQ.jsx': require('__react_static_root__/src/components/Pages/FAQ/FAQ.jsx').default,
-'__react_static_root__/src/components/Pages/FAQ/index.js': require('__react_static_root__/src/components/Pages/FAQ/index.js').default,
 '__react_static_root__/src/components/Pages/index.js': require('__react_static_root__/src/components/Pages/index.js').default,
 '__react_static_root__/src/components/Pages/Index/index.js': require('__react_static_root__/src/components/Pages/Index/index.js').default,
 '__react_static_root__/src/components/Pages/Index/Welcome.jsx': require('__react_static_root__/src/components/Pages/Index/Welcome.jsx').default,

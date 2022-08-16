@@ -10,7 +10,7 @@ import './app.css'
 
 import AboutUs from '../Pages/AboutUs/AboutUs'
 import Contact from '../Pages/Contact/Contact'
-import FAQ from '../Pages/FAQ/FAQ'
+import FAQ from '../Organisms/FAQ/FAQ';
 
 // Any routes that start with 'dynamic' will be treated as non-static routes
 addPrefetchExcludes(['dynamic'])
