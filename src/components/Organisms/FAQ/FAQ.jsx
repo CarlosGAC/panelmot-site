@@ -11,7 +11,7 @@ import "./index.css"
 function FAQ() {
   return (
     <>
-      <section className='section-container justify-content-center'>
+      <section className='section-container justify-content-center' id="FAQ">
         <Row className="text-center mb-5">
           <SectionTitle label={"Preguntas Frecuentes"}></SectionTitle>
         </Row>

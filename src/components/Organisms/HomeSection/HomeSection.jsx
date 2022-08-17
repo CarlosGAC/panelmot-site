@@ -5,6 +5,8 @@ import BannerCarousel from '../../Molecules/BannerCarousel'
 import { RiArrowLeftSLine, RiArrowRightSLine } from 'react-icons/ri'
 import { Link } from 'components/Router'
 
+import './index.css'
+
 import * as Styled from './HomeSection.styled'
 import { BannersData } from '../../../data/MockData'
 
