@@ -1,0 +1,30 @@
+.accordion-button {
+    font-size: 30px !important;
+    background-color: #E9E9E9 !important;
+    height: 100px;
+    color: black !important;
+    font-weight: bold;
+}
+
+.accordion-button:after {
+    width: 40px !important;
+    height: 40px !important;
+    background-size: 40px 40px !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    color: black !important;
+}
+.accordion-button:not(.collapsed) {
+    color: black !important;
+}
+
+.accordion-body {
+    font-size: 30px;
+}
+.accordion-item {
+    width: 90%;
+    margin-top: 2rem;
+    background-color: #F9F9F9;
+    border: none;
+}
