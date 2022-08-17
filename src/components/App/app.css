@@ -10,7 +10,7 @@
 }
 
 .section-container {
-  margin-bottom: 250px;
+  margin-bottom: 10rem;
 }
 
 body {
@@ -84,4 +84,8 @@ nav {
 .carousel-control-next-icon, .carousel-control-prev-icon {
   width: 100px;
   height: 100px;
+}
+
+.nav-item {
+  padding-right: 2rem;
 }
