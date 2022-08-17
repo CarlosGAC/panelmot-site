@@ -33,7 +33,7 @@ function FAQ() {
 
     return (
         <>
-            <section>
+            <section className="section-container" id="Contact">
                 <Row className="mb-5">
                     <Col xl="8" l="8" md="6" sm="12" xs="12">
                         <Row className="mb-5">

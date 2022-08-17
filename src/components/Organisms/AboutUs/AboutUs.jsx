@@ -11,7 +11,7 @@ import AboutUsPartners from '../../Molecules/AboutUsPartners/AboutUsPartners'
 function About() {
   return (
     <>
-      <section className="section-container justify-content-center">
+      <section className="section-container justify-content-center" id="AboutUs">
         <Container>
           <AboutUsHeader />
           <AboutUsVideo videoSrc={video} />

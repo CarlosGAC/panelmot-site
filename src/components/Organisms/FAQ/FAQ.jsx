@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-
 import { Row, Col } from 'react-bootstrap'
 import Accordion from 'react-bootstrap/Accordion'
 import SectionTitle from '../../Atoms/SectionTitle/SectionTitle'
@@ -11,7 +10,7 @@ import "./index.css"
 function FAQ() {
   return (
     <>
-      <section className='section-container justify-content-center'>
+      <section className='section-container justify-content-center' id="FAQ">
         <Row className="text-center mb-5">
           <SectionTitle label={"Preguntas Frecuentes"}></SectionTitle>
         </Row>
