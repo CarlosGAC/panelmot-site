@@ -1,8 +1,9 @@
 import React from 'react'
-import { Root, Routes, addPrefetchExcludes } from 'react-static'
-//
-import { Link, Router } from 'components/Router'
-import Dynamic from '../../containers/Dynamic'
+import { Root, addPrefetchExcludes } from 'react-static'
+import { Link } from 'components/Router'
+
+import './app.css'
+import logo from '../../assets/Logo.png'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'normalize.css'
@@ -19,6 +20,7 @@ function App() {
   return (
     <Root>
       <nav>
+        <img src={logo} alt="logo" />
         <Link to="/">Home</Link>
         <Link to="/About">About</Link>
         <Link to="/Blog">Blog</Link>
@@ -34,7 +36,6 @@ function App() {
           <Contact/>
         </div>
       </div>
-
     </Root>
   )
 }

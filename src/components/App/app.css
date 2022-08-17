@@ -1,8 +1,21 @@
+:root {
+  font-size: 18px;
+  font-family: 'Nunito Sans','HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap');
 * {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #F9F9F9;
+  color: #000;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
 .section-container {
   margin-bottom: 250px;
 }
@@ -22,6 +35,16 @@ a {
   font-weight: bold;
 }
 
+h1 {
+  font-size: 3.5rem;
+}
+
+@media only screen and (max-width: 400px) {
+  h1 {
+      font-size: 2rem;
+  }
+}
+
 img {
   max-width: 100%;
 }
@@ -29,6 +52,10 @@ img {
 nav {
   width: 100%;
   background: #108db8;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 nav a {
