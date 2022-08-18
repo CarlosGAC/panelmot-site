@@ -18,9 +18,9 @@ function ProductsCarousel() {
             <>
             
             <Row className="justify-content-center mb-5">
-                <Col xl="4" l="4" md="4" sm="6" xs="6"><button className='article-category selected-category' onClick={() => {setPanelCategory("paneles"); }}>Paneles</button></Col>
-                <Col xl="4" l="4" md="4" sm="6" xs="6"><button className='article-category' onClick={() => setPanelCategory("perfiles")}>Perfiles</button></Col>
-                <Col xl="4" l="4" md="4" sm="12" xs="12"><button className='article-category' onClick={() => setPanelCategory("materiales-instalacion")}>Materiales para instalación</button></Col>
+                <Col xl="4" l="4" md="4" sm="6" xs="6" className="text-center"><button className='article-category selected-category' onClick={() => {setPanelCategory("paneles"); }}>Paneles</button></Col>
+                <Col xl="4" l="4" md="4" sm="6" xs="6" className="text-center"><button className='article-category' onClick={() => setPanelCategory("perfiles")}>Perfiles</button></Col>
+                <Col xl="4" l="4" md="4" sm="12" xs="12" className="text-center"><button className='article-category' onClick={() => setPanelCategory("materiales-instalacion")}>Materiales para instalación</button></Col>
             </Row>
             
             <p>The category is: {carouselCategory}</p>
@@ -33,9 +33,9 @@ function ProductsCarousel() {
             <>
             
             <Row className="justify-content-center mb-5">
-                <Col xl="4" l="4" md="4" sm="6" xs="6"><button className='article-category' onClick={() => {setPanelCategory("paneles"); }}>Paneles</button></Col>
-                <Col xl="4" l="4" md="4" sm="6" xs="6"><button className='article-category selected-category' onClick={() => setPanelCategory("perfiles")}>Perfiles</button></Col>
-                <Col xl="4" l="4" md="4" sm="12" xs="12"><button className='article-category' onClick={() => setPanelCategory("materiales-instalacion")}>Materiales para instalación</button></Col>
+                <Col xl="4" l="4" md="4" sm="6" xs="6" className="text-center"><button className='article-category' onClick={() => {setPanelCategory("paneles"); }}>Paneles</button></Col>
+                <Col xl="4" l="4" md="4" sm="6" xs="6" className="text-center"><button className='article-category selected-category' onClick={() => setPanelCategory("perfiles")}>Perfiles</button></Col>
+                <Col xl="4" l="4" md="4" sm="12" xs="12" className="text-center"><button className='article-category' onClick={() => setPanelCategory("materiales-instalacion")}>Materiales para instalación</button></Col>
             </Row>
     
             
@@ -49,9 +49,9 @@ function ProductsCarousel() {
             <>
             
             <Row className="justify-content-center mb-5">
-                <Col xl="4" l="4" md="4" sm="6" xs="6"><button className='article-category' onClick={() => {setPanelCategory("paneles"); }}>Paneles</button></Col>
-                <Col xl="4" l="4" md="4" sm="6" xs="6"><button className='article-category' onClick={() => setPanelCategory("perfiles")}>Perfiles</button></Col>
-                <Col xl="4" l="4" md="4" sm="12" xs="12"><button className='article-category selected-category' onClick={() => setPanelCategory("materiales-instalacion")}>Materiales para instalación</button></Col>
+                <Col xl="4" l="4" md="4" sm="6" xs="6" className="text-center"><button className='article-category' onClick={() => {setPanelCategory("paneles"); }}>Paneles</button></Col>
+                <Col xl="4" l="4" md="4" sm="6" xs="6" className="text-center"><button className='article-category' onClick={() => setPanelCategory("perfiles")}>Perfiles</button></Col>
+                <Col xl="4" l="4" md="4" sm="12" xs="12" className="text-center"><button className='article-category selected-category' onClick={() => setPanelCategory("materiales-instalacion")}>Materiales para instalación</button></Col>
             </Row>
     
             
