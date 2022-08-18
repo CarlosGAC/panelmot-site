@@ -1,11 +1,9 @@
 .monteoliva-logo {
     width:"50%";
-    background-color: tomato;
     display: block;
     margin: auto;
 }
 
-.aboutus-description {
-    text-align: justify;
-    text-justify: inter-word;
+#AboutUs {
+    padding-top: 100px;
 }

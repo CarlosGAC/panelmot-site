@@ -11,9 +11,9 @@ function QuestionBlock({ question, answer, buttonLabel, buttonAction, linkLabel,
         return(
             <Accordion.Item eventKey={eventKey}>
             <Accordion.Header >{question ? question : "Frequently Asked Question?"}</Accordion.Header>
-            <Accordion.Body className="h3">
-                <Row className="mb-4">
-                    {answer ? answer : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula lacinia odio. Etiam sem turpis, egestas ut eros commodo, laoreet porttitor velit."}
+            <Accordion.Body className="faq-answer">
+                <Row>
+                    <p class="faq-answer-text">{answer ? answer : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula lacinia odio. Etiam sem turpis, egestas ut eros commodo, laoreet porttitor velit."}</p>
                 </Row>
     
                 <Row>
@@ -29,9 +29,9 @@ function QuestionBlock({ question, answer, buttonLabel, buttonAction, linkLabel,
         return (
             <Accordion.Item eventKey={eventKey}>
             <Accordion.Header >{question ? question : "Frequently Asked Question?"}</Accordion.Header>
-            <Accordion.Body className="h3">
-                <Row className="mb-2">
-                    {answer ? answer : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula lacinia odio. Etiam sem turpis, egestas ut eros commodo, laoreet porttitor velit."}
+            <Accordion.Body className="faq-answer">
+                <Row>
+                    <p class="faq-answer-text">{answer ? answer : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula lacinia odio. Etiam sem turpis, egestas ut eros commodo, laoreet porttitor velit."}</p>
                 </Row>
     
                 <Row>
@@ -48,9 +48,9 @@ function QuestionBlock({ question, answer, buttonLabel, buttonAction, linkLabel,
         return(
             <Accordion.Item eventKey={eventKey}>
                   <Accordion.Header >{question ? question : "Frequently Asked Question?"}</Accordion.Header>
-                  <Accordion.Body className="h3">
+                  <Accordion.Body className="faq-answer">
                     <Row>
-                      {answer ? answer : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula lacinia odio. Etiam sem turpis, egestas ut eros commodo, laoreet porttitor velit."}
+                        <p class="faq-answer-text">{answer ? answer : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula lacinia odio. Etiam sem turpis, egestas ut eros commodo, laoreet porttitor velit."}</p>
                     </Row>
                   </Accordion.Body>
                 </Accordion.Item>

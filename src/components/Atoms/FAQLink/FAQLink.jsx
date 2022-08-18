@@ -4,7 +4,7 @@ import * as Styled from './FAQLink.styled.js'
 
 function FAQLink({ label, linkRef }) {
     return (
-        <Styled.FAQLink href={linkRef ? linkRef : "#"} className="h2">{label ? label : "Section Title"}</Styled.FAQLink>
+        <Styled.FAQLink href={linkRef ? linkRef : "#"} className="faq-link">{label ? label : "Section Title"}</Styled.FAQLink>
     )
 }
 

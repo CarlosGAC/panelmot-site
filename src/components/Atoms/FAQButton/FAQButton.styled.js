@@ -1,15 +1,18 @@
 import styled from "styled-components";
 
 export const FAQButton = styled.button`
-margin-top: 20px;
 border: none;
 background-color: #58C33D;
 color: white;
-border-radius: 12px;
+border-radius: 8px;
 font-weight: bold;
+font-size: 1.2rem;
 
-min-width: 30%;
-max-width: 60%;
+width: 50%;
 min-height: 80px;
 max-height: auto;
+
+:hover {
+    background-color: #227849;
+}
 `;

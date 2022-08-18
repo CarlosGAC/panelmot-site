@@ -4,13 +4,13 @@ import { Row, Col } from 'react-bootstrap'
 function ContactFooter() {
     return (
         <Row>
-            <Col xl="5" >
+            <Col xl="5" className="mb-4">
                 <p className='h4'>Página Web desarrollada por <a href="https://eldritchgames.com.mx">Eldritch Games</a></p>
             </Col>
-            <Col xl="3">
+            <Col xl="3" className="mb-4">
                 <a href="#" className='h4'>Aviso de Privacidad</a>
             </Col>
-            <Col xl="4">
+            <Col xl="4" className="mb-4">
                 <p className='h4'><u>Copyright © 2021 by Panelmot PVC</u></p>
             </Col>
         </Row>

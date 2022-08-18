@@ -4,7 +4,7 @@ import * as Styled from './SectionSubtitle.styled.js'
 
 function SectionSubtitle({ label }) {
     return(
-        <Styled.SectionSubtitle className='display-4'>{label ? label : "Section Title" }</Styled.SectionSubtitle>
+        <Styled.SectionSubtitle className='display-3'>{label ? label : "Section Title" }</Styled.SectionSubtitle>
     )
 }
 
