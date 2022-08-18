@@ -37,6 +37,7 @@
   background-color: white;
   padding: 20px;
   border-radius: 8px;
+  width: 100%;
 }
 
 .product:hover {
@@ -52,14 +53,15 @@
 }
 
 .product-category-card img {
-  height: 12vw;
-  width: 12vw;
+  height: 100%;
+  width:100%;
   max-width: 100%;
 }
 
 .product-category-card {
   height: 12vw;
-  width: 12vw;
+  
+  width: 100%;
 }
 
 

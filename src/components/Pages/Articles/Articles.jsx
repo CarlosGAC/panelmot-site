@@ -56,23 +56,23 @@ function Articles() {
 
               <Row>
                 <Row>
-                  <Col><p><b>Textura tipo:</b></p></Col>
-                  <Col><p>{productTextureType}</p></Col>
+                  <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p><b>Textura tipo:</b></p></Col>
+                  <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p>{productTextureType}</p></Col>
                 </Row>
 
                 <Row>
-                  <Col><p><b>Uso:</b></p></Col>
-                  <Col><p>{productUseCase}</p></Col>
+                  <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p><b>Uso:</b></p></Col>
+                  <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p>{productUseCase}</p></Col>
                 </Row>
 
                 <Row>
-                  <Col><p><b>Precio:</b></p></Col>
-                  <Col><p>${productPrice}</p></Col>
+                  <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p><b>Precio:</b></p></Col>
+                  <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p>${productPrice}</p></Col>
                 </Row>
 
                 <Row>
-                  <Col><p><b>Medidas:</b></p></Col>
-                  <Col><p>{productSize}</p></Col>
+                  <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p><b>Medidas:</b></p></Col>
+                  <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p>{productSize}</p></Col>
                 </Row>
               </Row>
 
