@@ -1,0 +1,34 @@
+.article-category {
+    background-color: white;
+    border: none;
+    margin-right: 20%;
+}
+
+.carousel-indicators {
+    top: 110% !important;
+}
+.carousel {
+    margin: 1.5rem;
+  }
+  .carousel-inner {
+    height: auto;
+  }
+  
+  .carousel-control-prev {
+    margin-left: -10%;
+  }
+  
+  .carousel-control-next {
+    margin-right: -10%;
+  }
+
+  .product
+  {
+    border: none;
+    background-color: white;
+    padding: 20px;
+  }
+
+  .product:hover {
+    border: 2px solid red;
+  }
