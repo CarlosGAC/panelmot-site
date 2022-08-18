@@ -1,11 +1,8 @@
 import React, {useState} from 'react'
-import Proptypes from 'prop-types'
 
-//import "./index.css"
 
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-//import { ProductsData } from '../../../data/MockData'
 
 import MaterialsCarousel from './MaterialsCarousel'
 import PanelsCarousel from './PanelsCarousel'

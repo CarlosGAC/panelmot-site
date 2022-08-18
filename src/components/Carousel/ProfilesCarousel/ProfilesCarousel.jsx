@@ -19,16 +19,14 @@ function ProfilesCarousel() {
 
     return (
         <>
-
-            <h2>PERFILES</h2>
             <Row className="mb-5">
-                <Carousel variant="dark" data-ride="">
+                <Carousel className="products-carousel" variant="dark" data-ride="">
 
                     <Carousel.Item>
                         <Row className="text-center">
                             <Col xl="3" l="3" md="3" sm="3" xs="3">
                                 <button className="product">
-                                    <Card>
+                                    <Card className="product-category-card">
                                         <Card.Img variant="top" src={Union} />
                                         <Card.Body>
                                             <Card.Title>Unión</Card.Title>
@@ -40,7 +38,7 @@ function ProfilesCarousel() {
 
                             <Col xl="3" l="3" md="3" sm="3" xs="3">
                                 <button className="product">
-                                    <Card>
+                                    <Card className="product-category-card">
                                         <Card.Img variant="top" src={EsquineroExterno} />
                                         <Card.Body>
                                             <Card.Title>Esquinero Externo</Card.Title>
@@ -51,7 +49,7 @@ function ProfilesCarousel() {
                             </Col>
                             <Col xl="3" l="3" md="3" sm="3" xs="3">
                                 <button className="product">
-                                    <Card>
+                                    <Card className="product-category-card">
                                         <Card.Img variant="top" src={EsquineroInterno} />
                                         <Card.Body>
                                             <Card.Title>Esquinero Interno</Card.Title>
@@ -62,7 +60,7 @@ function ProfilesCarousel() {
                             </Col>
                             <Col xl="3" l="3" md="3" sm="3" xs="3">
                                 <button className="product">
-                                    <Card>
+                                    <Card className="product-category-card">
                                         <Card.Img variant="top" src={TerminalC} />
                                         <Card.Body>
                                             <Card.Title>Terminal C</Card.Title>

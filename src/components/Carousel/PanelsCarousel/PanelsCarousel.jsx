@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import Proptypes from 'prop-types'
 
 //import "./index.css"
@@ -20,110 +20,109 @@ import BlancoHumo from '../../../images/blancoHumo.png'
 import BlancoMarmol from '../../../images/blancoMarmol.png'
 
 function PanelsCarousel() {
-    return (
-        <>
-        <h2>PANELES</h2>
-            <Row className="mb-5">
-                <Carousel variant="dark" data-ride="">
-                    
-                    <Carousel.Item>
-                        <Row className="text-center">
-                            <Col xl="3" l="3" md="3" sm="3" xs="3">
-                                <button className="product">
-                                    <Card>
-                                        <Card.Img variant="top" src={FX87_21} />
-                                        <Card.Body>
-                                            <Card.Title>FX87-21</Card.Title>
-                                        </Card.Body>
-                                    </Card>
-                                </button>
+  return (
+    <>
+      <Row className="mb-5">
+        <Carousel className="products-carousel" variant="dark" data-ride="">
 
-                            </Col>
+          <Carousel.Item>
+            <Row className="text-center">
+              <Col xl="3" l="3" md="3" sm="3" xs="3">
+                <button className="product">
+                  <Card className="product-category-card">
+                    <Card.Img variant="top" src={FX87_21} />
+                    <Card.Body>
+                      <Card.Title>FX87-21</Card.Title>
+                    </Card.Body>
+                  </Card>
+                </button>
 
-                            <Col xl="3" l="3" md="3" sm="3" xs="3">
-                                <button className="product"><Card>
-                                    
-                                    <Card.Img variant="top" src={FX142_1} />
-                                    <Card.Body>
-                                        <Card.Title>FX142-1</Card.Title>
-                                    </Card.Body>
-                                </Card>
-                                </button>
-                                
-                            </Col>
-                            <Col xl="3" l="3" md="3" sm="3" xs="3">
-                            <button className="product"><Card>
-                                    <Card.Img variant="top" src={FX153_3} />
-                                    <Card.Body>
-                                        <Card.Title>FX153-3</Card.Title>
-                                    </Card.Body>
-                                </Card>
-                                </button>
-                                
-                            </Col>
-                            <Col xl="3" l="3" md="3" sm="3" xs="3">
-                            <button className="product"><Card>
-                                    <Card.Img variant="top" src={FX87_24} />
-                                    <Card.Body>
-                                        <Card.Title>FX87-24</Card.Title>
-                                    </Card.Body>
-                                </Card>
-                                </button>
-                                
-                            </Col>
-                        </Row>
+              </Col>
 
+              <Col xl="3" l="3" md="3" sm="3" xs="3">
+                <button className="product">
+                  <Card className="product-category-card">
+                    <Card.Img variant="top" src={FX142_1} />
+                    <Card.Body>
+                      <Card.Title>FX142-1</Card.Title>
+                    </Card.Body>
+                  </Card>
+                </button>
 
-                    </Carousel.Item>
+              </Col>
+              <Col xl="3" l="3" md="3" sm="3" xs="3">
+                <button className="product"><Card className="product-category-card">
+                  <Card.Img variant="top" src={FX153_3} />
+                  <Card.Body>
+                    <Card.Title>FX153-3</Card.Title>
+                  </Card.Body>
+                </Card>
+                </button>
 
-                    <Carousel.Item>
-                        <Row className="text-center">
-                            <Col xl="3" l="3" md="3" sm="3" xs="3">
-                            <button className="product"><Card>
-                                    <Card.Img variant="top" src={Blanco} />
-                                    <Card.Body>
-                                        <Card.Title>Blanco</Card.Title>
-                                    </Card.Body>
-                                </Card>
-                                </button>
-                                
-                            </Col>
+              </Col>
+              <Col xl="3" l="3" md="3" sm="3" xs="3">
+                <button className="product"><Card className="product-category-card">
+                  <Card.Img variant="top" src={FX87_24} />
+                  <Card.Body>
+                    <Card.Title>FX87-24</Card.Title>
+                  </Card.Body>
+                </Card>
+                </button>
 
-                            <Col xl="3" l="3" md="3" sm="3" xs="3">
-                            <button className="product"><Card>
-                                    <Card.Img variant="top" src={BlancoHumo} />
-                                    <Card.Body>
-                                        <Card.Title>Blanco Humo</Card.Title>
-                                    </Card.Body>
-                                </Card>
-                                </button>
-                                
-                            </Col>
-                            <Col xl="3" l="3" md="3" sm="3" xs="3">
-                            <button className="product"><Card>
-                                    <Card.Img variant="top" src={BlancoMarmol} />
-                                    <Card.Body>
-                                        <Card.Title>Blanco Mármol</Card.Title>
-                                    </Card.Body>
-                                </Card>
-                                </button>
-                                
-                            </Col>
-                        </Row>
-
-
-                    </Carousel.Item>
-                </Carousel>
-
+              </Col>
             </Row>
 
-        </>
-    )
+
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <Row className="text-center">
+              <Col xl="3" l="3" md="3" sm="3" xs="3">
+                <button className="product"><Card className="product-category-card">
+                  <Card.Img variant="top" src={Blanco} />
+                  <Card.Body>
+                    <Card.Title>Blanco</Card.Title>
+                  </Card.Body>
+                </Card>
+                </button>
+
+              </Col>
+
+              <Col xl="3" l="3" md="3" sm="3" xs="3">
+                <button className="product"><Card className="product-category-card">
+                  <Card.Img variant="top" src={BlancoHumo} />
+                  <Card.Body>
+                    <Card.Title>Blanco Humo</Card.Title>
+                  </Card.Body>
+                </Card>
+                </button>
+
+              </Col>
+              <Col xl="3" l="3" md="3" sm="3" xs="3">
+                <button className="product"><Card className="product-category-card">
+                  <Card.Img variant="top" src={BlancoMarmol} />
+                  <Card.Body>
+                    <Card.Title>Blanco Mármol</Card.Title>
+                  </Card.Body>
+                </Card>
+                </button>
+
+              </Col>
+            </Row>
+
+
+          </Carousel.Item>
+        </Carousel>
+
+      </Row>
+
+    </>
+  )
 }
 
 function CarouselCategory() {
 
-    
+
 }
 
 

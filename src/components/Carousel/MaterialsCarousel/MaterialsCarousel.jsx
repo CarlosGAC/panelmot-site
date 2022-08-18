@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import Proptypes from 'prop-types'
 
 //import "./index.css"
@@ -15,53 +15,47 @@ import CanalListon from '../../../images/canal_liston.png'
 
 function SetProductCarousel() {
 
-    console.log(carouselCategory);
+  console.log(carouselCategory);
 
 }
 
 function MaterialsCarousel() {
 
-    return (
-        <>
+  return (
+    <>
+      <Row className="mb-5">
+        <Carousel className="products-carousel" variant="dark" data-ride="">
 
-            <h2>MATERIALES</h2>
-            <Row className="mb-5">
-                <Carousel variant="dark" data-ride="">
-                    
-                    <Carousel.Item>
-                        <Row className="text-center">
-                            <Col xl="3" l="3" md="3" sm="3" xs="3">
-                                <button className="product">
-                                    <Card>
-                                        <Card.Img variant="top" src={AnguloAmarre} />
-                                        <Card.Body>
-                                            <Card.Title>Angulo de Amarre</Card.Title>
-                                        </Card.Body>
-                                    </Card>
-                                </button>
+          <Carousel.Item>
+            <Row className="text-center">
+              <Col xl="3" l="3" md="3" sm="3" xs="3">
+                <button className="product">
+                  <Card className="product-category-card">
+                    <Card.Img variant="top" src={AnguloAmarre} />
+                    <Card.Body>
+                      <Card.Title>Angulo de Amarre</Card.Title>
+                    </Card.Body>
+                  </Card>
+                </button>
 
-                            </Col>
+              </Col>
 
-                            <Col xl="3" l="3" md="3" sm="3" xs="3">
-                                <Card>
-                                    <button className="product">
-                                        <Card.Img variant="top" src={CanalListon} />
-                                        <Card.Body>
-                                            <Card.Title>Canal Listón</Card.Title>
-                                        </Card.Body>
-                                    </button>
-                                </Card>
-                            </Col>
-                        </Row>
-
-
-                    </Carousel.Item>
-                </Carousel>
-
+              <Col xl="3" l="3" md="3" sm="3" xs="3">
+                <Card className="product-category-card">
+                  <button className="product">
+                    <Card.Img variant="top" src={CanalListon} />
+                    <Card.Body>
+                      <Card.Title>Canal Listón</Card.Title>
+                    </Card.Body>
+                  </button>
+                </Card>
+              </Col>
             </Row>
-
-        </>
-    )
+          </Carousel.Item>
+        </Carousel>
+      </Row>
+    </>
+  )
 }
 
 

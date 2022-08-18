@@ -62,7 +62,7 @@ function Articles() {
 
             </Col>
             <Col xl = "6">
-                <Carousel variant="dark">
+                <Carousel className="product-installation-carousel" variant="dark">
                     <Carousel.Item>
                         <img src={FX142_1}></img>
                     </Carousel.Item>
