@@ -3,7 +3,7 @@
   border: none;
   margin-right: 20%;
   font-weight: 700;
-  font-size: 1.5vw;
+  font-size: 1.6rem;
 }
 
 .article-category:hover {
@@ -52,13 +52,14 @@
 }
 
 .product-category-card img {
-  height: 200px;
-  width: 250px;
+  height: 12vw;
+  width: 12vw;
   max-width: 100%;
 }
 
 .product-category-card {
-  width: 250px;
+  height: 12vw;
+  width: 12vw;
 }
 
 
@@ -70,6 +71,7 @@
 
 .product-category-text {
   font-weight: 700 !important;
+  font-size: 2rem !important;
 }
 
 .product-category-card {
