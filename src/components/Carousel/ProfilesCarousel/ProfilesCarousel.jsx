@@ -29,7 +29,7 @@ function ProfilesCarousel() {
                                     <Card className="product-category-card">
                                         <Card.Img variant="top" src={Union} />
                                         <Card.Body>
-                                            <Card.Title>Unión</Card.Title>
+                                            <Card.Title className="product-category-text">Unión</Card.Title>
                                         </Card.Body>
                                     </Card>
                                 </button>
@@ -41,7 +41,7 @@ function ProfilesCarousel() {
                                     <Card className="product-category-card">
                                         <Card.Img variant="top" src={EsquineroExterno} />
                                         <Card.Body>
-                                            <Card.Title>Esquinero Externo</Card.Title>
+                                            <Card.Title className="product-category-text">Esquinero Externo</Card.Title>
                                         </Card.Body>
                                     </Card>
                                 </button>
@@ -52,7 +52,7 @@ function ProfilesCarousel() {
                                     <Card className="product-category-card">
                                         <Card.Img variant="top" src={EsquineroInterno} />
                                         <Card.Body>
-                                            <Card.Title>Esquinero Interno</Card.Title>
+                                            <Card.Title className="product-category-text">Esquinero Interno</Card.Title>
                                         </Card.Body>
                                     </Card>
                                 </button>
@@ -63,7 +63,7 @@ function ProfilesCarousel() {
                                     <Card className="product-category-card">
                                         <Card.Img variant="top" src={TerminalC} />
                                         <Card.Body>
-                                            <Card.Title>Terminal C</Card.Title>
+                                            <Card.Title className="product-category-text">Terminal C</Card.Title>
                                         </Card.Body>
                                     </Card>
                                 </button>

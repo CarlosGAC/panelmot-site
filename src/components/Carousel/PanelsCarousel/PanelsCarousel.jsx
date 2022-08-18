@@ -32,7 +32,7 @@ function PanelsCarousel() {
                   <Card className="product-category-card">
                     <Card.Img variant="top" src={FX87_21} />
                     <Card.Body>
-                      <Card.Title>FX87-21</Card.Title>
+                      <Card.Title className="product-category-text">FX87-21</Card.Title>
                     </Card.Body>
                   </Card>
                 </button>
@@ -44,7 +44,7 @@ function PanelsCarousel() {
                   <Card className="product-category-card">
                     <Card.Img variant="top" src={FX142_1} />
                     <Card.Body>
-                      <Card.Title>FX142-1</Card.Title>
+                      <Card.Title className="product-category-text">FX142-1</Card.Title>
                     </Card.Body>
                   </Card>
                 </button>
@@ -54,7 +54,7 @@ function PanelsCarousel() {
                 <button className="product"><Card className="product-category-card">
                   <Card.Img variant="top" src={FX153_3} />
                   <Card.Body>
-                    <Card.Title>FX153-3</Card.Title>
+                    <Card.Title className="product-category-text">FX153-3</Card.Title>
                   </Card.Body>
                 </Card>
                 </button>
@@ -64,7 +64,7 @@ function PanelsCarousel() {
                 <button className="product"><Card className="product-category-card">
                   <Card.Img variant="top" src={FX87_24} />
                   <Card.Body>
-                    <Card.Title>FX87-24</Card.Title>
+                    <Card.Title className="product-category-text">FX87-24</Card.Title>
                   </Card.Body>
                 </Card>
                 </button>
@@ -81,7 +81,7 @@ function PanelsCarousel() {
                 <button className="product"><Card className="product-category-card">
                   <Card.Img variant="top" src={Blanco} />
                   <Card.Body>
-                    <Card.Title>Blanco</Card.Title>
+                    <Card.Title className="product-category-text">Blanco</Card.Title>
                   </Card.Body>
                 </Card>
                 </button>
@@ -92,7 +92,7 @@ function PanelsCarousel() {
                 <button className="product"><Card className="product-category-card">
                   <Card.Img variant="top" src={BlancoHumo} />
                   <Card.Body>
-                    <Card.Title>Blanco Humo</Card.Title>
+                    <Card.Title className="product-category-text">Blanco Humo</Card.Title>
                   </Card.Body>
                 </Card>
                 </button>
@@ -102,7 +102,7 @@ function PanelsCarousel() {
                 <button className="product"><Card className="product-category-card">
                   <Card.Img variant="top" src={BlancoMarmol} />
                   <Card.Body>
-                    <Card.Title>Blanco Mármol</Card.Title>
+                    <Card.Title className="product-category-text">Blanco Mármol</Card.Title>
                   </Card.Body>
                 </Card>
                 </button>

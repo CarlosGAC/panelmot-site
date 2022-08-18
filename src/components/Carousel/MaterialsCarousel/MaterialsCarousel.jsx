@@ -33,7 +33,7 @@ function MaterialsCarousel() {
                   <Card className="product-category-card">
                     <Card.Img variant="top" src={AnguloAmarre} />
                     <Card.Body>
-                      <Card.Title>Angulo de Amarre</Card.Title>
+                      <Card.Title className="product-category-text">Angulo de Amarre</Card.Title>
                     </Card.Body>
                   </Card>
                 </button>
@@ -45,7 +45,7 @@ function MaterialsCarousel() {
                   <button className="product">
                     <Card.Img variant="top" src={CanalListon} />
                     <Card.Body>
-                      <Card.Title>Canal Listón</Card.Title>
+                      <Card.Title className="product-category-text">Canal Listón</Card.Title>
                     </Card.Body>
                   </button>
                 </Card>
