@@ -17,7 +17,6 @@ import image7 from '../../../assets/home-banner-carousel/banner_image7.png'
 import image8 from '../../../assets/home-banner-carousel/banner_image8.png'
 
 
-
 import Card from 'react-bootstrap/Card'
 
 function Hero() {
@@ -40,16 +39,11 @@ function Hero() {
 
                 <Carousel className="carousel-hero">
                     <CarouselItem>
-                        <Card>
                             <img src={image1} alt="Hello motherfuckers"></img>
-                        </Card>
                     </CarouselItem>
 
                     <CarouselItem>
-                        <Card>
-
                             <img src={image0} alt="Hello motherfuckers"></img>
-                        </Card>
                     </CarouselItem>
                 </Carousel>
             </Container>

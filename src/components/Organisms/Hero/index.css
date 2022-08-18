@@ -18,7 +18,7 @@
 
 .hero-info {
     position: absolute;
-    top: 34%;
+    top: 25%;
     left: 25%;
     width: 50%;
     background-color: #00000000;
@@ -75,4 +75,129 @@
 span {
     width: 10vw;
     height: 10vw;
+}
+
+
+@media (max-width: 768px) {
+
+    #Hero {
+        position: relative;
+        width: 100vw;
+        height: 100vh
+    }
+    
+    .container-hero {
+        height: 100%;
+    }
+    
+    .carousel-hero {
+        height: 100%;
+    }
+    
+    .carousel-inner {
+        height: 100%;
+    }
+    
+    .carousel-item {
+        height: 100vh;
+    }
+    
+    .carousel-item img {
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    .decrease-font {
+        font-size: 7vw;
+    }
+
+    .hero-subtitle {
+        font-size: 5vw;
+    }
+
+    .hero-info {
+        position: absolute;
+        top: 12%;
+        left: 15%;
+        width: 70%;
+        background-color: #00000000;
+        z-index: 99;
+    }
+
+    
+    .hero-button {
+        background-color: #58C33D;
+        border: none;
+        border-radius: 10px;
+        color: #F9F9F9;
+        cursor: pointer;
+        font: inherit;
+        font-size: 6vw;
+        font-weight: 800;
+        padding: 1vw 2vw;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    #Hero {
+        position: relative;
+        width: 100vw;
+        height: 100vh
+    }
+    
+    .container-hero {
+        height: 100%;
+    }
+    
+    .carousel-hero {
+        height: 100%;
+    }
+    
+    .carousel-inner {
+        height: 100%;
+    }
+    
+    .carousel-item {
+        height: 100vh;
+    }
+    
+    .carousel-item img {
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    .decrease-font {
+        font-size: 7vw;
+    }
+
+    .hero-subtitle {
+        font-size: 5vw;
+    }
+
+    .hero-info {
+        position: absolute;
+        top: 20%;
+        left: 15%;
+        width: 70%;
+        background-color: #00000000;
+        z-index: 99;
+    }
+
+    
+    .hero-button {
+        background-color: #58C33D;
+        border: none;
+        border-radius: 10px;
+        color: #F9F9F9;
+        cursor: pointer;
+        font: inherit;
+        font-size: 6vw;
+        padding: 1vw 2vw;
+    }
+
 }
