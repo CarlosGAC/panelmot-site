@@ -122,7 +122,6 @@ span {
         left: 15%;
         width: 70%;
         background-color: #00000000;
-        z-index: 99;
     }
 
     
@@ -162,7 +161,7 @@ span {
     }
     
     .carousel-item {
-        height: 100vh;
+        height: 100%;
     }
     
     .carousel-item img {
@@ -197,6 +196,7 @@ span {
         cursor: pointer;
         font: inherit;
         font-size: 6vw;
+        font-weight: 800;
         padding: 1vw 2vw;
     }
 

@@ -14,36 +14,53 @@ import Container from 'react-bootstrap/Container'
 import logo from '../../assets/Logo.png'
 import Col from 'react-bootstrap/Col'
 
+
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 // Any routes that start with 'dynamic' will be treated as non-static routes
 addPrefetchExcludes(['dynamic'])
 
-
 function App() {
 
-  const changeNavbarColor = () => {
-    if(window.scrollY >= 900) {
-      console.log("Cambio a verdadero")
-      setColorChange(true);
-    } else {
-      console.log("Cambio a falso");
-    setColorChange(false);
-    }
-  }
-
-  const[colorChange, setColorChange] = useState(false);
-
-  //window.addEventListener('scroll', changeNavbarColor);
+  //window.addEventListener('scroll', changeNavBarColor);
   return (
     <Root>
+      <Navbar id="navbar" bg="dark" variant="dark" expand="lg" fixed="top">
+        <Container>
+          <Navbar.Brand href="#home">
+            <img
+              src={logo}
+              width="50"
+              height="50"
+              className="d-inline-block align-middle navbar-image"
+              alt="React Bootstrap logo"
+            />{' '}
+            Panelmot PVC
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            </Nav>
+            <Nav className="me-auto">
+              <Nav.Link className="navlink" href="#Hero">Home</Nav.Link>
+              <Nav.Link className="navlink" href="#Hero">Catálogo</Nav.Link>
+              <Nav.Link className="navlink" href="#AboutUs">Nosotros</Nav.Link>
+              <Nav.Link className="navlink" href="#FAQ">FAQ</Nav.Link>
+              <Nav.Link className="navlink" href="#Contact">Contacto</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
 
       <Hero />
       <div className="spa">
         <div className="content">
-          <AboutUs/>
-          <FAQ/>
-          <Contact/>
+          <AboutUs />
+          <FAQ />
+          <Contact />
         </div>
       </div>
+
     </Root>
   )
 }
