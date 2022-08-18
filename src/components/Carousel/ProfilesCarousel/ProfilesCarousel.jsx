@@ -15,72 +15,87 @@ import EsquineroExterno from '../../../images/esquineroexterno.png'
 import EsquineroInterno from '../../../images/esquinerointerno.png'
 import TerminalC from '../../../images/terminalc.png'
 
-function ProfilesCarousel() {
+import Product from '../../Atoms/Product'
 
-    return (
-        <>
-            <Row className="mb-5">
-                <Carousel className="products-carousel" variant="dark" data-ride="">
+function ProfilesCarousel( {onClickFunction} ) {
 
-                    <Carousel.Item>
-                        <Row className="text-center">
-                            <Col xl="3" l="3" md="3" sm="3" xs="3">
-                                <button className="product">
-                                    <Card className="product-category-card">
-                                        <Card.Img variant="top" src={Union} />
-                                        <Card.Body>
-                                            <Card.Title className="product-category-text">Unión</Card.Title>
-                                        </Card.Body>
-                                    </Card>
-                                </button>
+  function handleProductClick(title, description, textureType, useCase, price, imageSrc, size) {
+    onClickFunction(title, description, textureType, useCase, price, imageSrc, size);
+  }
 
-                            </Col>
+  return (
+    <>
+      <Row className="mb-5">
+        <Carousel className="products-carousel" variant="dark" data-ride="">
 
-                            <Col xl="3" l="3" md="3" sm="3" xs="3">
-                                <button className="product">
-                                    <Card className="product-category-card">
-                                        <Card.Img variant="top" src={EsquineroExterno} />
-                                        <Card.Body>
-                                            <Card.Title className="product-category-text">Esquinero Externo</Card.Title>
-                                        </Card.Body>
-                                    </Card>
-                                </button>
+          <Carousel.Item>
+            <Row className="text-center">
+              <Col xl="3" l="3" md="3" sm="3" xs="3">
+                <Product
+                  imageSrc={Union}
+                  id={"UnionH"}
+                  title={"Unión H"}
+                  description={"Este accesorio se utiliza para unir dos paneles a lo largo (cuando un proyecto mide más de los 5.95m del largo del panel)"}
+                  textureType={"Madera y Pintura/Liso"}
+                  useCase={"Interiores/Exteriores"}
+                  price={"75 MXN por pieza"}
+                  onClickFunction={handleProductClick}
+                  size={"595cm"}
+                />
+              </Col>
 
-                            </Col>
-                            <Col xl="3" l="3" md="3" sm="3" xs="3">
-                                <button className="product">
-                                    <Card className="product-category-card">
-                                        <Card.Img variant="top" src={EsquineroInterno} />
-                                        <Card.Body>
-                                            <Card.Title className="product-category-text">Esquinero Interno</Card.Title>
-                                        </Card.Body>
-                                    </Card>
-                                </button>
+              <Col xl="3" l="3" md="3" sm="3" xs="3">
+                <Product
+                  imageSrc={EsquineroExterno}
+                  id={"EsquineroExterno"}
+                  title={"Esquinero Externo"}
+                  description={"Este accesorio se utiliza para las esquinas externas en el proyecto. Por ejemplo, para forrar una viga por fuera)"}
+                  textureType={"Madera y Pintura/Liso"}
+                  useCase={"Interiores/Exteriores"}
+                  price={"75 MXN por pieza"}
+                  onClickFunction={handleProductClick}
+                  size={"595cm"}
+                />
+              </Col>
 
-                            </Col>
-                            <Col xl="3" l="3" md="3" sm="3" xs="3">
-                                <button className="product">
-                                    <Card className="product-category-card">
-                                        <Card.Img variant="top" src={TerminalC} />
-                                        <Card.Body>
-                                            <Card.Title className="product-category-text">Terminal C</Card.Title>
-                                        </Card.Body>
-                                    </Card>
-                                </button>
+              <Col xl="3" l="3" md="3" sm="3" xs="3">
+                <Product
+                  imageSrc={EsquineroInterno}
+                  id={"EsquineroInterno"}
+                  title={"Esquinero Interno"}
+                  description={"Este accesorio se utiliza para dar curva en 90 grados (ejemplo esquina interna de un cuarto)"}
+                  textureType={"Madera y Pintura/Liso"}
+                  useCase={"Interiores/Exteriores"}
+                  price={"75 MXN por pieza"}
+                  onClickFunction={handleProductClick}
+                  size={"595cm"}
+                />
+              </Col>
 
-                            </Col>
-                        </Row>
-
-
-                    </Carousel.Item>
-
-                </Carousel>
-
+              <Col xl="3" l="3" md="3" sm="3" xs="3">
+              <Product
+                  imageSrc={TerminalC}
+                  id={"TerminalC"}
+                  title={"Terminal C"}
+                  description={"Accesorio que se utiliza para rematar los perímetros dando un terminado limpio a la instalación."}
+                  textureType={"Madera y Pintura/Liso"}
+                  useCase={"Interiores/Exteriores"}
+                  price={"75 MXN por pieza"}
+                  onClickFunction={handleProductClick}
+                  size={"595cm"}
+                />
+              </Col>
             </Row>
 
-        </>
-    )
+          </Carousel.Item>
+        </Carousel>
+      </Row>
+    </>
+  )
 }
 
+ProfilesCarousel.propTypes = {
+  handleProductClick: Proptypes.func
+}
 
 export default ProfilesCarousel;

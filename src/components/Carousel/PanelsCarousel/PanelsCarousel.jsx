@@ -19,7 +19,14 @@ import Blanco from '../../../images/blanco.png'
 import BlancoHumo from '../../../images/blancoHumo.png'
 import BlancoMarmol from '../../../images/blancoMarmol.png'
 
-function PanelsCarousel() {
+import Product from '../../Atoms/Product/Product'
+
+function PanelsCarousel( {onClickFunction} ) {
+
+  function handleProductClick(title, description, textureType, useCase, price, imageSrc, size) {
+    onClickFunction(title, description, textureType, useCase, price, imageSrc, size);
+  }
+
   return (
     <>
       <Row className="mb-5">
@@ -28,85 +35,106 @@ function PanelsCarousel() {
           <Carousel.Item>
             <Row className="text-center">
               <Col xl="3" l="3" md="3" sm="3" xs="3">
-                <button className="product">
-                  <Card className="product-category-card">
-                    <Card.Img variant="top" src={FX87_21} />
-                    <Card.Body>
-                      <Card.Title className="product-category-text">FX87-21</Card.Title>
-                    </Card.Body>
-                  </Card>
-                </button>
-
+                <Product 
+                  imageSrc={FX87_21}
+                  id={"FX87-21"}
+                  title={"FX87-21"}
+                  description={"Hermoso acabado en caoba"}
+                  textureType={"Madera"}
+                  useCase={"Interiores/Exteriores"}
+                  price={"215.00 por metro cuadrado"}
+                  onClickFunction={handleProductClick}
+                  size={"595cm x 25cm x 0.7cm"}
+                />
               </Col>
 
               <Col xl="3" l="3" md="3" sm="3" xs="3">
-                <button className="product">
-                  <Card className="product-category-card">
-                    <Card.Img variant="top" src={FX142_1} />
-                    <Card.Body>
-                      <Card.Title className="product-category-text">FX142-1</Card.Title>
-                    </Card.Body>
-                  </Card>
-                </button>
-
+                <Product 
+                    imageSrc={FX142_1}
+                    id={"FX142-1"}
+                    title={"FX142-1"}         
+                    description={"Perfecto para esa textura rústica que tanto esperabas"}
+                    textureType={"Madera"}
+                    useCase={"Interiores/Exteriores"}
+                    price={"215.00 por metro cuadrado"}
+                    onClickFunction={handleProductClick}
+                    size={"595cm x 25cm x 0.7cm"}
+                  />
               </Col>
               <Col xl="3" l="3" md="3" sm="3" xs="3">
-                <button className="product"><Card className="product-category-card">
-                  <Card.Img variant="top" src={FX153_3} />
-                  <Card.Body>
-                    <Card.Title className="product-category-text">FX153-3</Card.Title>
-                  </Card.Body>
-                </Card>
-                </button>
-
+              <Product 
+                    imageSrc={FX153_3}
+                    id={"FX153-3"}
+                    title={"FX153-3"}
+                    description={"Description and shit"}
+                    textureType={"Madera"}
+                    useCase={"Interiores/Exteriores"}
+                    price={"215.00 por metro cuadrado"}
+                    onClickFunction={handleProductClick}
+                    size={"595cm x 25cm x 0.7cm"}
+                  />
               </Col>
               <Col xl="3" l="3" md="3" sm="3" xs="3">
-                <button className="product"><Card className="product-category-card">
-                  <Card.Img variant="top" src={FX87_24} />
-                  <Card.Body>
-                    <Card.Title className="product-category-text">FX87-24</Card.Title>
-                  </Card.Body>
-                </Card>
-                </button>
-
+                <Product 
+                    imageSrc={FX87_24}
+                    id={"FX87-24"}
+                    title={"FX87-24"}
+                    description={"Description and shit"}
+                    textureType={"Madera"}
+                    useCase={"Interiores/Exteriores"}
+                    price={"215.00 por metro cuadrado"}
+                    onClickFunction={handleProductClick}
+                    size={"595cm x 25cm x 0.7cm"}
+                  />
               </Col>
             </Row>
-
-
           </Carousel.Item>
 
           <Carousel.Item>
             <Row className="text-center">
               <Col xl="3" l="3" md="3" sm="3" xs="3">
-                <button className="product"><Card className="product-category-card">
-                  <Card.Img variant="top" src={Blanco} />
-                  <Card.Body>
-                    <Card.Title className="product-category-text">Blanco</Card.Title>
-                  </Card.Body>
-                </Card>
-                </button>
-
+                <Product 
+                      imageSrc={Blanco}
+                      id={"Blanco"}
+                      title={"Blanco"}
+                      
+                  description={"Description and shit"}
+                  textureType={"Pintura/Liso"}
+                  useCase={"Interiores/Exteriores"}
+                  price={"215.00"}
+                  onClickFunction={handleProductClick}
+                  size={"595cm x 25cm x 0.7cm"}
+                    />
               </Col>
 
               <Col xl="3" l="3" md="3" sm="3" xs="3">
-                <button className="product"><Card className="product-category-card">
-                  <Card.Img variant="top" src={BlancoHumo} />
-                  <Card.Body>
-                    <Card.Title className="product-category-text">Blanco Humo</Card.Title>
-                  </Card.Body>
-                </Card>
-                </button>
+              <Product 
+                    imageSrc={BlancoHumo}
+                    id={"BlamcoHumo"}
+                    title={"Blanco Humo"}
+                    
+                  description={"Description and shit"}
+                  textureType={"Pintura/Liso"}
+                  useCase={"Interiores/Exteriores"}
+                  price={"215.00"}
+                  onClickFunction={handleProductClick}
+                  size={"595cm x 25cm x 0.7cm"}
+                  />
 
               </Col>
               <Col xl="3" l="3" md="3" sm="3" xs="3">
-                <button className="product"><Card className="product-category-card">
-                  <Card.Img variant="top" src={BlancoMarmol} />
-                  <Card.Body>
-                    <Card.Title className="product-category-text">Blanco Mármol</Card.Title>
-                  </Card.Body>
-                </Card>
-                </button>
-
+              <Product 
+                    imageSrc={BlancoMarmol}
+                    id={"BlancoMarmol"}
+                    title={"Blanco Mármol"}
+                    
+                  description={"Description and shit"}
+                  textureType={"Pintura/Liso"}
+                  useCase={"Interiores/Exteriores"}
+                  price={"215.00"}
+                  onClickFunction={handleProductClick}
+                  size={"595cm x 25cm x 0.7cm"}
+                  />
               </Col>
             </Row>
 
@@ -120,9 +148,8 @@ function PanelsCarousel() {
   )
 }
 
-function CarouselCategory() {
-
-
+PanelsCarousel.propTypes = {
+onClickFunction: Proptypes.func
 }
 
 

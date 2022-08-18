@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {useState} from 'react'
 import "./index.css"
 
 import Container from 'react-bootstrap/Container'
@@ -12,20 +12,30 @@ import { ProductsData } from '../../../data/MockData'
 
 import ProductsCarousel from '../../Carousel/'
 import FX87_21 from '../../../images/FX87-21.png'
-import FX142_1 from '../../../images/FX142-1.png'
-import FX153_3 from '../../../images/FX153-3.png'
-
-function setFX87_21() {
-  console.log("Yes");
-}
-
-function loadData() {
-
-}
 
 function Articles() {
 
+
+  function updateProductDetailData(title, description, textureType, useCase, price, imageSrc, size) {
+    setTitle(title)
+    setDescription(description)
+    setTextureType(textureType)
+    setUseCase(useCase)
+    setPrice(price)
+    setImageSrc(imageSrc)
+    setProductSize(size)
+  }
+
+  const [productTitle, setTitle] = useState('FX87-21')
+  const [productDescription, setDescription] = useState('Hermoso acabado en caoba')
+  const [productTextureType, setTextureType] = useState('Madera')
+  const [productUseCase, setUseCase] = useState('Interiores/Exteriores')
+  const [productPrice, setPrice] = useState('215.00 por metro cuadrado')
+  const [productImageSrc, setImageSrc] = useState(FX87_21)
+  const [productSize, setProductSize] = useState("595cm x 25cm x 0.7cm")
+
   return (
+    
     <>
       <section className="section-container justify-content-center">
         <Container>
@@ -34,29 +44,35 @@ function Articles() {
             <Col xl="12 text-center"><h2 className="display-2">Conoce nuestro catálogo</h2></Col>
           </Row>
 
-          <ProductsCarousel />
+          <ProductsCarousel handleProductClick={updateProductDetailData}/>
+
 
           <Row>
             <Col xl="6">
               <Row>
-                <h3 className="display-3">Product</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula lacinia odio. Etiam sem turpis, egestas ut eros commodo, laoreet porttitor velit.</p>
+                <h3 className="display-3">{productTitle}</h3>
+                <p>{productDescription}</p>
               </Row>
 
               <Row>
                 <Row>
-                  <Col>Textura tipo:</Col>
-                  <Col>Madera</Col>
+                  <Col><p><b>Textura tipo:</b></p></Col>
+                  <Col><p>{productTextureType}</p></Col>
                 </Row>
 
                 <Row>
-                  <Col>Uso:</Col>
-                  <Col>Interiores</Col>
+                  <Col><p><b>Uso:</b></p></Col>
+                  <Col><p>{productUseCase}</p></Col>
                 </Row>
 
                 <Row>
-                  <Col>Precio:</Col>
-                  <Col>$210 MXN por metro cuadrado</Col>
+                  <Col><p><b>Precio:</b></p></Col>
+                  <Col><p>${productPrice}</p></Col>
+                </Row>
+
+                <Row>
+                  <Col><p><b>Medidas:</b></p></Col>
+                  <Col><p>{productSize}</p></Col>
                 </Row>
               </Row>
 
@@ -64,7 +80,7 @@ function Articles() {
             <Col xl="6">
               <Carousel className="product-installation-carousel" variant="dark">
                 <Carousel.Item>
-                  <img src={FX142_1}></img>
+                  <img src={productImageSrc}></img>
                 </Carousel.Item>
               </Carousel>
             </Col>

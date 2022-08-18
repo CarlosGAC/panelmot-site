@@ -12,15 +12,13 @@ import Button from 'react-bootstrap/Button'
 
 import AnguloAmarre from '../../../images/angulo_amarre.png'
 import CanalListon from '../../../images/canal_liston.png'
+import Product from '../../Atoms/Product'
 
-function SetProductCarousel() {
+function MaterialsCarousel( {onClickFunction} ) {
 
-  console.log(carouselCategory);
-
-}
-
-function MaterialsCarousel() {
-
+  function handleProductClick(title, description, textureType, useCase, price, imageSrc, size) {
+    onClickFunction(title, description, textureType, useCase, price, imageSrc, size);
+  }
   return (
     <>
       <Row className="mb-5">
@@ -29,25 +27,32 @@ function MaterialsCarousel() {
           <Carousel.Item>
             <Row className="text-center">
               <Col xl="3" l="3" md="3" sm="3" xs="3">
-                <button className="product">
-                  <Card className="product-category-card">
-                    <Card.Img variant="top" src={AnguloAmarre} />
-                    <Card.Body>
-                      <Card.Title className="product-category-text">Angulo de Amarre</Card.Title>
-                    </Card.Body>
-                  </Card>
-                </button>
-
+              <Product
+                  imageSrc={AnguloAmarre}
+                  id={"AnguloAmarre"}
+                  title={"Angulo de Amarre"}
+                  description={"Hermoso acabado en caoba"}
+                  textureType={"Metal"}
+                  useCase={"Estructura oculta"}
+                  price={"65 MXN por pieza"}
+                  onClickFunction={handleProductClick}
+                  size={"305cm"}
+                />
               </Col>
 
               <Col xl="3" l="3" md="3" sm="3" xs="3">
                 <Card className="product-category-card">
-                  <button className="product">
-                    <Card.Img variant="top" src={CanalListon} />
-                    <Card.Body>
-                      <Card.Title className="product-category-text">Canal Listón</Card.Title>
-                    </Card.Body>
-                  </button>
+                  <Product
+                    imageSrc={CanalListon}
+                    id={"CanalListon"}
+                    title={"Canal Listón"}
+                    description={"Hermoso acabado en caoba"}
+                  textureType={"Metal"}
+                  useCase={"Estructura oculta"}
+                  price={"35 MXN por pieza"}
+                  onClickFunction={handleProductClick}
+                  size={"305cm"}
+                  />
                 </Card>
               </Col>
             </Row>
@@ -57,6 +62,8 @@ function MaterialsCarousel() {
     </>
   )
 }
-
+MaterialsCarousel.propTypes = {
+  handleProductClick: Proptypes.func
+}
 
 export default MaterialsCarousel;
