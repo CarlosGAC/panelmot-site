@@ -28,7 +28,6 @@ function Hero() {
         <div className="hero-info">
                 <h2 className="hero-title text-center decrease-font">Dale a tus techos una apariencia de madera real</h2>
                 <div className="hero-subtitle-container">
-
                     <p className="text-center hero-subtitle h3 align-self-center">Somos la mejor opción para decoración de techos y muros no lo dudes más!</p>
                     <div className='hero-button-container d-flex'>
                         <button className="hero-button">Explorar catálogo</button>

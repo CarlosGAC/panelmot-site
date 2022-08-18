@@ -15,7 +15,7 @@ import SectionTitle from '../../Atoms/SectionTitle/SectionTitle'
 import ContactTextInput from '../../Molecules/ContactTextInput/ContactTextInput'
 import ContactImage from '../../Atoms/ContactImage/ContactImage'
 import ContactDataRow from '../../Molecules/ContactDataRow/ContactDataRow'
-import FAQLink from '../../Atoms/FAQLink/FAQLink'
+import ContactLink from '../../Atoms/ContactLink/ContactLink'
 import ContactFooter from '../../Molecules/ContactFooter/ContactFooter'
 import FAQButton from '../../Atoms/FAQButton/FAQButton'
 
@@ -85,22 +85,22 @@ function FAQ() {
                         />
                         <ContactDataRow
                             icon={<BsTelephone />}
-                            content={<p className="h2"><b>342 108 4567</b></p>}
+                            content={<p className="contact-data"><b>342 108 4567</b></p>}
                         />
 
                         <ContactDataRow
                             icon={<GoMail />}
-                            content={<p className="h2"><b>panelpvcmot@gmail.com</b></p>}
+                            content={<p className="contact-data"><b>panelpvcmot@gmail.com</b></p>}
                         />
 
                         <ContactDataRow
                             icon={<FaFacebookSquare />}
-                            content={<FAQLink label={"Panel PVC"} linkRef={"https://www.facebook.com/PANEL-PVC-172312544911856"} />}
+                            content={<ContactLink label={"Panel PVC"} linkRef={"https://www.facebook.com/PANEL-PVC-172312544911856"} />}
                         />
 
                         <ContactDataRow
                             icon={<HiOutlineLocationMarker />}
-                            content={<p className="h2"><b>Guadalajara, Jalisco</b></p>}
+                            content={<p className="contact-data"><b>Guadalajara, Jalisco</b></p>}
                         />
                     </Col>
                 </Row>
