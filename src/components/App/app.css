@@ -89,3 +89,24 @@ nav {
 .nav-item {
   padding-right: 2rem;
 }
+
+.navbar-image {
+  margin-right: 2vw;
+}
+
+.navlink {
+  margin-right: 3vw;
+  color: white;
+  
+  border-radius: 8px;
+}
+
+.navlink:hover {
+  background-color: #58C33D;
+  color: white;
+}
+
+.active {
+  background-color: #58C33D;
+  color: white;
+}

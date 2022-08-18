@@ -6,6 +6,7 @@ import CarouselItem from 'react-bootstrap/CarouselItem'
 import Container from 'react-bootstrap/Container'
 import FAQButton from '../../Atoms/FAQButton/FAQButton'
 
+
 import image0 from '../../../assets/home-banner-carousel/banner_image0.png'
 import image1 from '../../../assets/home-banner-carousel/banner_image1.png'
 import image2 from '../../../assets/home-banner-carousel/banner_image2.png'
@@ -15,7 +16,6 @@ import image5 from '../../../assets/home-banner-carousel/banner_image5.png'
 import image6 from '../../../assets/home-banner-carousel/banner_image6.png'
 import image7 from '../../../assets/home-banner-carousel/banner_image7.png'
 import image8 from '../../../assets/home-banner-carousel/banner_image8.png'
-
 
 
 import Card from 'react-bootstrap/Card'
@@ -40,16 +40,11 @@ function Hero() {
 
                 <Carousel className="carousel-hero">
                     <CarouselItem>
-                        <Card>
                             <img src={image1} alt="Hello motherfuckers"></img>
-                        </Card>
                     </CarouselItem>
 
                     <CarouselItem>
-                        <Card>
-
                             <img src={image0} alt="Hello motherfuckers"></img>
-                        </Card>
                     </CarouselItem>
                 </Carousel>
             </Container>
