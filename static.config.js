@@ -2,7 +2,6 @@ import path from 'path'
 
 export default {
   plugins: [
-    
     [
       require.resolve('react-static-plugin-source-filesystem'),
       {

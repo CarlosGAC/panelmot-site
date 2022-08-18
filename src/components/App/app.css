@@ -9,6 +9,9 @@
   scroll-behavior: smooth;
 }
 
+.section-container {
+}
+
 body {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: normal;
@@ -51,12 +54,6 @@ img {
 
 html {
   font-size: 1rem;
-}
-
-.selected-category {
-  text-decoration: underline;
-  text-decoration-color: green;
-  text-decoration-thickness: 5px;
 }
 
 h1,h2,h3,h4,p, label {

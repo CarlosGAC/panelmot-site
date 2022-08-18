@@ -5,8 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'normalize.css'
 import './app.css'
 
-
-import Articles from '../Pages/Articles/Articles'
 import AboutUs from '../Organisms/AboutUs/AboutUs'
 import Contact from '../Organisms/Contact/Contact'
 import FAQ from '../Organisms/FAQ/FAQ';
@@ -57,13 +55,12 @@ function App() {
       <Hero />
       <div className="spa">
         <div className="content">
-          <Articles />
           <AboutUs />
           <FAQ />
           <Contact />
         </div>
       </div>
-      
+
     </Root>
   )
 }
