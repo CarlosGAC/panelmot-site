@@ -10,6 +10,7 @@
 }
 
 .section-container {
+
 }
 
 body {
@@ -106,6 +107,5 @@ nav {
 }
 
 .active {
-  background-color: #58C33D;
   color: white;
 }

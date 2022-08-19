@@ -2,14 +2,6 @@
     padding: 0;
 }
 
-.card {
-    display: flex;
-    border: none;
-    
-    justify-content: center;
-    align-items: center;
-}
-
 .hero-title {
     color:white;
     font-weight: 800;
@@ -71,6 +63,10 @@
     text-align: center;
 }
 
+.hero-button:hover {
+    background-color: #227849;
+}
+
 span {
     width: 10vw;
     height: 10vw;
@@ -93,15 +89,15 @@ span {
         height: 100%;
     }
     
-    .carousel-inner {
+    .carousel-hero-inner {
         height: 100%;
     }
     
-    .carousel-item {
+    .carousel-hero-item {
         height: 100vh;
     }
     
-    .carousel-item img {
+    .carousel-hero-item img {
         height: 100%;
         object-fit: cover;
 
@@ -159,11 +155,11 @@ span {
         height: 100%;
     }
     
-    .carousel-item {
+    .carousel-hero-item {
         height: 100%;
     }
     
-    .carousel-item img {
+    .carousel-hero-item img {
         height: 100%;
         object-fit: cover;
 

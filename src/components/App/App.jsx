@@ -17,6 +17,7 @@ import Col from 'react-bootstrap/Col'
 
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
+import Articles from '../Organisms/Articles/Articles'
 // Any routes that start with 'dynamic' will be treated as non-static routes
 addPrefetchExcludes(['dynamic'])
 
@@ -55,6 +56,7 @@ function App() {
       <Hero />
       <div className="spa">
         <div className="content">
+          <Articles />
           <AboutUs />
           <FAQ />
           <Contact />

@@ -38,12 +38,36 @@ function Hero() {
             <Container fluid className="container-hero">
 
                 <Carousel className="carousel-hero">
-                    <CarouselItem>
+                    <CarouselItem className="carousel-hero-item">
                             <img src={image1} alt="Hello motherfuckers"></img>
                     </CarouselItem>
 
-                    <CarouselItem>
+                    <CarouselItem className="carousel-hero-item">
                             <img src={image0} alt="Hello motherfuckers"></img>
+                    </CarouselItem>
+
+                    <CarouselItem className="carousel-hero-item">
+                            <img src={image2} alt="Hello motherfuckers"></img>
+                    </CarouselItem>
+
+                    <CarouselItem className="carousel-hero-item">
+                            <img src={image3} alt="Hello motherfuckers"></img>
+                    </CarouselItem>
+
+                    <CarouselItem className="carousel-hero-item">
+                            <img src={image4} alt="Hello motherfuckers"></img>
+                    </CarouselItem>
+
+                    <CarouselItem className="carousel-hero-item">
+                            <img src={image5} alt="Hello motherfuckers"></img>
+                    </CarouselItem>
+
+                    <CarouselItem className="carousel-hero-item">
+                            <img src={image6} alt="Hello motherfuckers"></img>
+                    </CarouselItem>
+
+                    <CarouselItem className="carousel-hero-item">
+                            <img src={image7} alt="Hello motherfuckers"></img>
                     </CarouselItem>
                 </Carousel>
             </Container>
