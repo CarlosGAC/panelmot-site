@@ -15,7 +15,7 @@ import CanalListon from '../../../images/canal_liston.png'
 import Product from '../../Atoms/Product'
 
 import MediaQuery from 'react-responsive'
-import { ProfilesCarouselData } from '../../../data/MockData'
+import { ProductsData } from '../../../data/MockData'
 
 function MaterialsCarousel({ onClickFunction }) {
 
@@ -33,7 +33,7 @@ function MaterialsCarousel({ onClickFunction }) {
                 <Col xl="3" l="3" md="3" sm="3" xs="3">
                   <Product
                     imageSrc={AnguloAmarre}
-                    data={ProfilesCarouselData.panels[0]}
+                    data={ProductsData.panels[0]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
@@ -42,7 +42,7 @@ function MaterialsCarousel({ onClickFunction }) {
                   <Card className="product-category-card">
                     <Product
                       imageSrc={CanalListon}
-                      data={ProfilesCarouselData.panels[1]}
+                      data={ProductsData.panels[1]}
                       onClickFunction={handleProductClick}
                     />
                   </Card>
@@ -62,7 +62,7 @@ function MaterialsCarousel({ onClickFunction }) {
               <Col xl="6" l="6" md="6" sm="6" xs="6">
                 <Product
                   imageSrc={AnguloAmarre}
-                  data={ProfilesCarouselData.panels[0]}
+                  data={ProductsData.panels[0]}
                   onClickFunction={handleProductClick}
                 />
               </Col>
@@ -71,7 +71,7 @@ function MaterialsCarousel({ onClickFunction }) {
                 <Card className="product-category-card">
                   <Product
                     imageSrc={CanalListon}
-                    data={ProfilesCarouselData.panels[1]}
+                    data={ProductsData.panels[1]}
                     onClickFunction={handleProductClick}
                   />
                 </Card>
@@ -88,7 +88,7 @@ function MaterialsCarousel({ onClickFunction }) {
               <Col xl="12" l="12" md="12" sm="12" xs="12">
                 <Product
                   imageSrc={AnguloAmarre}
-                  data={ProfilesCarouselData.panels[0]}
+                  data={ProductsData.panels[0]}
                   onClickFunction={handleProductClick}
                 />
               </Col>
@@ -102,7 +102,7 @@ function MaterialsCarousel({ onClickFunction }) {
                 <Card className="product-category-card">
                   <Product
                     imageSrc={CanalListon}
-                    data={ProfilesCarouselData.panels[1]}
+                    data={ProductsData.panels[1]}
                     onClickFunction={handleProductClick}
                   />
                 </Card>

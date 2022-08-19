@@ -18,7 +18,7 @@ import TerminalC from '../../../images/terminalc.png'
 import Product from '../../Atoms/Product'
 import MediaQuery from 'react-responsive'
 
-import { ProfilesCarouselData } from '../../../data/MockData'
+import { ProductsData } from '../../../data/MockData'
 
 function ProfilesCarousel({ onClickFunction }) {
 
@@ -38,7 +38,7 @@ function ProfilesCarousel({ onClickFunction }) {
               <Row className="text-center">
                 <Col xl="3" l="3" md="3" sm="3" xs="3">
                   <Product
-                    data={ProfilesCarouselData.profiles[0]}
+                    data={ProductsData.profiles[0]}
                     onClickFunction={handleProductClick}
                     imageSrc={Union}
                   />
@@ -46,7 +46,7 @@ function ProfilesCarousel({ onClickFunction }) {
 
                 <Col xl="3" l="3" md="3" sm="3" xs="3">
                   <Product
-                    data={ProfilesCarouselData.profiles[1]}
+                    data={ProductsData.profiles[1]}
                     onClickFunction={handleProductClick}
                     imageSrc={EsquineroExterno}
                   />
@@ -54,7 +54,7 @@ function ProfilesCarousel({ onClickFunction }) {
 
                 <Col xl="3" l="3" md="3" sm="3" xs="3">
                   <Product
-                    data={ProfilesCarouselData.profiles[2]}
+                    data={ProductsData.profiles[2]}
                     onClickFunction={handleProductClick}
                     imageSrc={EsquineroInterno}
                   />
@@ -62,7 +62,7 @@ function ProfilesCarousel({ onClickFunction }) {
 
                 <Col xl="3" l="3" md="3" sm="3" xs="3">
                   <Product
-                    data={ProfilesCarouselData.profiles[3]}
+                    data={ProductsData.profiles[3]}
                     onClickFunction={handleProductClick}
                     imageSrc={TerminalC}
                   />
@@ -82,7 +82,7 @@ function ProfilesCarousel({ onClickFunction }) {
               <Row className="text-center">
                 <Col xl="6" l="6" md="6" sm="6" xs="6">
                   <Product
-                    data={ProfilesCarouselData.profiles[0]}
+                    data={ProductsData.profiles[0]}
                     onClickFunction={handleProductClick}
                     imageSrc={Union}
                   />
@@ -90,7 +90,7 @@ function ProfilesCarousel({ onClickFunction }) {
 
                 <Col xl="6" l="6" md="6" sm="6" xs="6">
                   <Product
-                    data={ProfilesCarouselData.profiles[1]}
+                    data={ProductsData.profiles[1]}
                     onClickFunction={handleProductClick}
                     imageSrc={EsquineroExterno}
                   />
@@ -102,7 +102,7 @@ function ProfilesCarousel({ onClickFunction }) {
             <Row className="text-center">
               <Col xl="6" l="6" md="6" sm="6" xs="6">
                 <Product
-                  data={ProfilesCarouselData.profiles[2]}
+                  data={ProductsData.profiles[2]}
                   onClickFunction={handleProductClick}
                   imageSrc={EsquineroInterno}
                 />
@@ -110,7 +110,7 @@ function ProfilesCarousel({ onClickFunction }) {
 
               <Col xl="6" l="6" md="6" sm="6" xs="6">
                 <Product
-                  data={ProfilesCarouselData.profiles[3]}
+                  data={ProductsData.profiles[3]}
                   onClickFunction={handleProductClick}
                   imageSrc={TerminalC}
                 />
@@ -128,7 +128,7 @@ function ProfilesCarousel({ onClickFunction }) {
               <Row className="text-center">
                 <Col xl="12" l="12" md="12" sm="12" xs="12">
                   <Product
-                    data={ProfilesCarouselData.profiles[0]}
+                    data={ProductsData.profiles[0]}
                     onClickFunction={handleProductClick}
                     imageSrc={Union}
                   />
@@ -140,7 +140,7 @@ function ProfilesCarousel({ onClickFunction }) {
             <Row className="text-center">
             <Col xl="12" l="12" md="12" sm="12" xs="12">
                   <Product
-                    data={ProfilesCarouselData.profiles[1]}
+                    data={ProductsData.profiles[1]}
                     onClickFunction={handleProductClick}
                     imageSrc={EsquineroExterno}
                   />
@@ -152,7 +152,7 @@ function ProfilesCarousel({ onClickFunction }) {
             <Row className="text-center">
             <Col xl="12" l="12" md="12" sm="12" xs="12">
                 <Product
-                  data={ProfilesCarouselData.profiles[2]}
+                  data={ProductsData.profiles[2]}
                   onClickFunction={handleProductClick}
                   imageSrc={EsquineroInterno}
                 />
@@ -164,7 +164,7 @@ function ProfilesCarousel({ onClickFunction }) {
             <Row className="text-center">
             <Col xl="12" l="12" md="12" sm="12" xs="12">
                 <Product
-                  data={ProfilesCarouselData.profiles[3]}
+                  data={ProductsData.profiles[3]}
                   onClickFunction={handleProductClick}
                   imageSrc={TerminalC}
                 />

@@ -20,7 +20,7 @@ import BlancoMarmol from '../../../images/blancoMarmol.png'
 import Product from '../../Atoms/Product/Product'
 import MediaQuery from 'react-responsive'
 
-import { ProfilesCarouselData } from '../../../data/MockData'
+import { ProductsData } from '../../../data/MockData'
 
 function PanelsCarousel({ onClickFunction }) {
 
@@ -40,7 +40,7 @@ function PanelsCarousel({ onClickFunction }) {
                 <Col xl="3" l="3" md="3" sm="3" xs="3">
                   <Product
                     imageSrc={FX87_21}
-                    data={ProfilesCarouselData.panels[0]}
+                    data={ProductsData.panels[0]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
@@ -48,21 +48,21 @@ function PanelsCarousel({ onClickFunction }) {
                 <Col xl="3" l="3" md="3" sm="3" xs="3">
                   <Product
                     imageSrc={FX142_1}
-                    data={ProfilesCarouselData.panels[1]}
+                    data={ProductsData.panels[1]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
                 <Col xl="3" l="3" md="3" sm="3" xs="3">
                   <Product
                     imageSrc={FX153_3}
-                    data={ProfilesCarouselData.panels[2]}
+                    data={ProductsData.panels[2]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
                 <Col xl="3" l="3" md="3" sm="3" xs="3">
                   <Product
                     imageSrc={FX87_24}
-                    data={ProfilesCarouselData.panels[3]}
+                    data={ProductsData.panels[3]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
@@ -74,7 +74,7 @@ function PanelsCarousel({ onClickFunction }) {
                 <Col xl="3" l="3" md="3" sm="3" xs="3">
                   <Product
                     imageSrc={Blanco}
-                    data={ProfilesCarouselData.panels[4]}
+                    data={ProductsData.panels[4]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
@@ -82,7 +82,7 @@ function PanelsCarousel({ onClickFunction }) {
                 <Col xl="3" l="3" md="3" sm="3" xs="3">
                   <Product
                     imageSrc={BlancoHumo}
-                    data={ProfilesCarouselData.panels[5]}
+                    data={ProductsData.panels[5]}
                     onClickFunction={handleProductClick}
                   />
 
@@ -90,7 +90,7 @@ function PanelsCarousel({ onClickFunction }) {
                 <Col xl="3" l="3" md="3" sm="3" xs="3">
                   <Product
                     imageSrc={BlancoMarmol}
-                    data={ProfilesCarouselData.panels[6]}
+                    data={ProductsData.panels[6]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
@@ -112,7 +112,7 @@ function PanelsCarousel({ onClickFunction }) {
                 <Col xl="6" l="6" md="6" sm="6" xs="6">
                   <Product
                     imageSrc={FX87_21}
-                    data={ProfilesCarouselData.panels[0]}
+                    data={ProductsData.panels[0]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
@@ -120,7 +120,7 @@ function PanelsCarousel({ onClickFunction }) {
                 <Col xl="6" l="6" md="6" sm="6" xs="6">
                   <Product
                     imageSrc={FX142_1}
-                    data={ProfilesCarouselData.panels[1]}
+                    data={ProductsData.panels[1]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
@@ -133,14 +133,14 @@ function PanelsCarousel({ onClickFunction }) {
                 <Col xl="6" l="6" md="6" sm="6" xs="6">
                   <Product
                     imageSrc={FX153_3}
-                    data={ProfilesCarouselData.panels[2]}
+                    data={ProductsData.panels[2]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
                 <Col xl="6" l="6" md="6" sm="6" xs="6">
                   <Product
                     imageSrc={FX87_24}
-                    data={ProfilesCarouselData.panels[3]}
+                    data={ProductsData.panels[3]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
@@ -152,7 +152,7 @@ function PanelsCarousel({ onClickFunction }) {
                 <Col xl="6" l="6" md="6" sm="6" xs="6">
                   <Product
                     imageSrc={Blanco}
-                    data={ProfilesCarouselData.panels[4]}
+                    data={ProductsData.panels[4]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
@@ -160,7 +160,7 @@ function PanelsCarousel({ onClickFunction }) {
                 <Col xl="6" l="6" md="6" sm="6" xs="6">
                   <Product
                     imageSrc={BlancoHumo}
-                    data={ProfilesCarouselData.panels[5]}
+                    data={ProductsData.panels[5]}
                     onClickFunction={handleProductClick}
                   />
 
@@ -175,7 +175,7 @@ function PanelsCarousel({ onClickFunction }) {
               <Col xl="6" l="6" md="6" sm="6" xs="6">
                 <Product
                   imageSrc={BlancoMarmol}
-                  data={ProfilesCarouselData.panels[6]}
+                  data={ProductsData.panels[6]}
                   onClickFunction={handleProductClick}
                 />
               </Col>
@@ -194,7 +194,7 @@ function PanelsCarousel({ onClickFunction }) {
               <Col xl="112" l="112" md="112" sm="112" xs="112">
                   <Product
                     imageSrc={FX87_21}
-                    data={ProfilesCarouselData.panels[0]}
+                    data={ProductsData.panels[0]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
@@ -206,7 +206,7 @@ function PanelsCarousel({ onClickFunction }) {
               <Col xl="12" l="12" md="12" sm="12" xs="12">
                   <Product
                     imageSrc={FX142_1}
-                    data={ProfilesCarouselData.panels[1]}
+                    data={ProductsData.panels[1]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
@@ -218,7 +218,7 @@ function PanelsCarousel({ onClickFunction }) {
               <Col xl="12" l="12" md="12" sm="12" xs="12">
                   <Product
                     imageSrc={FX153_3}
-                    data={ProfilesCarouselData.panels[2]}
+                    data={ProductsData.panels[2]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
@@ -230,7 +230,7 @@ function PanelsCarousel({ onClickFunction }) {
               <Col xl="12" l="12" md="12" sm="12" xs="12">
                   <Product
                     imageSrc={FX87_24}
-                    data={ProfilesCarouselData.panels[3]}
+                    data={ProductsData.panels[3]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
@@ -242,7 +242,7 @@ function PanelsCarousel({ onClickFunction }) {
               <Col xl="12" l="12" md="12" sm="12" xs="12">
                   <Product
                     imageSrc={Blanco}
-                    data={ProfilesCarouselData.panels[4]}
+                    data={ProductsData.panels[4]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
@@ -255,7 +255,7 @@ function PanelsCarousel({ onClickFunction }) {
               <Col xl="12" l="12" md="12" sm="12" xs="12">
                   <Product
                     imageSrc={BlancoHumo}
-                    data={ProfilesCarouselData.panels[5]}
+                    data={ProductsData.panels[5]}
                     onClickFunction={handleProductClick}
                   /></Col>
               </Row>
@@ -266,7 +266,7 @@ function PanelsCarousel({ onClickFunction }) {
               <Col xl="12" l="12" md="12" sm="12" xs="12">
                   <Product
                     imageSrc={BlancoMarmol}
-                    data={ProfilesCarouselData.panels[6]}
+                    data={ProductsData.panels[6]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
