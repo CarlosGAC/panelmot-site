@@ -1,0 +1,1 @@
+export { default as ProductsData} from './products.data'
