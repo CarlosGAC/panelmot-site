@@ -30,7 +30,6 @@ function ProductsCarousel( {handleProductClick} ) {
                 <Col xl="4" l="4" md="4" sm="12" xs="12" className="text-center"><button className='article-category' onClick={() => setPanelCategory("materiales-instalacion")}>Materiales para instalación</button></Col>
             </Row>
             
-            <p>The category is: {carouselCategory}</p>
             <PanelsCarousel onClickFunction={Hello}/>
             </>
         )
@@ -45,7 +44,6 @@ function ProductsCarousel( {handleProductClick} ) {
             </Row>
     
             
-            <p>The category is: {carouselCategory}</p>
     
             <ProfilesCarousel onClickFunction={Hello}/>
             </>
@@ -60,7 +58,6 @@ function ProductsCarousel( {handleProductClick} ) {
                 <Col xl="4" l="4" md="4" sm="12" xs="12" className="text-center"><button className='article-category selected-category' onClick={() => setPanelCategory("materiales-instalacion")}>Materiales para instalación</button></Col>
             </Row>
             
-            <p>The category is: {carouselCategory}</p>
             
             <MaterialsCarousel onClickFunction={Hello}/>
             </>
