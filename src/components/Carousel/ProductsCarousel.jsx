@@ -31,7 +31,6 @@ function ProductsCarousel( {handleProductClick} ) {
             </Row>
             
             <p>The category is: {carouselCategory}</p>
-    
             <PanelsCarousel onClickFunction={Hello}/>
             </>
         )
@@ -62,7 +61,7 @@ function ProductsCarousel( {handleProductClick} ) {
             </Row>
             
             <p>The category is: {carouselCategory}</p>
-    
+            
             <MaterialsCarousel onClickFunction={Hello}/>
             </>
         )

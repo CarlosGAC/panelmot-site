@@ -18,79 +18,56 @@ import TerminalC from '../../../images/terminalc.png'
 import Product from '../../Atoms/Product'
 import MediaQuery from 'react-responsive'
 
+import { ProfilesCarouselData } from '../../../data/MockData'
 
 function ProfilesCarousel({ onClickFunction }) {
+
+
 
   function handleProductClick(title, description, textureType, useCase, price, imageSrc, size) {
     onClickFunction(title, description, textureType, useCase, price, imageSrc, size);
   }
 
   return (
+    
     <>
       <MediaQuery minWidth={1200}>
         <Row className="mb-5">
-
           <Carousel className="products-carousel" variant="dark" data-ride="">
-
             <Carousel.Item>
               <Row className="text-center">
                 <Col xl="3" l="3" md="3" sm="3" xs="3">
                   <Product
+                    data={ProfilesCarouselData.profiles[0]}
+                    onClickFunction={handleProductClick}
                     imageSrc={Union}
-                    id={"UnionH"}
-                    title={"Unión H"}
-                    description={"Este accesorio se utiliza para unir dos paneles a lo largo (cuando un proyecto mide más de los 5.95m del largo del panel)"}
-                    textureType={"Madera y Pintura/Liso"}
-                    useCase={"Interiores/Exteriores"}
-                    price={"75 MXN por pieza"}
-                    onClickFunction={handleProductClick}
-                    size={"595cm"}
                   />
                 </Col>
 
                 <Col xl="3" l="3" md="3" sm="3" xs="3">
                   <Product
+                    data={ProfilesCarouselData.profiles[1]}
+                    onClickFunction={handleProductClick}
                     imageSrc={EsquineroExterno}
-                    id={"EsquineroExterno"}
-                    title={"Esquinero Externo"}
-                    description={"Este accesorio se utiliza para las esquinas externas en el proyecto. Por ejemplo, para forrar una viga por fuera)"}
-                    textureType={"Madera y Pintura/Liso"}
-                    useCase={"Interiores/Exteriores"}
-                    price={"75 MXN por pieza"}
-                    onClickFunction={handleProductClick}
-                    size={"595cm"}
                   />
                 </Col>
 
                 <Col xl="3" l="3" md="3" sm="3" xs="3">
                   <Product
+                    data={ProfilesCarouselData.profiles[2]}
+                    onClickFunction={handleProductClick}
                     imageSrc={EsquineroInterno}
-                    id={"EsquineroInterno"}
-                    title={"Esquinero Interno"}
-                    description={"Este accesorio se utiliza para dar curva en 90 grados (ejemplo esquina interna de un cuarto)"}
-                    textureType={"Madera y Pintura/Liso"}
-                    useCase={"Interiores/Exteriores"}
-                    price={"75 MXN por pieza"}
-                    onClickFunction={handleProductClick}
-                    size={"595cm"}
                   />
                 </Col>
 
                 <Col xl="3" l="3" md="3" sm="3" xs="3">
                   <Product
-                    imageSrc={TerminalC}
-                    id={"TerminalC"}
-                    title={"Terminal C"}
-                    description={"Accesorio que se utiliza para rematar los perímetros dando un terminado limpio a la instalación."}
-                    textureType={"Madera y Pintura/Liso"}
-                    useCase={"Interiores/Exteriores"}
-                    price={"75 MXN por pieza"}
+                    data={ProfilesCarouselData.profiles[3]}
                     onClickFunction={handleProductClick}
-                    size={"595cm"}
+                    imageSrc={TerminalC}
                   />
                 </Col>
               </Row>
-
             </Carousel.Item>
           </Carousel>
         </Row>
@@ -100,70 +77,42 @@ function ProfilesCarousel({ onClickFunction }) {
       
       <MediaQuery minWidth={599} maxWidth={1199}>
         <Row className="mb-5">
-
           <Carousel className="products-carousel" variant="dark" data-ride="">
-
             <Carousel.Item>
               <Row className="text-center">
                 <Col xl="6" l="6" md="6" sm="6" xs="6">
                   <Product
-                    imageSrc={Union}
-                    id={"UnionH"}
-                    title={"Unión H"}
-                    description={"Este accesorio se utiliza para unir dos paneles a lo largo (cuando un proyecto mide más de los 5.95m del largo del panel)"}
-                    textureType={"Madera y Pintura/Liso"}
-                    useCase={"Interiores/Exteriores"}
-                    price={"75 MXN por pieza"}
+                    data={ProfilesCarouselData.profiles[0]}
                     onClickFunction={handleProductClick}
-                    size={"595cm"}
+                    imageSrc={Union}
                   />
                 </Col>
 
                 <Col xl="6" l="6" md="6" sm="6" xs="6">
                   <Product
-                    imageSrc={EsquineroExterno}
-                    id={"EsquineroExterno"}
-                    title={"Esquinero Externo"}
-                    description={"Este accesorio se utiliza para las esquinas externas en el proyecto. Por ejemplo, para forrar una viga por fuera)"}
-                    textureType={"Madera y Pintura/Liso"}
-                    useCase={"Interiores/Exteriores"}
-                    price={"75 MXN por pieza"}
+                    data={ProfilesCarouselData.profiles[1]}
                     onClickFunction={handleProductClick}
-                    size={"595cm"}
+                    imageSrc={EsquineroExterno}
                   />
                 </Col>
-
               </Row>
-
             </Carousel.Item>
 
             <Carousel.Item>
             <Row className="text-center">
               <Col xl="6" l="6" md="6" sm="6" xs="6">
                 <Product
-                  imageSrc={EsquineroInterno}
-                  id={"EsquineroInterno"}
-                  title={"Esquinero Interno"}
-                  description={"Este accesorio se utiliza para dar curva en 90 grados (ejemplo esquina interna de un cuarto)"}
-                  textureType={"Madera y Pintura/Liso"}
-                  useCase={"Interiores/Exteriores"}
-                  price={"75 MXN por pieza"}
+                  data={ProfilesCarouselData.profiles[2]}
                   onClickFunction={handleProductClick}
-                  size={"595cm"}
+                  imageSrc={EsquineroInterno}
                 />
               </Col>
 
               <Col xl="6" l="6" md="6" sm="6" xs="6">
                 <Product
-                  imageSrc={TerminalC}
-                  id={"TerminalC"}
-                  title={"Terminal C"}
-                  description={"Accesorio que se utiliza para rematar los perímetros dando un terminado limpio a la instalación."}
-                  textureType={"Madera y Pintura/Liso"}
-                  useCase={"Interiores/Exteriores"}
-                  price={"75 MXN por pieza"}
+                  data={ProfilesCarouselData.profiles[3]}
                   onClickFunction={handleProductClick}
-                  size={"595cm"}
+                  imageSrc={TerminalC}
                 />
               </Col>
               </Row>
@@ -174,48 +123,28 @@ function ProfilesCarousel({ onClickFunction }) {
 
       <MediaQuery maxWidth={600}>
         <Row className="mb-5">
-
           <Carousel className="products-carousel" variant="dark" data-ride="">
-
             <Carousel.Item>
               <Row className="text-center">
                 <Col xl="12" l="12" md="12" sm="12" xs="12">
                   <Product
-                    imageSrc={Union}
-                    id={"UnionH"}
-                    title={"Unión H"}
-                    description={"Este accesorio se utiliza para unir dos paneles a lo largo (cuando un proyecto mide más de los 5.95m del largo del panel)"}
-                    textureType={"Madera y Pintura/Liso"}
-                    useCase={"Interiores/Exteriores"}
-                    price={"75 MXN por pieza"}
+                    data={ProfilesCarouselData.profiles[0]}
                     onClickFunction={handleProductClick}
-                    size={"595cm"}
+                    imageSrc={Union}
                   />
                 </Col>
-
               </Row>
-
             </Carousel.Item>
 
             <Carousel.Item>
-              
             <Row className="text-center">
-              
-
             <Col xl="12" l="12" md="12" sm="12" xs="12">
                   <Product
-                    imageSrc={EsquineroExterno}
-                    id={"EsquineroExterno"}
-                    title={"Esquinero Externo"}
-                    description={"Este accesorio se utiliza para las esquinas externas en el proyecto. Por ejemplo, para forrar una viga por fuera)"}
-                    textureType={"Madera y Pintura/Liso"}
-                    useCase={"Interiores/Exteriores"}
-                    price={"75 MXN por pieza"}
+                    data={ProfilesCarouselData.profiles[1]}
                     onClickFunction={handleProductClick}
-                    size={"595cm"}
+                    imageSrc={EsquineroExterno}
                   />
                 </Col>
-              
               </Row>
             </Carousel.Item>
 
@@ -223,15 +152,9 @@ function ProfilesCarousel({ onClickFunction }) {
             <Row className="text-center">
             <Col xl="12" l="12" md="12" sm="12" xs="12">
                 <Product
-                  imageSrc={EsquineroInterno}
-                  id={"EsquineroInterno"}
-                  title={"Esquinero Interno"}
-                  description={"Este accesorio se utiliza para dar curva en 90 grados (ejemplo esquina interna de un cuarto)"}
-                  textureType={"Madera y Pintura/Liso"}
-                  useCase={"Interiores/Exteriores"}
-                  price={"75 MXN por pieza"}
+                  data={ProfilesCarouselData.profiles[2]}
                   onClickFunction={handleProductClick}
-                  size={"595cm"}
+                  imageSrc={EsquineroInterno}
                 />
               </Col>
             </Row>
@@ -241,15 +164,9 @@ function ProfilesCarousel({ onClickFunction }) {
             <Row className="text-center">
             <Col xl="12" l="12" md="12" sm="12" xs="12">
                 <Product
-                  imageSrc={TerminalC}
-                  id={"TerminalC"}
-                  title={"Terminal C"}
-                  description={"Accesorio que se utiliza para rematar los perímetros dando un terminado limpio a la instalación."}
-                  textureType={"Madera y Pintura/Liso"}
-                  useCase={"Interiores/Exteriores"}
-                  price={"75 MXN por pieza"}
+                  data={ProfilesCarouselData.profiles[3]}
                   onClickFunction={handleProductClick}
-                  size={"595cm"}
+                  imageSrc={TerminalC}
                 />
               </Col>
             </Row>

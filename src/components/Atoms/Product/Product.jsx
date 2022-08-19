@@ -7,19 +7,19 @@ import Card from 'react-bootstrap/Card'
 import AnguloAmarre from '../../../images/angulo_amarre.png'
 
 
-function Product( {id, title, imageSrc, description, textureType, useCase, price, onClickFunction, size} ) {
+function Product( {data, onClickFunction, imageSrc} ) {
 
   function handleProductClick() {
-    onClickFunction(title, description, textureType, useCase, price, imageSrc, size);
+    onClickFunction(data.title, data.description, data.textureType, data.useCase, data.price, imageSrc, data.size);
   }
 
   return (
     <>
-      <button className="product" id={id} onClick={handleProductClick}>
+      <button className="product" id={data.id} onClick={handleProductClick}>
         <Card className="product-category-card">
           <Card.Img variant="top" src={imageSrc} />
           <Card.Body>
-            <Card.Title className="product-category-text">{title}</Card.Title>
+            <Card.Title className="product-category-text">{data.title}</Card.Title>
           </Card.Body>
         </Card>
       </button>
@@ -28,15 +28,9 @@ function Product( {id, title, imageSrc, description, textureType, useCase, price
 }
 
 Product.propTypes = {
-  id: Proptypes.string,
-  title: Proptypes.string,
+  data: Proptypes.object,
   imageSrc: Proptypes.string,
-  description: Proptypes.string,
-  textureType: Proptypes.string,
-  useCase: Proptypes.string,
-  price: Proptypes.string,
-  size: Proptypes.string,
-  onClickFunction: Proptypes.func
+  handleProductClick: Proptypes.func
 }
 
 export default Product;
