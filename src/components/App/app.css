@@ -1,15 +1,10 @@
-:root {
-  font-size: 18px;
-  font-family: 'Nunito Sans','HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
-    Helvetica, Arial, 'Lucida Grande', sans-serif;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap');
 * {
   scroll-behavior: smooth;
 }
 
 .section-container {
+  margin-bottom: 250px;
 }
 
 body {
@@ -18,7 +13,6 @@ body {
   font-size: 20px;
   margin: 0;
   padding: 0;
-  background-color: #F9F9F9;
 }
 
 a {
@@ -27,18 +21,15 @@ a {
   font-weight: bold;
 }
 
-h1 {
-  font-size: 3.5rem;
+nav {
+  width: 100%;
+  background: #108db8;
 }
 
-@media only screen and (max-width: 400px) {
-  h1 {
-      font-size: 2rem;
-  }
-}
-
-img {
-  max-width: 100%;
+nav a {
+  color: white;
+  padding: 1rem;
+  display: inline-block;
 }
 
 .content {
@@ -54,58 +45,4 @@ img {
 
 html {
   font-size: 1rem;
-}
-
-h1,h2,h3,h4,p, label {
-  color: black;
-}
-
-
-
-.navbar {
-  background: #FFFFFF00;
-}
-
-.nav-section {
-  padding-right: 2rem;
-  color: white;
-}
-
-nav {
-  background: #FF000000;
-}
-
-.display-4 {
-  font-size: 2rem;
-  font-weight: 800;
-}
-
-.carousel-control-next-icon, .carousel-control-prev-icon {
-  width: 100px;
-  height: 100px;
-}
-
-.nav-item {
-  padding-right: 2rem;
-}
-
-.navbar-image {
-  margin-right: 2vw;
-}
-
-.navlink {
-  margin-right: 3vw;
-  color: white;
-  
-  border-radius: 8px;
-}
-
-.navlink:hover {
-  background-color: #58C33D;
-  color: white;
-}
-
-.active {
-  background-color: #58C33D;
-  color: white;
 }
