@@ -10,7 +10,6 @@ import Contact from '../Organisms/Contact/Contact'
 import FAQ from '../Organisms/FAQ/FAQ';
 import Hero from '../Organisms/Hero/Hero'
 
-import Container from 'react-bootstrap/Container'
 import logo from '../../assets/Logo.png'
 import Col from 'react-bootstrap/Col'
 import * as Styled from './App.styled'
@@ -26,7 +25,7 @@ function App() {
   return (
     <Root>
       <Navbar id="navbar" bg="dark" variant="dark" expand="lg" fixed="top">
-        <Container>
+        <Styled.BContainer>
           <Navbar.Brand href="#home">
             <Styled.Logo
               src={logo}
@@ -47,7 +46,7 @@ function App() {
               <Nav.Link className="navlink" href="#Contact">Contacto</Nav.Link>
             </Nav>
           </Navbar.Collapse>
-        </Container>
+        </Styled.BContainer>
       </Navbar>
 
       <Hero />
