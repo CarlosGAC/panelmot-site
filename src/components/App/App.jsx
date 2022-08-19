@@ -13,7 +13,7 @@ import Hero from '../Organisms/Hero/Hero'
 import Container from 'react-bootstrap/Container'
 import logo from '../../assets/Logo.png'
 import Col from 'react-bootstrap/Col'
-
+import * as Styled from './App.styled'
 
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
@@ -28,10 +28,8 @@ function App() {
       <Navbar id="navbar" bg="dark" variant="dark" expand="lg" fixed="top">
         <Container>
           <Navbar.Brand href="#home">
-            <img
+            <Styled.Logo
               src={logo}
-              width="50"
-              height="50"
               className="d-inline-block align-middle navbar-image"
               alt="React Bootstrap logo"
             />{' '}
