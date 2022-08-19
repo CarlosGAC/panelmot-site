@@ -1,23 +1,20 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Proptypes from 'prop-types'
 
 import Card from 'react-bootstrap/Card'
-//import { ProductsData } from '../../../data/MockData'
-
-import AnguloAmarre from '../../../images/angulo_amarre.png'
 
 
-function Product( {data, onClickFunction, imageSrc} ) {
+function Product( {data, onClickFunction} ) {
 
   function handleProductClick() {
-    onClickFunction(data.title, data.description, data.textureType, data.useCase, data.price, imageSrc, data.size);
+    onClickFunction(data.title, data.description, data.textureType, data.useCase, data.price, data.headerImage.src, data.size, data.gallery);
   }
 
   return (
     <>
       <button className="product" id={data.id} onClick={handleProductClick}>
         <Card className="product-category-card">
-          <Card.Img variant="top" src={imageSrc} />
+          <Card.Img variant="top" src={data.headerImage.src} alt={"Imagen del producto " + data.headerImage.alt}/>
           <Card.Body>
             <Card.Title className="product-category-text">{data.title}</Card.Title>
           </Card.Body>
@@ -29,7 +26,6 @@ function Product( {data, onClickFunction, imageSrc} ) {
 
 Product.propTypes = {
   data: Proptypes.object,
-  imageSrc: Proptypes.string,
   handleProductClick: Proptypes.func
 }
 

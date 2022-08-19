@@ -1,1 +1,1 @@
-export { default as ProductsData} from './products.data.json'
+export { default as ProductsData} from './products.data'

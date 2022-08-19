@@ -10,8 +10,7 @@ import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 //import { ProductsData } from '../../../data/MockData'
 
-import AnguloAmarre from '../../../images/angulo_amarre.png'
-import CanalListon from '../../../images/canal_liston.png'
+
 import Product from '../../Atoms/Product'
 
 import MediaQuery from 'react-responsive'
@@ -19,8 +18,8 @@ import { ProductsData } from '../../../data/MockData'
 
 function MaterialsCarousel({ onClickFunction }) {
 
-  function handleProductClick(title, description, textureType, useCase, price, imageSrc, size) {
-    onClickFunction(title, description, textureType, useCase, price, imageSrc, size);
+  function handleProductClick(title, description, textureType, useCase, price, imageSrc, size, gallery) {
+    onClickFunction(title, description, textureType, useCase, price, imageSrc, size, gallery);
   }
   return (
     <>
@@ -32,8 +31,7 @@ function MaterialsCarousel({ onClickFunction }) {
               <Row className="text-center">
                 <Col xl="3" l="3" md="3" sm="3" xs="3">
                   <Product
-                    imageSrc={AnguloAmarre}
-                    data={ProductsData.panels[0]}
+                    data={ProductsData.materials[0]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
@@ -41,8 +39,7 @@ function MaterialsCarousel({ onClickFunction }) {
                 <Col xl="3" l="3" md="3" sm="3" xs="3">
                   <Card className="product-category-card">
                     <Product
-                      imageSrc={CanalListon}
-                      data={ProductsData.panels[1]}
+                      data={ProductsData.materials[1]}
                       onClickFunction={handleProductClick}
                     />
                   </Card>
@@ -61,8 +58,7 @@ function MaterialsCarousel({ onClickFunction }) {
             <Row className="text-center">
               <Col xl="6" l="6" md="6" sm="6" xs="6">
                 <Product
-                  imageSrc={AnguloAmarre}
-                  data={ProductsData.panels[0]}
+                  data={ProductsData.materials[0]}
                   onClickFunction={handleProductClick}
                 />
               </Col>
@@ -70,8 +66,7 @@ function MaterialsCarousel({ onClickFunction }) {
               <Col xl="6" l="6" md="6" sm="6" xs="6">
                 <Card className="product-category-card">
                   <Product
-                    imageSrc={CanalListon}
-                    data={ProductsData.panels[1]}
+                    data={ProductsData.materials[1]}
                     onClickFunction={handleProductClick}
                   />
                 </Card>
@@ -87,8 +82,7 @@ function MaterialsCarousel({ onClickFunction }) {
             <Row className="text-center">
               <Col xl="12" l="12" md="12" sm="12" xs="12">
                 <Product
-                  imageSrc={AnguloAmarre}
-                  data={ProductsData.panels[0]}
+                  data={ProductsData.materials[0]}
                   onClickFunction={handleProductClick}
                 />
               </Col>
@@ -101,8 +95,7 @@ function MaterialsCarousel({ onClickFunction }) {
               <Col xl="12" l="12" md="12" sm="12" xs="12">
                 <Card className="product-category-card">
                   <Product
-                    imageSrc={CanalListon}
-                    data={ProductsData.panels[1]}
+                    data={ProductsData.materials[1]}
                     onClickFunction={handleProductClick}
                   />
                 </Card>

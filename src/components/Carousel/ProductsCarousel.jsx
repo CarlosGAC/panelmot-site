@@ -11,8 +11,8 @@ import ProfilesCarousel from './ProfilesCarousel'
 
 function ProductsCarousel( {handleProductClick} ) {
 
-    function Hello(title, description, textureType, useCase, price, imageSrc, size) {
-        handleProductClick(title, description, textureType, useCase, price, imageSrc, size);
+    function Hello(title, description, textureType, useCase, price, imageSrc, size, gallery) {
+        handleProductClick(title, description, textureType, useCase, price, imageSrc, size, gallery);
     }
 
     const initialState = "paneles"

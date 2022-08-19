@@ -10,10 +10,6 @@ import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 //import { ProductsData } from '../../../data/MockData'
 
-import Union from '../../../images/union.png'
-import EsquineroExterno from '../../../images/esquineroexterno.png'
-import EsquineroInterno from '../../../images/esquinerointerno.png'
-import TerminalC from '../../../images/terminalc.png'
 
 import Product from '../../Atoms/Product'
 import MediaQuery from 'react-responsive'
@@ -24,8 +20,8 @@ function ProfilesCarousel({ onClickFunction }) {
 
 
 
-  function handleProductClick(title, description, textureType, useCase, price, imageSrc, size) {
-    onClickFunction(title, description, textureType, useCase, price, imageSrc, size);
+  function handleProductClick(title, description, textureType, useCase, price, imageSrc, size, gallery) {
+    onClickFunction(title, description, textureType, useCase, price, imageSrc, size, gallery);
   }
 
   return (
@@ -40,7 +36,6 @@ function ProfilesCarousel({ onClickFunction }) {
                   <Product
                     data={ProductsData.profiles[0]}
                     onClickFunction={handleProductClick}
-                    imageSrc={Union}
                   />
                 </Col>
 
@@ -48,7 +43,6 @@ function ProfilesCarousel({ onClickFunction }) {
                   <Product
                     data={ProductsData.profiles[1]}
                     onClickFunction={handleProductClick}
-                    imageSrc={EsquineroExterno}
                   />
                 </Col>
 
@@ -56,7 +50,6 @@ function ProfilesCarousel({ onClickFunction }) {
                   <Product
                     data={ProductsData.profiles[2]}
                     onClickFunction={handleProductClick}
-                    imageSrc={EsquineroInterno}
                   />
                 </Col>
 
@@ -64,7 +57,6 @@ function ProfilesCarousel({ onClickFunction }) {
                   <Product
                     data={ProductsData.profiles[3]}
                     onClickFunction={handleProductClick}
-                    imageSrc={TerminalC}
                   />
                 </Col>
               </Row>
@@ -84,7 +76,6 @@ function ProfilesCarousel({ onClickFunction }) {
                   <Product
                     data={ProductsData.profiles[0]}
                     onClickFunction={handleProductClick}
-                    imageSrc={Union}
                   />
                 </Col>
 
@@ -92,7 +83,6 @@ function ProfilesCarousel({ onClickFunction }) {
                   <Product
                     data={ProductsData.profiles[1]}
                     onClickFunction={handleProductClick}
-                    imageSrc={EsquineroExterno}
                   />
                 </Col>
               </Row>
@@ -104,7 +94,6 @@ function ProfilesCarousel({ onClickFunction }) {
                 <Product
                   data={ProductsData.profiles[2]}
                   onClickFunction={handleProductClick}
-                  imageSrc={EsquineroInterno}
                 />
               </Col>
 
@@ -112,7 +101,6 @@ function ProfilesCarousel({ onClickFunction }) {
                 <Product
                   data={ProductsData.profiles[3]}
                   onClickFunction={handleProductClick}
-                  imageSrc={TerminalC}
                 />
               </Col>
               </Row>
@@ -130,7 +118,6 @@ function ProfilesCarousel({ onClickFunction }) {
                   <Product
                     data={ProductsData.profiles[0]}
                     onClickFunction={handleProductClick}
-                    imageSrc={Union}
                   />
                 </Col>
               </Row>
@@ -142,7 +129,6 @@ function ProfilesCarousel({ onClickFunction }) {
                   <Product
                     data={ProductsData.profiles[1]}
                     onClickFunction={handleProductClick}
-                    imageSrc={EsquineroExterno}
                   />
                 </Col>
               </Row>
@@ -154,7 +140,6 @@ function ProfilesCarousel({ onClickFunction }) {
                 <Product
                   data={ProductsData.profiles[2]}
                   onClickFunction={handleProductClick}
-                  imageSrc={EsquineroInterno}
                 />
               </Col>
             </Row>
@@ -166,7 +151,6 @@ function ProfilesCarousel({ onClickFunction }) {
                 <Product
                   data={ProductsData.profiles[3]}
                   onClickFunction={handleProductClick}
-                  imageSrc={TerminalC}
                 />
               </Col>
             </Row>

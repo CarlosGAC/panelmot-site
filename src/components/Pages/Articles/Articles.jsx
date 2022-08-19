@@ -16,7 +16,7 @@ import FX87_21 from '../../../images/FX87-21.png'
 function Articles() {
 
 
-  function updateProductDetailData(title, description, textureType, useCase, price, imageSrc, size) {
+  function updateProductDetailData(title, description, textureType, useCase, price, imageSrc, size, gallery) {
     setTitle(title)
     setDescription(description)
     setTextureType(textureType)
@@ -24,15 +24,30 @@ function Articles() {
     setPrice(price)
     setImageSrc(imageSrc)
     setProductSize(size)
+    setProductGallery(gallery)
+    console.log(gallery)
   }
 
   const [productTitle, setTitle] = useState('FX87-21')
   const [productDescription, setDescription] = useState('Hermoso acabado en caoba')
   const [productTextureType, setTextureType] = useState('Madera')
   const [productUseCase, setUseCase] = useState('Interiores/Exteriores')
+  const [productImageSrc, setImageSrc] = useState(ProductsData.panels[0].headerImage)
   const [productPrice, setPrice] = useState('215.00 por metro cuadrado')
-  const [productImageSrc, setImageSrc] = useState(FX87_21)
   const [productSize, setProductSize] = useState("595cm x 25cm x 0.7cm")
+  const [productGallery, setProductGallery] = useState([
+    {
+      id: ProductsData.panels[0].gallery[0].id,
+      src: ProductsData.panels[0].gallery[0].src,
+      alt: ProductsData.panels[0].gallery[0].alt
+    },
+    {
+      id: ProductsData.panels[0].gallery[1].id,
+      src: ProductsData.panels[0].gallery[1].src,
+      alt: ProductsData.panels[0].gallery[1].alt
+    }
+  ]
+  )
 
   return (
     
@@ -79,9 +94,13 @@ function Articles() {
             </Col>
             <Col xl="6">
               <Carousel className="product-installation-carousel" variant="dark">
-                <Carousel.Item>
-                  <img src={productImageSrc}></img>
-                </Carousel.Item>
+                  {
+                    productGallery.map((element) => (
+                      <Carousel.Item>
+                        <img src={element.src} alt={element.alt}></img>
+                      </Carousel.Item>
+                    ))
+                  }
               </Carousel>
             </Col>
           </Row>
