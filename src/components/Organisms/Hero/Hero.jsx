@@ -1,10 +1,8 @@
 import React, { useState } from 'react'
 import './index.css'
-import Accordion from 'react-bootstrap/Accordion'
 import Carousel from 'react-bootstrap/Carousel'
 import CarouselItem from 'react-bootstrap/CarouselItem'
 import Container from 'react-bootstrap/Container'
-import FAQButton from '../../Atoms/FAQButton/FAQButton'
 
 
 import image0 from '../../../assets/home-banner-carousel/banner_image0.png'
