@@ -2,6 +2,7 @@ import React from 'react'
 import {useState} from 'react'
 import "./index.css"
 
+import SectionSubtitle from '../../Atoms/SectionSubtitle/SectionSubtitle'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -56,7 +57,7 @@ function Articles() {
         <Container>
 
           <Row className="mb-5">
-            <Col xl="12 text-center"><h2 className="display-2">Conoce nuestro catálogo</h2></Col>
+            <Col xl="12 text-center"><SectionSubtitle label={"Conoce nuestro catálogo"} /></Col>
           </Row>
 
           <ProductsCarousel handleProductClick={updateProductDetailData}/>
@@ -93,7 +94,7 @@ function Articles() {
 
             </Col>
             <Col xl="6">
-              <Carousel className="product-installation-carousel" variant="dark">
+              <Carousel className="product-installation-carousel" variant="dark"  interval={null} >
                   {
                     productGallery.map((element) => (
                       <Carousel.Item>
