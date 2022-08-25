@@ -28,7 +28,7 @@ function FAQ() {
         const mailInput = event.target.email.value;
         const messageInput = event.target.message.value;
 
-        window.open("https://api.whatsapp.com/send?phone=5213411046630&text=" + "Buen día, mi nombre es " + nameInput + ", " + messageInput + ". Mi correo electrónico es " + mailInput);
+        window.open("https://api.whatsapp.com/send?phone=5213421084567&text=" + "Buen día, mi nombre es " + nameInput + ", " + messageInput + ". Mi correo electrónico es " + mailInput);
     }
 
     return (
