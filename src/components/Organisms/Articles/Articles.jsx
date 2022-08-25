@@ -7,12 +7,9 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Carousel from 'react-bootstrap/Carousel'
-import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
 import { ProductsData } from '../../../data/MockData'
 
 import ProductsCarousel from '../../Carousel'
-import FX87_21 from '../../../images/FX87-21.png'
 
 function Articles() {
 
@@ -26,9 +23,10 @@ function Articles() {
     setImageSrc(imageSrc)
     setProductSize(size)
     setProductGallery(gallery)
-    console.log(gallery)
+    setIndex(0)
   }
 
+  const [index, setIndex] = useState(0)
   const [productTitle, setTitle] = useState('FX87-21')
   const [productDescription, setDescription] = useState('Hermoso acabado en caoba')
   const [productTextureType, setTextureType] = useState('Madera')
@@ -46,11 +44,31 @@ function Articles() {
       id: ProductsData.panels[0].gallery[1].id,
       src: ProductsData.panels[0].gallery[1].src,
       alt: ProductsData.panels[0].gallery[1].alt
+    },
+    {
+      id: ProductsData.panels[0].gallery[2].id,
+      src: ProductsData.panels[0].gallery[2].src,
+      alt: ProductsData.panels[0].gallery[2].alt
+    },
+    {
+      id: ProductsData.panels[0].gallery[3].id,
+      src: ProductsData.panels[0].gallery[3].src,
+      alt: ProductsData.panels[0].gallery[3].alt
+    },
+    {
+      id: ProductsData.panels[0].gallery[4].id,
+      src: ProductsData.panels[0].gallery[4].src,
+      alt: ProductsData.panels[0].gallery[4].alt
     }
   ]
   )
 
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
+
   return (
+    
     
     <>
       <section className="section-container justify-content-center" id="Articles">
@@ -94,7 +112,7 @@ function Articles() {
 
             </Col>
             <Col xl="6">
-              <Carousel className="product-installation-carousel" variant="dark"  interval={null} >
+              <Carousel className="product-installation-carousel" variant="dark"  interval={null} activeIndex={index} onSelect={handleSelect}>
                   {
                     productGallery.map((element) => (
                       <Carousel.Item>
