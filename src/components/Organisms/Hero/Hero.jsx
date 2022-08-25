@@ -16,10 +16,12 @@ import image7 from '../../../assets/home-banner-carousel/banner_image7.png'
 import image8 from '../../../assets/home-banner-carousel/banner_image8.png'
 
 
-import Card from 'react-bootstrap/Card'
-
 function Hero() {
 
+
+        function ChangeLocation(location) {
+                window.location.href = location;
+        }
     return (
         <>
         <section className="banner-wrapper section-container" id="Hero">
@@ -28,7 +30,7 @@ function Hero() {
                 <div className="hero-subtitle-container">
                     <p className="text-center hero-subtitle h3 align-self-center">Somos la mejor opción para decoración de techos y muros no lo dudes más!</p>
                     <div className='hero-button-container d-flex'>
-                        <button className="hero-button">Explorar catálogo</button>
+                        <button className="hero-button" onClick={() => ChangeLocation("#Articles")}>Explorar catálogo</button>
                     </div>
                 </div>
         </div>
