@@ -42,7 +42,7 @@ function App() {
             </Nav>
             <Nav className="me-auto">
               <Nav.Link className="navlink" href="#Hero">Home</Nav.Link>
-              <Nav.Link className="navlink" href="#Hero">Catálogo</Nav.Link>
+              <Nav.Link className="navlink" href="#Articles">Catálogo</Nav.Link>
               <Nav.Link className="navlink" href="#AboutUs">Nosotros</Nav.Link>
               <Nav.Link className="navlink" href="#FAQ">FAQ</Nav.Link>
               <Nav.Link className="navlink" href="#Contact">Contacto</Nav.Link>
