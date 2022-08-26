@@ -77,3 +77,24 @@
 .product-category-card {
   border: none !important;
 }
+
+.product-installation-carousel .carousel-item {
+  margin: 0;
+}
+
+.product-installation-carousel .carousel-inner {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  
+  height: 350px; 
+  width: 100%;
+}
+
+.product-installation-carousel .carousel-inner img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
