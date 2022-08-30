@@ -19,10 +19,12 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import Articles from '../Organisms/Articles/Articles'
 
+import CookieConsent from "react-cookie-consent"
+
 addPrefetchExcludes(['dynamic'])
 
 function App() {
-  
+
   return (
     <Root>
       <Navbar id="navbar" bg="dark" variant="dark" expand="lg" fixed="top">
@@ -62,6 +64,16 @@ function App() {
           <Contact />
         </div>
       </div>
+      <CookieConsent
+          location="bottom"
+          buttonText="Acepto"
+          cookieName="PanelmotPVCconsentCookie"
+          style={{background:"#2B373B"}}
+          buttonStyle={{ backgroundColor: "#58C33D", color: "#F9F9F9", fontSize: "24px"}}
+          expires={150}
+        >
+          Este sitio web utiliza cookies para mejorar la experiencia de usuario. {" "}
+        </CookieConsent>
 
     </Root>
   )
