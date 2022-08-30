@@ -121,7 +121,7 @@ const data = {
             "id" : "TerminalC",
             "title" : "Terminal C",
             "description" : "Accesorio que se utiliza para rematar los perímetros dando un terminado limpio a la instalación",
-            "textureType" : "Madera y Pintura/Lis",
+            "textureType" : "Madera y Pintura/Liso",
             "useCase" : "Interiores/Exteriores",
             "price" : "75 MXN por pieza",
             "size" : "595cm",
@@ -145,7 +145,7 @@ const data = {
         {
             "id" : "FX87-21",
             "title" : "FX87-21",
-            "description" : "Hermoso acabado en caoba",
+            "description" : "Hermoso panel de madera oscura que le dará un toque elegante a tu establecimiento",
             "textureType" : "Madera",
             "useCase" : "Interiores/Exteriores",
             "price" : "215.00 por metro cuadrado",
@@ -187,7 +187,7 @@ const data = {
         {
             "id" : "FX142-1",
             "title" : "FX142-1",
-            "description" : "Hermoso acabado en caoba",
+            "description" : "Excelente tono rústico que evoca cordialidad",
             "textureType" : "Madera",
             "useCase" : "Interiores/Exteriores",
             "price" : "215.00 por metro cuadrado",
@@ -229,7 +229,7 @@ const data = {
         {
             "id" : "FX153-3",
             "title" : "FX153-3",
-            "description" : "Hermoso acabado en caoba",
+            "description" : "Nuestro tono más oscuro, ideal para ambientes formales",
             "textureType" : "Madera",
             "useCase" : "Interiores/Exteriores",
             "price" : "215.00 por metro cuadrado",
@@ -271,7 +271,7 @@ const data = {
         {
             "id" : "FX87-24",
             "title" : "FX87-24",
-            "description" : "Hermoso acabado en caoba",
+            "description" : "Tono de madera clara para dar esa apariencia rústica que tanto buscas",
             "textureType" : "Madera",
             "useCase" : "Interiores/Exteriores",
             "price" : "215.00 por metro cuadrado",
@@ -313,7 +313,7 @@ const data = {
         {
             "id" : "Blanco",
             "title" : "Blanco",
-            "description" : "Hermoso acabado en caoba",
+            "description" : "Tono blanco clásico pero infalible",
             "textureType" : "Pintura/Liso",
             "useCase" : "Interiores/Exteriores",
             "price" : "215.00 por metro cuadrado",
@@ -355,7 +355,7 @@ const data = {
         {
             "id" : "BlancoHumo",
             "title" : "Blanco Humo",
-            "description" : "Hermoso acabado en caoba",
+            "description" : "Para aquellos que quieren mezclar una aparienca moderna y rústica",
             "textureType" : "Pintura/Liso",
             "useCase" : "Interiores/Exteriores",
             "price" : "215.00 por metro cuadrado",
@@ -397,7 +397,7 @@ const data = {
         {
             "id" : "BlancoMarmol",
             "title" : "Blanco Mármol",
-            "description" : "Hermoso acabado en caoba",
+            "description" : "Hermoso terminado en mármol",
             "textureType" : "Pintura/Liso",
             "useCase" : "Interiores/Exteriores",
             "price" : "215.00 por metro cuadrado",
@@ -422,7 +422,7 @@ const data = {
         {
             "id" : "AnguloAmarre",
             "title" : "Angulo de Amarre",
-            "description" : "Hermoso acabado en caoba",
+            "description" : "",
             "textureType" : "Metal",
             "useCase" : "Estructura oculta",
             "price" : "65 MXN por pieza",
@@ -444,7 +444,7 @@ const data = {
         {
             "id" : "CanalListon",
             "title" : "Canal Listón",
-            "description" : "Hermoso acabado en caoba",
+            "description" : "",
             "textureType" : "Metal",
             "useCase" : "Estructura oculta",
             "price" : "35 MXN por pieza",

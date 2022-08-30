@@ -28,7 +28,7 @@ function Articles() {
 
   const [index, setIndex] = useState(0)
   const [productTitle, setTitle] = useState('FX87-21')
-  const [productDescription, setDescription] = useState('Hermoso acabado en caoba')
+  const [productDescription, setDescription] = useState('Hermoso panel de madera oscura que le dará un toque elegante a tu establecimiento')
   const [productTextureType, setTextureType] = useState('Madera')
   const [productUseCase, setUseCase] = useState('Interiores/Exteriores')
   const [productImageSrc, setImageSrc] = useState(ProductsData.panels[0].headerImage)
