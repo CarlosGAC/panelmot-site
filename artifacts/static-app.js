@@ -2794,7 +2794,7 @@ function ProductsCarousel(_ref) {
 
   if (carouselCategory == "paneles") {
     return /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(Row_default.a, {
-      className: "justify-content-center mb-5"
+      className: "justify-content-center mb-5 text-center"
     }, /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
       xl: "4",
       l: "4",
@@ -2836,7 +2836,7 @@ function ProductsCarousel(_ref) {
     }));
   } else if (carouselCategory == "perfiles") {
     return /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(Row_default.a, {
-      className: "justify-content-center mb-5"
+      className: "justify-content-center mb-5 text-center"
     }, /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
       xl: "4",
       l: "4",
@@ -2878,7 +2878,7 @@ function ProductsCarousel(_ref) {
     }));
   } else if (carouselCategory == "materiales-instalacion") {
     return /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(Row_default.a, {
-      className: "justify-content-center mb-5"
+      className: "justify-content-center mb-5 text-center"
     }, /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
       xl: "4",
       l: "4",
@@ -4818,7 +4818,7 @@ exports.push([module.i, ".container-hero {\r\n    height: 100%;\r\n    padding: 
 
 exports = module.exports = __webpack_require__(18)(false);
 // Module
-exports.push([module.i, ".article-category {\r\n  background-color: #F9F9F9;\r\n  border: none;\r\n  margin-right: 20%;\r\n  font-weight: 700;\r\n  font-size: 1.6rem;\r\n}\r\n\r\n.product-category-card {\r\n  background-color: #F9F9F9 !important;\r\n}\r\n\r\n.article-category:hover {\r\n  text-decoration: none;\r\n  border-bottom: 5px solid green;\r\n  padding-bottom: 0.5rem;\r\n}\r\n\r\n.product-installation-carousel .carousel-control-prev {\r\n  margin-left: -15%;\r\n}\r\n\r\n.product-installation-carousel .carousel-control-next {\r\n  margin-right: -15%;\r\n}\r\n\r\n.products-carousel .carousel-control-prev {\r\n  margin-left: -10%;\r\n}\r\n\r\n.products-carousel .carousel-control-next {\r\n  margin-right: -10%;\r\n}\r\n\r\n.product {\r\n  border: none;\r\n  background-color: #F9F9F9;\r\n  padding: 15px;\r\n  border-radius: 8px;\r\n  width: 100%;\r\n}\r\n\r\n.product:hover {\r\n  border: 2px solid green;\r\n}\r\n\r\n.product-installation-carousel img {\r\n  max-width: 100%;\r\n}\r\n\r\n.product-category-card img {\r\n  height: 100%;\r\n  width:100%;\r\n  max-width: 100%;\r\n}\r\n\r\n.product-category-card {\r\n  width: 100%;\r\n}\r\n\r\n\r\n.selected-category {\r\n  text-decoration: none;\r\n  border-bottom: 5px solid green;\r\n  padding-bottom: 0.5rem;\r\n}\r\n\r\n.product-category-text {\r\n  font-weight: 700 !important;\r\n  font-size: 1.8rem !important;\r\n}\r\n\r\n.product-category-card {\r\n  border: none !important;\r\n}\r\n\r\n.product-installation-carousel .carousel-item {\r\n  margin: 0;\r\n}\r\n\r\n.product-installation-carousel .carousel-inner {\r\n  display: flex;\r\n  align-content: center;\r\n  align-items: center;\r\n  flex-direction: row;\r\n  justify-content: center;\r\n  \r\n  height: 350px; \r\n  width: 100%;\r\n}\r\n\r\n.product-installation-carousel .carousel-inner img {\r\n  height: 100%;\r\n  width: auto;\r\n  -o-object-fit: cover;\r\n     object-fit: cover;\r\n}", ""]);
+exports.push([module.i, ".article-category {\r\n  background-color: #F9F9F9;\r\n  border: none;\r\n  font-weight: 700;\r\n  font-size: 1.6rem;\r\n}\r\n\r\n.product-category-card {\r\n  background-color: #F9F9F9 !important;\r\n}\r\n\r\n.article-category:hover {\r\n  text-decoration: none;\r\n  border-bottom: 5px solid green;\r\n  padding-bottom: 0.5rem;\r\n}\r\n\r\n.product-installation-carousel .carousel-control-prev {\r\n  margin-left: -15%;\r\n}\r\n\r\n.product-installation-carousel .carousel-control-next {\r\n  margin-right: -15%;\r\n}\r\n\r\n.products-carousel .carousel-control-prev {\r\n  margin-left: -10%;\r\n}\r\n\r\n.products-carousel .carousel-control-next {\r\n  margin-right: -10%;\r\n}\r\n\r\n.product {\r\n  border: none;\r\n  background-color: #F9F9F9;\r\n  padding: 15px;\r\n  border-radius: 8px;\r\n  width: 100%;\r\n}\r\n\r\n.product:hover {\r\n  border: 2px solid green;\r\n}\r\n\r\n.product-installation-carousel img {\r\n  max-width: 100%;\r\n}\r\n\r\n.product-category-card img {\r\n  height: 100%;\r\n  width:100%;\r\n  max-width: 100%;\r\n}\r\n\r\n.product-category-card {\r\n  width: 100%;\r\n}\r\n\r\n\r\n.selected-category {\r\n  text-decoration: none;\r\n  border-bottom: 5px solid green;\r\n  padding-bottom: 0.5rem;\r\n}\r\n\r\n.product-category-text {\r\n  font-weight: 700 !important;\r\n  font-size: 1.8rem !important;\r\n}\r\n\r\n.product-category-card {\r\n  border: none !important;\r\n}\r\n\r\n.product-installation-carousel .carousel-item {\r\n  margin: 0;\r\n}\r\n\r\n.product-installation-carousel .carousel-inner {\r\n  display: flex;\r\n  align-content: center;\r\n  align-items: center;\r\n  flex-direction: row;\r\n  justify-content: center;\r\n  \r\n  height: 350px; \r\n  width: 100%;\r\n}\r\n\r\n.product-installation-carousel .carousel-inner img {\r\n  height: 100%;\r\n  width: auto;\r\n  -o-object-fit: cover;\r\n     object-fit: cover;\r\n}", ""]);
 
 
 

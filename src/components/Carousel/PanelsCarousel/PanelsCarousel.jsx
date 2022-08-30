@@ -84,7 +84,7 @@ function PanelsCarousel({ onClickFunction }) {
         </Row>
 
       </MediaQuery>
-      <MediaQuery minWidth={599} maxWidth={1199}>
+      <MediaQuery minWidth={576} maxWidth={1199}>
         <Row className="mb-5">
           <Carousel className="products-carousel" variant="dark" data-ride=""   interval={null}>
 
@@ -158,7 +158,7 @@ function PanelsCarousel({ onClickFunction }) {
 
         </Row>
       </MediaQuery>
-      <MediaQuery maxWidth={600}>
+      <MediaQuery maxWidth={575}>
         <Row className="mb-5">
           <Carousel className="products-carousel" variant="dark" data-ride=""   interval={null}>
 

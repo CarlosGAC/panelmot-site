@@ -117,7 +117,7 @@ function Articles() {
                   {
                     productGallery.map((element) => (
                       <Carousel.Item key={element.id}>
-                        <img src={element.src} alt={element.alt}></img>
+                        <img className="product-installation-img" src={element.src} alt={element.alt}></img>
                       </Carousel.Item>
                     ))
                   }

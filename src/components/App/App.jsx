@@ -40,16 +40,14 @@ function App() {
             Panelmot PVC
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-            </Nav>
-            <Nav className="me-auto">
+          <Navbar.Collapse id="basic-navbar-nav" >
+            <Nav className='justify-content-end'>
               <Nav.Link className="navlink" href="#Hero">Home</Nav.Link>
               <Nav.Link className="navlink" href="#Articles">Catálogo</Nav.Link>
               <Nav.Link className="navlink" href="#AboutUs">Nosotros</Nav.Link>
               <Nav.Link className="navlink" href="#FAQ">FAQ</Nav.Link>
               <Nav.Link className="navlink" href="#Contact">Contacto</Nav.Link>
-              <Nav.Link className="navlink" href={ManualInstalacion}>Manual de instalación</Nav.Link>
+              <Nav.Link className="navlink" href={ManualInstalacion}>Manual</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

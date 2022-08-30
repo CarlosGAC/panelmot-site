@@ -43,8 +43,8 @@
   border: 2px solid green;
 }
 
-.product-installation-carousel img {
-  max-width: 100%;
+.product-installation-img {
+  object-fit: scale-down !important;
 }
 
 .product-category-card img {
@@ -86,10 +86,4 @@
   
   height: 350px; 
   width: 100%;
-}
-
-.product-installation-carousel .carousel-inner img {
-  height: 100%;
-  width: auto;
-  object-fit: cover;
 }
