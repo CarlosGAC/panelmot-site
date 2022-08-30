@@ -30,7 +30,7 @@ function FAQ() {
     const mailInput = event.target.email.value;
     const messageInput = event.target.message.value;
 
-    window.open("https://api.whatsapp.com/send?phone=5213421084567&text=" + "Buen día, mi nombre es " + nameInput + ", " + messageInput + ". Mi correo electrónico es " + mailInput);
+    window.open("https://api.whatsapp.com/send?phone=5213322890918&text=" + "Buen día, mi nombre es " + nameInput + ", " + messageInput + ". Mi correo electrónico es " + mailInput);
   }
 
   return (
@@ -88,7 +88,7 @@ function FAQ() {
               />
               <ContactDataRow
                 icon={<BsTelephone />}
-                content={<p className="contact-data"><b>342 108 4567</b></p>}
+                content={<p className="contact-data"><b>33 2289 0918</b></p>}
               />
 
               <ContactDataRow
