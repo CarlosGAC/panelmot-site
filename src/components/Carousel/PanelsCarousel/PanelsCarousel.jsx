@@ -25,26 +25,26 @@ function PanelsCarousel({ onClickFunction }) {
 
             <Carousel.Item>
               <Row className="text-center">
-                <Col xl="3" l="3" md="3" sm="3" xs="3">
+                <Col xxl="3" xl="3" lg="6" md="6" sm="6" xs="12">
                   <Product
                     data={ProductsData.panels[0]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
 
-                <Col xl="3" l="3" md="3" sm="3" xs="3">
+                <Col xxl="3" xl="3" lg="6" md="6" sm="6" xs="12">
                   <Product
                     data={ProductsData.panels[1]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
-                <Col xl="3" l="3" md="3" sm="3" xs="3">
+                <Col xxl="3" xl="3" lg="6" md="6" sm="6" xs="12">
                   <Product
                     data={ProductsData.panels[2]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
-                <Col xl="3" l="3" md="3" sm="3" xs="3">
+                <Col xxl="3" xl="3" lg="6" md="6" sm="6" xs="12">
                   <Product
                     data={ProductsData.panels[3]}
                     onClickFunction={handleProductClick}
@@ -55,21 +55,21 @@ function PanelsCarousel({ onClickFunction }) {
 
             <Carousel.Item>
               <Row className="text-center">
-                <Col xl="3" l="3" md="3" sm="3" xs="3">
+                <Col xxl="3" xl="3" lg="6" md="6" sm="6" xs="12">
                   <Product
                     data={ProductsData.panels[4]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
 
-                <Col xl="3" l="3" md="3" sm="3" xs="3">
+                <Col xxl="3" xl="3" lg="6" md="6" sm="6" xs="12">
                   <Product
                     data={ProductsData.panels[5]}
                     onClickFunction={handleProductClick}
                   />
 
                 </Col>
-                <Col xl="3" l="3" md="3" sm="3" xs="3">
+                <Col xxl="3" xl="3" lg="6" md="6" sm="6" xs="12">
                   <Product
                     data={ProductsData.panels[6]}
                     onClickFunction={handleProductClick}
@@ -90,14 +90,14 @@ function PanelsCarousel({ onClickFunction }) {
 
             <Carousel.Item>
               <Row className="text-center">
-                <Col xl="6" l="6" md="6" sm="6" xs="6">
+                <Col xxl="3" xl="3" lg="6" md="6" sm="6" xs="12">
                   <Product
                     data={ProductsData.panels[0]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
 
-                <Col xl="6" l="6" md="6" sm="6" xs="6">
+                <Col xxl="3" xl="3" lg="6" md="6" sm="6" xs="12">
                   <Product
                     data={ProductsData.panels[1]}
                     onClickFunction={handleProductClick}
@@ -109,13 +109,13 @@ function PanelsCarousel({ onClickFunction }) {
 
             <Carousel.Item>
               <Row className="text-center">
-                <Col xl="6" l="6" md="6" sm="6" xs="6">
+                <Col xxl="3" xl="3" lg="6" md="6" sm="6" xs="12">
                   <Product
                     data={ProductsData.panels[2]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
-                <Col xl="6" l="6" md="6" sm="6" xs="6">
+                <Col xxl="3" xl="3" lg="6" md="6" sm="6" xs="12">
                   <Product
                     data={ProductsData.panels[3]}
                     onClickFunction={handleProductClick}
@@ -126,14 +126,14 @@ function PanelsCarousel({ onClickFunction }) {
 
             <Carousel.Item>
               <Row className="text-center">
-                <Col xl="6" l="6" md="6" sm="6" xs="6">
+                <Col xxl="3" xl="3" lg="6" md="6" sm="6" xs="12">
                   <Product
                     data={ProductsData.panels[4]}
                     onClickFunction={handleProductClick}
                   />
                 </Col>
 
-                <Col xl="6" l="6" md="6" sm="6" xs="6">
+                <Col xxl="3" xl="3" lg="6" md="6" sm="6" xs="12">
                   <Product
                     data={ProductsData.panels[5]}
                     onClickFunction={handleProductClick}
@@ -147,7 +147,7 @@ function PanelsCarousel({ onClickFunction }) {
             </Carousel.Item>
 
             <Carousel.Item>
-              <Col xl="6" l="6" md="6" sm="6" xs="6">
+              <Col xxl="3" xl="3" lg="6" md="6" sm="6" xs="12">
                 <Product
                   data={ProductsData.panels[6]}
                   onClickFunction={handleProductClick}
@@ -165,7 +165,7 @@ function PanelsCarousel({ onClickFunction }) {
             <Carousel.Item>
               
               <Row className="text-center">
-              <Col xl="112" l="112" md="112" sm="112" xs="112">
+              <Col xxl="3" xl="3" lg="6" md="6" sm="6" xs="12">
                   <Product
                     data={ProductsData.panels[0]}
                     onClickFunction={handleProductClick}
@@ -176,7 +176,7 @@ function PanelsCarousel({ onClickFunction }) {
             
             <Carousel.Item>
               <Row className="text-center">
-              <Col xl="12" l="12" md="12" sm="12" xs="12">
+              <Col xxl="3" xl="3" lg="6" md="6" sm="6" xs="12">
                   <Product
                     data={ProductsData.panels[1]}
                     onClickFunction={handleProductClick}
@@ -187,7 +187,7 @@ function PanelsCarousel({ onClickFunction }) {
 
             <Carousel.Item>
               <Row className="text-center">
-              <Col xl="12" l="12" md="12" sm="12" xs="12">
+              <Col xxl="3" xl="3" lg="6" md="6" sm="6" xs="12">
                   <Product
                     data={ProductsData.panels[2]}
                     onClickFunction={handleProductClick}
@@ -198,7 +198,7 @@ function PanelsCarousel({ onClickFunction }) {
 
             <Carousel.Item>
               <Row className="text-center">
-              <Col xl="12" l="12" md="12" sm="12" xs="12">
+              <Col xxl="3" xl="3" lg="6" md="6" sm="6" xs="12">
                   <Product
                     data={ProductsData.panels[3]}
                     onClickFunction={handleProductClick}
@@ -209,7 +209,7 @@ function PanelsCarousel({ onClickFunction }) {
 
             <Carousel.Item>
               <Row className="text-center">
-              <Col xl="12" l="12" md="12" sm="12" xs="12">
+              <Col xxl="3" xl="3" lg="6" md="6" sm="6" xs="12">
                   <Product
                     data={ProductsData.panels[4]}
                     onClickFunction={handleProductClick}
@@ -221,7 +221,7 @@ function PanelsCarousel({ onClickFunction }) {
 
             <Carousel.Item>
               <Row className="text-center">
-              <Col xl="12" l="12" md="12" sm="12" xs="12">
+              <Col xxl="3" xl="3" lg="6" md="6" sm="6" xs="12">
                   <Product
                     data={ProductsData.panels[5]}
                     onClickFunction={handleProductClick}
@@ -231,7 +231,7 @@ function PanelsCarousel({ onClickFunction }) {
 
             <Carousel.Item>
               <Row className="text-center">
-              <Col xl="12" l="12" md="12" sm="12" xs="12">
+              <Col xxl="3" xl="3" lg="6" md="6" sm="6" xs="12">
                   <Product
                     data={ProductsData.panels[6]}
                     onClickFunction={handleProductClick}

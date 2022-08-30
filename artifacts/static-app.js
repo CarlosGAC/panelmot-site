@@ -222,7 +222,7 @@ module.exports = require("react-wow");
 "use strict";
 /* WEBPACK VAR INJECTION */(function(module) {
 
-var _typeof = __webpack_require__(26);
+var _typeof = __webpack_require__(25);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -304,7 +304,7 @@ var _context = __webpack_require__(43);
 
 var _context2 = _interopRequireDefault(_context);
 
-var _utils = __webpack_require__(27);
+var _utils = __webpack_require__(26);
 
 var _helpers = __webpack_require__(100);
 
@@ -800,7 +800,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _utils = __webpack_require__(27);
+var _utils = __webpack_require__(26);
 
 var requireById = function requireById(id) {
   if (!(0, _utils.isWebpack)() && typeof id === 'string') {
@@ -842,12 +842,6 @@ function NotFound() {
 
 /***/ }),
 /* 24 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-static");
-
-/***/ }),
-/* 25 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -860,7 +854,7 @@ var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
 // EXTERNAL MODULE: external "react-static"
-var external_react_static_ = __webpack_require__(24);
+var external_react_static_ = __webpack_require__(27);
 
 // EXTERNAL MODULE: external "bootstrap/dist/css/bootstrap.min.css"
 var bootstrap_min_css_ = __webpack_require__(109);
@@ -2348,67 +2342,74 @@ function PanelsCarousel(_ref) {
   }, /*#__PURE__*/external_react_default.a.createElement(Carousel_default.a.Item, null, /*#__PURE__*/external_react_default.a.createElement(Row_default.a, {
     className: "text-center"
   }, /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
+    xxl: "3",
     xl: "3",
-    l: "3",
-    md: "3",
-    sm: "3",
-    xs: "3"
+    lg: "6",
+    md: "6",
+    sm: "6",
+    xs: "12"
   }, /*#__PURE__*/external_react_default.a.createElement(Product_Product, {
     data: products_data.panels[0],
     onClickFunction: handleProductClick
   })), /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
+    xxl: "3",
     xl: "3",
-    l: "3",
-    md: "3",
-    sm: "3",
-    xs: "3"
+    lg: "6",
+    md: "6",
+    sm: "6",
+    xs: "12"
   }, /*#__PURE__*/external_react_default.a.createElement(Product_Product, {
     data: products_data.panels[1],
     onClickFunction: handleProductClick
   })), /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
+    xxl: "3",
     xl: "3",
-    l: "3",
-    md: "3",
-    sm: "3",
-    xs: "3"
+    lg: "6",
+    md: "6",
+    sm: "6",
+    xs: "12"
   }, /*#__PURE__*/external_react_default.a.createElement(Product_Product, {
     data: products_data.panels[2],
     onClickFunction: handleProductClick
   })), /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
+    xxl: "3",
     xl: "3",
-    l: "3",
-    md: "3",
-    sm: "3",
-    xs: "3"
+    lg: "6",
+    md: "6",
+    sm: "6",
+    xs: "12"
   }, /*#__PURE__*/external_react_default.a.createElement(Product_Product, {
     data: products_data.panels[3],
     onClickFunction: handleProductClick
   })))), /*#__PURE__*/external_react_default.a.createElement(Carousel_default.a.Item, null, /*#__PURE__*/external_react_default.a.createElement(Row_default.a, {
     className: "text-center"
   }, /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
+    xxl: "3",
     xl: "3",
-    l: "3",
-    md: "3",
-    sm: "3",
-    xs: "3"
+    lg: "6",
+    md: "6",
+    sm: "6",
+    xs: "12"
   }, /*#__PURE__*/external_react_default.a.createElement(Product_Product, {
     data: products_data.panels[4],
     onClickFunction: handleProductClick
   })), /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
+    xxl: "3",
     xl: "3",
-    l: "3",
-    md: "3",
-    sm: "3",
-    xs: "3"
+    lg: "6",
+    md: "6",
+    sm: "6",
+    xs: "12"
   }, /*#__PURE__*/external_react_default.a.createElement(Product_Product, {
     data: products_data.panels[5],
     onClickFunction: handleProductClick
   })), /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
+    xxl: "3",
     xl: "3",
-    l: "3",
-    md: "3",
-    sm: "3",
-    xs: "3"
+    lg: "6",
+    md: "6",
+    sm: "6",
+    xs: "12"
   }, /*#__PURE__*/external_react_default.a.createElement(Product_Product, {
     data: products_data.panels[6],
     onClickFunction: handleProductClick
@@ -2425,69 +2426,76 @@ function PanelsCarousel(_ref) {
   }, /*#__PURE__*/external_react_default.a.createElement(Carousel_default.a.Item, null, /*#__PURE__*/external_react_default.a.createElement(Row_default.a, {
     className: "text-center"
   }, /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
-    xl: "6",
-    l: "6",
+    xxl: "3",
+    xl: "3",
+    lg: "6",
     md: "6",
     sm: "6",
-    xs: "6"
+    xs: "12"
   }, /*#__PURE__*/external_react_default.a.createElement(Product_Product, {
     data: products_data.panels[0],
     onClickFunction: handleProductClick
   })), /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
-    xl: "6",
-    l: "6",
+    xxl: "3",
+    xl: "3",
+    lg: "6",
     md: "6",
     sm: "6",
-    xs: "6"
+    xs: "12"
   }, /*#__PURE__*/external_react_default.a.createElement(Product_Product, {
     data: products_data.panels[1],
     onClickFunction: handleProductClick
   })))), /*#__PURE__*/external_react_default.a.createElement(Carousel_default.a.Item, null, /*#__PURE__*/external_react_default.a.createElement(Row_default.a, {
     className: "text-center"
   }, /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
-    xl: "6",
-    l: "6",
+    xxl: "3",
+    xl: "3",
+    lg: "6",
     md: "6",
     sm: "6",
-    xs: "6"
+    xs: "12"
   }, /*#__PURE__*/external_react_default.a.createElement(Product_Product, {
     data: products_data.panels[2],
     onClickFunction: handleProductClick
   })), /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
-    xl: "6",
-    l: "6",
+    xxl: "3",
+    xl: "3",
+    lg: "6",
     md: "6",
     sm: "6",
-    xs: "6"
+    xs: "12"
   }, /*#__PURE__*/external_react_default.a.createElement(Product_Product, {
     data: products_data.panels[3],
     onClickFunction: handleProductClick
   })))), /*#__PURE__*/external_react_default.a.createElement(Carousel_default.a.Item, null, /*#__PURE__*/external_react_default.a.createElement(Row_default.a, {
     className: "text-center"
   }, /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
-    xl: "6",
-    l: "6",
+    xxl: "3",
+    xl: "3",
+    lg: "6",
     md: "6",
     sm: "6",
-    xs: "6"
+    xs: "12"
   }, /*#__PURE__*/external_react_default.a.createElement(Product_Product, {
     data: products_data.panels[4],
     onClickFunction: handleProductClick
   })), /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
-    xl: "6",
-    l: "6",
+    xxl: "3",
+    xl: "3",
+    lg: "6",
     md: "6",
     sm: "6",
-    xs: "6"
+    xs: "12"
   }, /*#__PURE__*/external_react_default.a.createElement(Product_Product, {
     data: products_data.panels[5],
     onClickFunction: handleProductClick
   })))), /*#__PURE__*/external_react_default.a.createElement(Carousel_default.a.Item, null, /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
-    xl: "6",
-    l: "6",
+    xxl: "3",
+    xl: "3",
+    lg: "6",
     md: "6",
     sm: "6",
-    xs: "6"
+    xs: "12"
   }, /*#__PURE__*/external_react_default.a.createElement(Product_Product, {
     data: products_data.panels[6],
     onClickFunction: handleProductClick
@@ -2503,21 +2511,23 @@ function PanelsCarousel(_ref) {
   }, /*#__PURE__*/external_react_default.a.createElement(Carousel_default.a.Item, null, /*#__PURE__*/external_react_default.a.createElement(Row_default.a, {
     className: "text-center"
   }, /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
-    xl: "112",
-    l: "112",
-    md: "112",
-    sm: "112",
-    xs: "112"
+    xxl: "3",
+    xl: "3",
+    lg: "6",
+    md: "6",
+    sm: "6",
+    xs: "12"
   }, /*#__PURE__*/external_react_default.a.createElement(Product_Product, {
     data: products_data.panels[0],
     onClickFunction: handleProductClick
   })))), /*#__PURE__*/external_react_default.a.createElement(Carousel_default.a.Item, null, /*#__PURE__*/external_react_default.a.createElement(Row_default.a, {
     className: "text-center"
   }, /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
-    xl: "12",
-    l: "12",
-    md: "12",
-    sm: "12",
+    xxl: "3",
+    xl: "3",
+    lg: "6",
+    md: "6",
+    sm: "6",
     xs: "12"
   }, /*#__PURE__*/external_react_default.a.createElement(Product_Product, {
     data: products_data.panels[1],
@@ -2525,10 +2535,11 @@ function PanelsCarousel(_ref) {
   })))), /*#__PURE__*/external_react_default.a.createElement(Carousel_default.a.Item, null, /*#__PURE__*/external_react_default.a.createElement(Row_default.a, {
     className: "text-center"
   }, /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
-    xl: "12",
-    l: "12",
-    md: "12",
-    sm: "12",
+    xxl: "3",
+    xl: "3",
+    lg: "6",
+    md: "6",
+    sm: "6",
     xs: "12"
   }, /*#__PURE__*/external_react_default.a.createElement(Product_Product, {
     data: products_data.panels[2],
@@ -2536,10 +2547,11 @@ function PanelsCarousel(_ref) {
   })))), /*#__PURE__*/external_react_default.a.createElement(Carousel_default.a.Item, null, /*#__PURE__*/external_react_default.a.createElement(Row_default.a, {
     className: "text-center"
   }, /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
-    xl: "12",
-    l: "12",
-    md: "12",
-    sm: "12",
+    xxl: "3",
+    xl: "3",
+    lg: "6",
+    md: "6",
+    sm: "6",
     xs: "12"
   }, /*#__PURE__*/external_react_default.a.createElement(Product_Product, {
     data: products_data.panels[3],
@@ -2547,10 +2559,11 @@ function PanelsCarousel(_ref) {
   })))), /*#__PURE__*/external_react_default.a.createElement(Carousel_default.a.Item, null, /*#__PURE__*/external_react_default.a.createElement(Row_default.a, {
     className: "text-center"
   }, /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
-    xl: "12",
-    l: "12",
-    md: "12",
-    sm: "12",
+    xxl: "3",
+    xl: "3",
+    lg: "6",
+    md: "6",
+    sm: "6",
     xs: "12"
   }, /*#__PURE__*/external_react_default.a.createElement(Product_Product, {
     data: products_data.panels[4],
@@ -2558,10 +2571,11 @@ function PanelsCarousel(_ref) {
   })))), /*#__PURE__*/external_react_default.a.createElement(Carousel_default.a.Item, null, /*#__PURE__*/external_react_default.a.createElement(Row_default.a, {
     className: "text-center"
   }, /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
-    xl: "12",
-    l: "12",
-    md: "12",
-    sm: "12",
+    xxl: "3",
+    xl: "3",
+    lg: "6",
+    md: "6",
+    sm: "6",
     xs: "12"
   }, /*#__PURE__*/external_react_default.a.createElement(Product_Product, {
     data: products_data.panels[5],
@@ -2569,10 +2583,11 @@ function PanelsCarousel(_ref) {
   })))), /*#__PURE__*/external_react_default.a.createElement(Carousel_default.a.Item, null, /*#__PURE__*/external_react_default.a.createElement(Row_default.a, {
     className: "text-center"
   }, /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
-    xl: "12",
-    l: "12",
-    md: "12",
-    sm: "12",
+    xxl: "3",
+    xl: "3",
+    lg: "6",
+    md: "6",
+    sm: "6",
     xs: "12"
   }, /*#__PURE__*/external_react_default.a.createElement(Product_Product, {
     data: products_data.panels[6],
@@ -3080,7 +3095,10 @@ function Articles_Articles() {
     sm: "12",
     xs: "12"
   }, /*#__PURE__*/external_react_default.a.createElement("p", null, productSize))))), /*#__PURE__*/external_react_default.a.createElement(Col_default.a, {
-    xl: "6"
+    xl: "6",
+    md: "12",
+    sm: "12",
+    xs: "12"
   }, /*#__PURE__*/external_react_default.a.createElement(Carousel_default.a, {
     slide: false,
     className: "product-installation-carousel",
@@ -3120,8 +3138,7 @@ var external_react_cookie_consent_default = /*#__PURE__*/__webpack_require__.n(e
 
 
 
-
-Object(external_react_static_["addPrefetchExcludes"])(['dynamic']);
+ //addPrefetchExcludes(['dynamic'])
 
 function App() {
   return /*#__PURE__*/external_react_default.a.createElement(external_react_static_["Root"], null, /*#__PURE__*/external_react_default.a.createElement(Navbar_default.a, {
@@ -3187,19 +3204,19 @@ function App() {
 
 
 /***/ }),
-/* 26 */
+/* 25 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/typeof");
 
 /***/ }),
-/* 27 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _typeof2 = __webpack_require__(26);
+var _typeof2 = __webpack_require__(25);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -3357,6 +3374,12 @@ var loadFromPromiseCache = exports.loadFromPromiseCache = function loadFromPromi
 var cacheProm = exports.cacheProm = function cacheProm(pr, chunkName, props, promisecache) {
   return promisecache[callForString(chunkName, props)] = pr;
 };
+
+/***/ }),
+/* 27 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-static");
 
 /***/ }),
 /* 28 */
@@ -3541,7 +3564,7 @@ exports["default"] = void 0;
 
 var _react = _interopRequireDefault(__webpack_require__(0));
 
-var _reactStatic = __webpack_require__(24);
+var _reactStatic = __webpack_require__(27);
 
 var _router = __webpack_require__(93);
 
@@ -4149,7 +4172,7 @@ var _extends = Object.assign || function (target) {
 
 exports["default"] = requireUniversalModule;
 
-var _utils = __webpack_require__(27);
+var _utils = __webpack_require__(26);
 
 var CHUNK_NAMES = exports.CHUNK_NAMES = new Set();
 var MODULE_IDS = exports.MODULE_IDS = new Set();
@@ -4370,7 +4393,7 @@ webpackContext.id = 98;
 "use strict";
 
 
-var _typeof = __webpack_require__(26);
+var _typeof = __webpack_require__(25);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -4653,7 +4676,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_hot_loader__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(108);
 /* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _components_App__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(25);
+/* harmony import */ var _components_App__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(24);
 
 
 
@@ -4785,7 +4808,7 @@ exports.push([module.i, ".accordion-button {\r\n    font-size: 1.4rem !important
 
 exports = module.exports = __webpack_require__(18)(false);
 // Module
-exports.push([module.i, ".container-hero {\r\n    height: 100%;\r\n    padding: 0;\r\n\r\n    \r\n}\r\n\r\n.carousel-hero {\r\n    height: 100%;\r\n}\r\n\r\n.carousel-inner {\r\n    height: 100%;\r\n    width: 100%;\r\n}\r\n\r\n.carousel-hero-inner img {\r\n    height: auto;\r\n    width: 100%;\r\n}\r\n\r\n.carousel-hero-item {\r\n    height: auto;\r\n    width: 100%;\r\n}\r\n\r\n.hero-title {\r\n    color:white;\r\n    font-weight: 800;\r\n}\r\n\r\n.hero-info {\r\n    position: absolute;\r\n    top: 25%;\r\n    left: 25%;\r\n    width: 50%;\r\n    background-color: #00000000;\r\n    z-index: 99;\r\n}\r\n\r\n.decrease-font {\r\n    font-size: 4vw;\r\n}\r\n\r\n.hero-subtitle {\r\n    padding-top: 2vw;\r\n    font-size: 2vw;\r\n    width: 70%;\r\n    color:white;\r\n    font-weight:700;\r\n}\r\n.hero-subtitle-container {\r\n    display: flex;\r\n    justify-content: center;\r\n    flex-direction: column;\r\n}\r\n\r\n.hero-button-container {\r\n    height: 50%;\r\n    margin-top: 1vw;\r\n    width: 100%;\r\n    justify-content: center;\r\n}\r\n\r\n.colorChange {\r\n    background-color: #A0A0A0;\r\n}\r\n\r\n.banner-wrapper {\r\n    position:relative;\r\n    width: 100%;\r\n    height: 100vh;\r\n}\r\n\r\n.hero-button {\r\n    background-color: #58C33D;\r\n    border: none;\r\n    border-radius: 10px;\r\n    color: #F9F9F9;\r\n    cursor: pointer;\r\n    font: inherit;\r\n    font-size: 2.5vw;\r\n    font-weight: 800;\r\n    padding: 1vw 2vw;\r\n    text-align: center;\r\n}\r\n\r\n.hero-button:hover {\r\n    background-color: #227849;\r\n    color: white;\r\n}\r\n\r\n.hero-button-call {\r\n    background-color: #007d86;\r\n    border: none;\r\n    border-radius: 10px;\r\n    color: #F9F9F9;\r\n    cursor: pointer;\r\n    font: inherit;\r\n    font-size: 2.5vw;\r\n    font-weight: 800;\r\n    padding: 1vw 2vw;\r\n    text-align: center;\r\n}\r\n\r\n.hero-button-call:hover {\r\n    background-color: #2f4858;\r\n    color: white;\r\n}\r\n\r\nspan {\r\n    width: 10vw;\r\n    height: 10vw;\r\n}\r\n\r\n.carousel-hero-img {\r\n    height: 100%;\r\n    width: 100%;\r\n  }\r\n\r\n@media (max-width: 1568px) {\r\n    .carousel-inner {\r\n      height: 100%;\r\n    }\r\n  \r\n    .carousel-inner img {\r\n      height: 100%;\r\n      width: 100%;\r\n      -o-object-fit: cover;\r\n         object-fit: cover;\r\n    }\r\n  \r\n    .carousel-hero-item {\r\n      height: 100%;\r\n      width: 100%;\r\n    }\r\n    \r\n  \r\n    .hero-info {\r\n      position: absolute;\r\n      top: 50%;\r\n      left: 50%;\r\n      transform: translate(-50%, -50%);\r\n      width: 70%;\r\n      background-color: #00000000;\r\n    }\r\n  }\r\n\r\n\r\n@media (max-width: 768px) {\r\n\r\n    #Hero {\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n        position: relative;\r\n        width: 100vw;\r\n        height: 100vh;\r\n    }\r\n    \r\n    .container-hero {\r\n        height: 100%;\r\n    }\r\n    \r\n    .carousel-hero {\r\n        height: 100%;\r\n    }\r\n    \r\n    .carousel-inner {\r\n        height: 100%;\r\n    }\r\n    \r\n    .carousel-hero-item {\r\n        height: 100vh;\r\n    }\r\n    \r\n    .carousel-hero-item img {\r\n        height: 100%;\r\n        -o-object-fit: cover;\r\n           object-fit: cover;\r\n\r\n    }\r\n\r\n    .decrease-font {\r\n        font-size: 7vw;\r\n    }\r\n\r\n    .hero-subtitle {\r\n        font-size: 5vw;\r\n    }\r\n\r\n    .hero-info {\r\n        position: absolute;\r\n        top: 50%;\r\n        left: 50%;\r\n        transform: translate(-50%, -50%);\r\n        width: 70%;\r\n        background-color: #00000000;\r\n    }\r\n\r\n    \r\n    .hero-button {\r\n        background-color: #58C33D;\r\n        border: none;\r\n        border-radius: 10px;\r\n        color: #F9F9F9;\r\n        cursor: pointer;\r\n        font: inherit;\r\n        font-size: 6vw;\r\n        font-weight: 800;\r\n        padding: 1vw 2vw;\r\n        text-align: center;\r\n    }\r\n\r\n}\r\n\r\n@media (max-width: 576px) {\r\n\r\n    #Hero {\r\n        position: relative;\r\n        width: 100vw;\r\n        height: 100vh\r\n    }\r\n    \r\n    .container-hero {\r\n        height: 100%;\r\n    }\r\n    \r\n    .carousel-hero {\r\n        height: 100%;\r\n    }\r\n    \r\n    .carousel-hero-inner {\r\n        height: 100%;\r\n    }\r\n    \r\n    .carousel-hero-item {\r\n        height: 100%;\r\n    }\r\n    \r\n    .carousel-hero-item img {\r\n        height: 100%;\r\n        -o-object-fit: cover;\r\n           object-fit: cover;\r\n\r\n    }\r\n\r\n    .decrease-font {\r\n        font-size: 7vw;\r\n    }\r\n\r\n    .hero-subtitle {\r\n        font-size: 5vw;\r\n    }\r\n\r\n    .hero-info {\r\n        top: 50%;\r\n        left: 50%;\r\n        transform: translate(-50%, -50%);\r\n        width: 70%;\r\n        background-color: #00000000;\r\n        z-index: 99;\r\n    }\r\n\r\n    \r\n    .hero-button {\r\n        background-color: #58C33D;\r\n        border: none;\r\n        border-radius: 10px;\r\n        color: #F9F9F9;\r\n        cursor: pointer;\r\n        font: inherit;\r\n        font-size: 6vw;\r\n        font-weight: 800;\r\n        padding: 1vw 2vw;\r\n    }\r\n\r\n}", ""]);
+exports.push([module.i, ".container-hero {\r\n    height: 100%;\r\n    padding: 0;\r\n\r\n    \r\n}\r\n\r\n.carousel-hero {\r\n    height: 100%;\r\n}\r\n\r\n.carousel-inner {\r\n    height: 100%;\r\n    width: 100%;\r\n}\r\n\r\n.carousel-hero-inner img {\r\n    height: auto;\r\n    width: 100%;\r\n}\r\n\r\n.carousel-hero-item {\r\n    height: auto;\r\n    width: 100%;\r\n}\r\n\r\n.hero-title {\r\n    color:white;\r\n    font-weight: 800;\r\n}\r\n\r\n.hero-info {\r\n    position: absolute;\r\n    top: 25%;\r\n    left: 25%;\r\n    width: 50%;\r\n    background-color: #00000000;\r\n    z-index: 99;\r\n}\r\n\r\n.decrease-font {\r\n    font-size: 4vw;\r\n}\r\n\r\n.hero-subtitle {\r\n    padding-top: 2vw;\r\n    font-size: 2vw;\r\n    width: 70%;\r\n    color:white;\r\n    font-weight:700;\r\n}\r\n.hero-subtitle-container {\r\n    display: flex;\r\n    justify-content: center;\r\n    flex-direction: column;\r\n}\r\n\r\n.hero-button-container {\r\n    height: 50%;\r\n    margin-top: 1vw;\r\n    width: 100%;\r\n    justify-content: center;\r\n}\r\n\r\n.colorChange {\r\n    background-color: #A0A0A0;\r\n}\r\n\r\n.banner-wrapper {\r\n    position:relative;\r\n    width: 100%;\r\n    height: 100vh;\r\n}\r\n\r\n.hero-button {\r\n    background-color: #58C33D;\r\n    border: none;\r\n    border-radius: 10px;\r\n    color: #F9F9F9;\r\n    cursor: pointer;\r\n    font: inherit;\r\n    font-size: 2.5vw;\r\n    font-weight: 800;\r\n    padding: 1vw 2vw;\r\n    text-align: center;\r\n}\r\n\r\n.hero-button:hover {\r\n    background-color: #227849;\r\n    color: white;\r\n}\r\n\r\n.hero-button-call {\r\n    background-color: #007d86;\r\n    border: none;\r\n    border-radius: 10px;\r\n    color: #F9F9F9;\r\n    cursor: pointer;\r\n    font: inherit;\r\n    font-size: 2.5vw;\r\n    font-weight: 800;\r\n    padding: 1vw 2vw;\r\n    text-align: center;\r\n}\r\n\r\n.hero-button-call:hover {\r\n    background-color: #2f4858;\r\n    color: white;\r\n}\r\n\r\nspan {\r\n    width: 10vw;\r\n    height: 10vw;\r\n}\r\n\r\n.carousel-hero-img {\r\n    height: 100%;\r\n    width: 100%;\r\n  }\r\n\r\n@media (max-width: 1568px) {\r\n    .carousel-inner {\r\n      height: 100%;\r\n    }\r\n  \r\n    .carousel-inner img {\r\n      height: 100%;\r\n      width: 100%;\r\n      -o-object-fit: cover;\r\n         object-fit: cover;\r\n    }\r\n  \r\n    .carousel-hero-item {\r\n      height: 100%;\r\n      width: 100%;\r\n    }\r\n    \r\n  \r\n    .hero-info {\r\n      position: absolute;\r\n      top: 50%;\r\n      left: 50%;\r\n      transform: translate(-50%, -50%);\r\n      width: 70%;\r\n      background-color: #00000000;\r\n    }\r\n  }\r\n\r\n\r\n@media (max-width: 768px) {\r\n\r\n    #Hero {\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n        position: relative;\r\n        width: 100vw;\r\n        height: 100vh;\r\n    }\r\n    \r\n    .container-hero {\r\n        height: 100%;\r\n    }\r\n    \r\n    .carousel-hero {\r\n        height: 100%;\r\n    }\r\n    \r\n    .carousel-inner {\r\n        height: 100%;\r\n    }\r\n    \r\n    .carousel-hero-item {\r\n        height: 100vh;\r\n    }\r\n    \r\n    .carousel-hero-item img {\r\n        height: 100%;\r\n        -o-object-fit: cover;\r\n           object-fit: cover;\r\n\r\n    }\r\n\r\n    .decrease-font {\r\n        font-size: 7vw;\r\n    }\r\n\r\n    .hero-subtitle {\r\n        font-size: 5vw;\r\n    }\r\n\r\n    .hero-info {\r\n        position: absolute;\r\n        top: 50%;\r\n        left: 50%;\r\n        transform: translate(-50%, -50%);\r\n        width: 70%;\r\n        background-color: #00000000;\r\n    }\r\n\r\n    \r\n    .hero-button {\r\n        background-color: #58C33D;\r\n        border: none;\r\n        border-radius: 10px;\r\n        color: #F9F9F9;\r\n        cursor: pointer;\r\n        font: inherit;\r\n        font-size: 6vw;\r\n        font-weight: 800;\r\n        padding: 1vw 2vw;\r\n        text-align: center;\r\n    }\r\n\r\n    \r\n    .hero-button-call {\r\n        background-color: #007d86;\r\n        border: none;\r\n        border-radius: 10px;\r\n        color: #F9F9F9;\r\n        cursor: pointer;\r\n        font: inherit;\r\n        font-size: 6vw;\r\n        font-weight: 800;\r\n        padding: 1vw 2vw;\r\n        text-align: center;\r\n    }\r\n\r\n}\r\n\r\n@media (max-width: 576px) {\r\n\r\n    #Hero {\r\n        position: relative;\r\n        width: 100vw;\r\n        height: 100vh\r\n    }\r\n    \r\n    .container-hero {\r\n        height: 100%;\r\n    }\r\n    \r\n    .carousel-hero {\r\n        height: 100%;\r\n    }\r\n    \r\n    .carousel-hero-inner {\r\n        height: 100%;\r\n    }\r\n    \r\n    .carousel-hero-item {\r\n        height: 100%;\r\n    }\r\n    \r\n    .carousel-hero-item img {\r\n        height: 100%;\r\n        -o-object-fit: cover;\r\n           object-fit: cover;\r\n\r\n    }\r\n\r\n    .decrease-font {\r\n        font-size: 7vw;\r\n    }\r\n\r\n    .hero-subtitle {\r\n        font-size: 5vw;\r\n    }\r\n\r\n    .hero-info {\r\n        top: 50%;\r\n        left: 50%;\r\n        transform: translate(-50%, -50%);\r\n        width: 70%;\r\n        background-color: #00000000;\r\n        z-index: 99;\r\n    }\r\n\r\n    \r\n    .hero-button {\r\n        background-color: #58C33D;\r\n        border: none;\r\n        border-radius: 10px;\r\n        color: #F9F9F9;\r\n        cursor: pointer;\r\n        font: inherit;\r\n        font-size: 6vw;\r\n        font-weight: 800;\r\n        padding: 1vw 2vw;\r\n    }\r\n\r\n    .hero-button-call {\r\n        background-color: #007d86;\r\n        border: none;\r\n        border-radius: 10px;\r\n        color: #F9F9F9;\r\n        cursor: pointer;\r\n        font: inherit;\r\n        font-size: 6vw;\r\n        font-weight: 800;\r\n        padding: 1vw 2vw;\r\n    }\r\n\r\n}", ""]);
 
 
 
@@ -4795,7 +4818,7 @@ exports.push([module.i, ".container-hero {\r\n    height: 100%;\r\n    padding: 
 
 exports = module.exports = __webpack_require__(18)(false);
 // Module
-exports.push([module.i, ".article-category {\r\n  background-color: #F9F9F9;\r\n  border: none;\r\n  margin-right: 20%;\r\n  font-weight: 700;\r\n  font-size: 1.6rem;\r\n}\r\n\r\n.product-category-card {\r\n  background-color: #F9F9F9 !important;\r\n}\r\n\r\n.article-category:hover {\r\n  text-decoration: none;\r\n  border-bottom: 5px solid green;\r\n  padding-bottom: 0.5rem;\r\n}\r\n\r\n.product-installation-carousel .carousel-control-prev {\r\n  margin-left: -15%;\r\n}\r\n\r\n.product-installation-carousel .carousel-control-next {\r\n  margin-right: -15%;\r\n}\r\n\r\n.products-carousel .carousel-control-prev {\r\n  margin-left: -10%;\r\n}\r\n\r\n.products-carousel .carousel-control-next {\r\n  margin-right: -10%;\r\n}\r\n\r\n.product {\r\n  border: none;\r\n  background-color: #F9F9F9;\r\n  padding: 15px;\r\n  border-radius: 8px;\r\n  width: 100%;\r\n}\r\n\r\n.product:hover {\r\n  border: 2px solid green;\r\n}\r\n\r\n.product-installation-carousel {\r\n  margin: 1.5rem;\r\n}\r\n\r\n.product-installation-carousel img {\r\n  max-width: 100%;\r\n}\r\n\r\n.product-category-card img {\r\n  height: 100%;\r\n  width:100%;\r\n  max-width: 100%;\r\n}\r\n\r\n.product-category-card {\r\n  width: 100%;\r\n}\r\n\r\n\r\n.selected-category {\r\n  text-decoration: none;\r\n  border-bottom: 5px solid green;\r\n  padding-bottom: 0.5rem;\r\n}\r\n\r\n.product-category-text {\r\n  font-weight: 700 !important;\r\n  font-size: 1.8rem !important;\r\n}\r\n\r\n.product-category-card {\r\n  border: none !important;\r\n}\r\n\r\n.product-installation-carousel .carousel-item {\r\n  margin: 0;\r\n}\r\n\r\n.product-installation-carousel .carousel-inner {\r\n  display: flex;\r\n  align-content: center;\r\n  align-items: center;\r\n  flex-direction: row;\r\n  justify-content: center;\r\n  \r\n  height: 350px; \r\n  width: 100%;\r\n}\r\n\r\n.product-installation-carousel .carousel-inner img {\r\n  height: 100%;\r\n  width: auto;\r\n  -o-object-fit: cover;\r\n     object-fit: cover;\r\n}", ""]);
+exports.push([module.i, ".article-category {\r\n  background-color: #F9F9F9;\r\n  border: none;\r\n  margin-right: 20%;\r\n  font-weight: 700;\r\n  font-size: 1.6rem;\r\n}\r\n\r\n.product-category-card {\r\n  background-color: #F9F9F9 !important;\r\n}\r\n\r\n.article-category:hover {\r\n  text-decoration: none;\r\n  border-bottom: 5px solid green;\r\n  padding-bottom: 0.5rem;\r\n}\r\n\r\n.product-installation-carousel .carousel-control-prev {\r\n  margin-left: -15%;\r\n}\r\n\r\n.product-installation-carousel .carousel-control-next {\r\n  margin-right: -15%;\r\n}\r\n\r\n.products-carousel .carousel-control-prev {\r\n  margin-left: -10%;\r\n}\r\n\r\n.products-carousel .carousel-control-next {\r\n  margin-right: -10%;\r\n}\r\n\r\n.product {\r\n  border: none;\r\n  background-color: #F9F9F9;\r\n  padding: 15px;\r\n  border-radius: 8px;\r\n  width: 100%;\r\n}\r\n\r\n.product:hover {\r\n  border: 2px solid green;\r\n}\r\n\r\n.product-installation-carousel img {\r\n  max-width: 100%;\r\n}\r\n\r\n.product-category-card img {\r\n  height: 100%;\r\n  width:100%;\r\n  max-width: 100%;\r\n}\r\n\r\n.product-category-card {\r\n  width: 100%;\r\n}\r\n\r\n\r\n.selected-category {\r\n  text-decoration: none;\r\n  border-bottom: 5px solid green;\r\n  padding-bottom: 0.5rem;\r\n}\r\n\r\n.product-category-text {\r\n  font-weight: 700 !important;\r\n  font-size: 1.8rem !important;\r\n}\r\n\r\n.product-category-card {\r\n  border: none !important;\r\n}\r\n\r\n.product-installation-carousel .carousel-item {\r\n  margin: 0;\r\n}\r\n\r\n.product-installation-carousel .carousel-inner {\r\n  display: flex;\r\n  align-content: center;\r\n  align-items: center;\r\n  flex-direction: row;\r\n  justify-content: center;\r\n  \r\n  height: 350px; \r\n  width: 100%;\r\n}\r\n\r\n.product-installation-carousel .carousel-inner img {\r\n  height: 100%;\r\n  width: auto;\r\n  -o-object-fit: cover;\r\n     object-fit: cover;\r\n}", ""]);
 
 
 

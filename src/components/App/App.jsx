@@ -23,7 +23,7 @@ import CookieConsent from "react-cookie-consent"
 import ManualInstalacion from "../../assets/documents/manual_instalacion_ago2022.pdf"
 
 
-addPrefetchExcludes(['dynamic'])
+//addPrefetchExcludes(['dynamic'])
 
 function App() {
 
