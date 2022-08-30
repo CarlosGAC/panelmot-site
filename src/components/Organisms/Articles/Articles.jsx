@@ -10,7 +10,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import { ProductsData } from '../../../data/MockData'
 
 import ProductsCarousel from '../../Carousel'
-
+import ReactWOW from 'react-wow'
 function Articles() {
 
 
@@ -71,6 +71,7 @@ function Articles() {
     
     
     <>
+      <ReactWOW animation='fadeInUp' duration='0.8s'>
       <section className="section-container justify-content-center" id="Articles">
         <Container>
 
@@ -112,7 +113,7 @@ function Articles() {
 
             </Col>
             <Col xl="6">
-              <Carousel className="product-installation-carousel" variant="dark"  interval={null} activeIndex={index} onSelect={handleSelect}>
+              <Carousel slide={false} className="product-installation-carousel" variant="dark"  interval={null} activeIndex={index} onSelect={handleSelect}>
                   {
                     productGallery.map((element) => (
                       <Carousel.Item>
@@ -125,7 +126,7 @@ function Articles() {
           </Row>
         </Container>
       </section>
-
+      </ReactWOW>
     </>
   )
 }

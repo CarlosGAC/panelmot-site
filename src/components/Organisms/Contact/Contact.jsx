@@ -19,6 +19,8 @@ import ContactLink from '../../Atoms/ContactLink/ContactLink'
 import ContactFooter from '../../Molecules/ContactFooter/ContactFooter'
 import FAQButton from '../../Atoms/FAQButton/FAQButton'
 
+import ReactWOW from 'react-wow'
+
 function FAQ() {
 
     const handleSubmit = (event) => {
@@ -33,6 +35,7 @@ function FAQ() {
 
     return (
         <>
+            <ReactWOW animation='fadeInUp' duration='0.8s'>
             <section className="section-container" id="Contact">
                 <Row className="mb-5">
                     <Col xl="8" l="8" md="6" sm="12" xs="12">
@@ -107,6 +110,8 @@ function FAQ() {
 
                 <ContactFooter />
             </section>
+            </ReactWOW>
+            
 
         </>
     )

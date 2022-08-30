@@ -8,9 +8,11 @@ import AboutUsHeader from '../../Molecules/AboutUsHeader/AboutUsHeader'
 import AboutUsVideo from '../../Molecules/AboutUsVideo/AboutUsVideo'
 import AboutUsPartners from '../../Molecules/AboutUsPartners/AboutUsPartners'
 
+import ReactWOW from 'react-wow'
 function About() {
   return (
     <>
+    <ReactWOW animation='fadeInUp' duration='1s'>
       <section className="section-container justify-content-center" id="AboutUs">
         <Container>
           <AboutUsHeader />
@@ -18,6 +20,7 @@ function About() {
           <AboutUsPartners />
         </Container>
       </section>
+      </ReactWOW>
     </>
   )
 }

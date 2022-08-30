@@ -7,12 +7,13 @@ import QuestionBlock from '../../Molecules/QuestionBlock/QuestionBlock'
 
 
 import "./index.css"
-
+import ReactWOW from 'react-wow'
 import InstallationManual from '../../../assets/documents/manual_instalacion_ago2022.pdf'
 
 function FAQ() {
   return (
     <>
+      <ReactWOW animation='fadeInUp' duration='0.8s'>
       <section className='section-container justify-content-center' id="FAQ">
         <Row className="text-center mb-5">
           <SectionTitle label={"Preguntas Frecuentes"}></SectionTitle>
@@ -88,6 +89,7 @@ function FAQ() {
         </Accordion>
 
       </section>
+      </ReactWOW>
 
     </>
   )

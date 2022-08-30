@@ -3,6 +3,7 @@ import { Root, addPrefetchExcludes } from 'react-static'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'normalize.css'
+import 'animate.css'
 import './app.css'
 
 import AboutUs from '../Organisms/AboutUs/AboutUs'
@@ -12,7 +13,6 @@ import Hero from '../Organisms/Hero/Hero'
 
 import Container from 'react-bootstrap/Container'
 import logo from '../../assets/Logo.png'
-import Col from 'react-bootstrap/Col'
 import * as Styled from './App.styled'
 
 import Navbar from 'react-bootstrap/Navbar'
