@@ -31,7 +31,7 @@ function QuestionBlock({ question, answer, buttonLabel, buttonAction, linkLabel,
             <Accordion.Header >{question ? question : "Frequently Asked Question?"}</Accordion.Header>
             <Accordion.Body className="faq-answer">
                 <Row>
-                    <p class="faq-answer-text">{answer ? answer : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula lacinia odio. Etiam sem turpis, egestas ut eros commodo, laoreet porttitor velit."}</p>
+                    <p className="faq-answer-text">{answer ? answer : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula lacinia odio. Etiam sem turpis, egestas ut eros commodo, laoreet porttitor velit."}</p>
                 </Row>
     
                 <Row>
@@ -50,7 +50,7 @@ function QuestionBlock({ question, answer, buttonLabel, buttonAction, linkLabel,
                   <Accordion.Header >{question ? question : "Frequently Asked Question?"}</Accordion.Header>
                   <Accordion.Body className="faq-answer">
                     <Row>
-                        <p class="faq-answer-text">{answer ? answer : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula lacinia odio. Etiam sem turpis, egestas ut eros commodo, laoreet porttitor velit."}</p>
+                        <p className="faq-answer-text">{answer ? answer : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula lacinia odio. Etiam sem turpis, egestas ut eros commodo, laoreet porttitor velit."}</p>
                     </Row>
                   </Accordion.Body>
                 </Accordion.Item>

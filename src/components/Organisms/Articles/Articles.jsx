@@ -116,7 +116,7 @@ function Articles() {
               <Carousel slide={false} className="product-installation-carousel" variant="dark"  interval={null} activeIndex={index} onSelect={handleSelect}>
                   {
                     productGallery.map((element) => (
-                      <Carousel.Item>
+                      <Carousel.Item key={element.id}>
                         <img src={element.src} alt={element.alt}></img>
                       </Carousel.Item>
                     ))
