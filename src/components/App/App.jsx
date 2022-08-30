@@ -20,6 +20,8 @@ import Nav from 'react-bootstrap/Nav'
 import Articles from '../Organisms/Articles/Articles'
 
 import CookieConsent from "react-cookie-consent"
+import ManualInstalacion from "../../assets/documents/manual_instalacion_ago2022.pdf"
+
 
 addPrefetchExcludes(['dynamic'])
 
@@ -47,9 +49,7 @@ function App() {
               <Nav.Link className="navlink" href="#AboutUs">Nosotros</Nav.Link>
               <Nav.Link className="navlink" href="#FAQ">FAQ</Nav.Link>
               <Nav.Link className="navlink" href="#Contact">Contacto</Nav.Link>
-            </Nav>
-            <Nav className="justify-content-end">
-              <Nav.Link className="navlink" href="https://api.whatsapp.com/send?phone=5213421084567"><b>WhatsApp</b></Nav.Link>
+              <Nav.Link className="navlink" href={ManualInstalacion}>Manual de instalación</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

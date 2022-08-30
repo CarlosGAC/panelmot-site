@@ -17,7 +17,6 @@ function About() {
           <Container>
             <AboutUsHeader />
             <AboutUsVideo videoSrc={video} />
-            <AboutUsPartners />
           </Container>
         </section>
       </ReactWOW>

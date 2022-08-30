@@ -4,9 +4,6 @@ import image2 from '../../assets/home-banner-carousel/banner_image2.png'
 import image3 from '../../assets/home-banner-carousel/banner_image3.png'
 import image4 from '../../assets/home-banner-carousel/banner_image4.png'
 import image5 from '../../assets/home-banner-carousel/banner_image5.png'
-import image6 from '../../assets/home-banner-carousel/banner_image6.png'
-import image7 from '../../assets/home-banner-carousel/banner_image7.png'
-import image8 from '../../assets/home-banner-carousel/banner_image8.png'
 
 const data = {
   banners: [
@@ -38,21 +35,6 @@ const data = {
     {
       id: 5,
       src: image5,
-      alt: 'Banner image'
-    },
-    {
-      id: 6,
-      src: image6,
-      alt: 'Banner image'
-    },
-    {
-      id: 7,
-      src: image7,
-      alt: 'Banner image'
-    },
-    {
-      id: 8,
-      src: image8,
       alt: 'Banner image'
     }
   ]

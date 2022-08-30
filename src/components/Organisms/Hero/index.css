@@ -87,12 +87,36 @@
 
 .hero-button:hover {
     background-color: #227849;
+    color: white;
+}
+
+.hero-button-call {
+    background-color: #007d86;
+    border: none;
+    border-radius: 10px;
+    color: #F9F9F9;
+    cursor: pointer;
+    font: inherit;
+    font-size: 2.5vw;
+    font-weight: 800;
+    padding: 1vw 2vw;
+    text-align: center;
+}
+
+.hero-button-call:hover {
+    background-color: #2f4858;
+    color: white;
 }
 
 span {
     width: 10vw;
     height: 10vw;
 }
+
+.carousel-hero-img {
+    height: 100%;
+    width: 100%;
+  }
 
 @media (max-width: 1568px) {
     .carousel-inner {
@@ -109,6 +133,7 @@ span {
       height: 100%;
       width: 100%;
     }
+    
   
     .hero-info {
       position: absolute;
