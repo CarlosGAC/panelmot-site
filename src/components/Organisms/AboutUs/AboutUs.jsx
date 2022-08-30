@@ -1,7 +1,7 @@
 import React from 'react'
 
 import "./index.css"
-import video from '../../../videos/test.mp4'
+import video from '../../../videos/Panelmot15.mp4'
 
 import Container from 'react-bootstrap/Container'
 import AboutUsHeader from '../../Molecules/AboutUsHeader/AboutUsHeader'
