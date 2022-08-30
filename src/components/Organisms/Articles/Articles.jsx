@@ -112,7 +112,7 @@ function Articles() {
                 </Row>
 
               </Col>
-              <Col xl="6">
+              <Col xl="6" md="12" sm="12" xs="12">
                 <Carousel slide={false} className="product-installation-carousel" variant="dark" activeIndex={index} onSelect={handleSelect}>
                   {
                     productGallery.map((element) => (
