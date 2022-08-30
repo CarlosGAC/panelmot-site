@@ -5,15 +5,15 @@ import CarouselItem from 'react-bootstrap/CarouselItem'
 import Container from 'react-bootstrap/Container'
 
 
-import image0 from '../../../assets/home-banner-carousel/banner_image0.png'
-import image1 from '../../../assets/home-banner-carousel/banner_image1.png'
-import image2 from '../../../assets/home-banner-carousel/banner_image2.png'
-import image3 from '../../../assets/home-banner-carousel/banner_image3.png'
-import image4 from '../../../assets/home-banner-carousel/banner_image4.png'
-import image5 from '../../../assets/home-banner-carousel/banner_image5.png'
-import image6 from '../../../assets/home-banner-carousel/banner_image6.png'
-import image7 from '../../../assets/home-banner-carousel/banner_image7.png'
-import image8 from '../../../assets/home-banner-carousel/banner_image8.png'
+import image0 from '../../../assets/home-banner-carousel/banner_image0.webp'
+import image1 from '../../../assets/home-banner-carousel/banner_image1.webp'
+import image2 from '../../../assets/home-banner-carousel/banner_image2.webp'
+import image3 from '../../../assets/home-banner-carousel/banner_image3.webp'
+import image4 from '../../../assets/home-banner-carousel/banner_image4.webp'
+import image5 from '../../../assets/home-banner-carousel/banner_image5.webp'
+import image6 from '../../../assets/home-banner-carousel/banner_image6.webp'
+import image7 from '../../../assets/home-banner-carousel/banner_image7.webp'
+import image8 from '../../../assets/home-banner-carousel/banner_image8.webp'
 
 
 function Hero() {
@@ -68,6 +68,10 @@ function Hero() {
 
                     <CarouselItem className="carousel-hero-item">
                             <img src={image7} alt="Hello motherfuckers"></img>
+                    </CarouselItem>
+
+                    <CarouselItem className="carousel-hero-item">
+                            <img src={image8} alt="Hello motherfuckers"></img>
                     </CarouselItem>
                 </Carousel>
             </Container>
