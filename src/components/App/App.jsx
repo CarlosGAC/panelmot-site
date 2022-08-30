@@ -47,6 +47,9 @@ function App() {
               <Nav.Link className="navlink" href="#FAQ">FAQ</Nav.Link>
               <Nav.Link className="navlink" href="#Contact">Contacto</Nav.Link>
             </Nav>
+            <Nav className="justify-content-end">
+              <Nav.Link className="navlink" href="https://api.whatsapp.com/send?phone=5213421084567"><b>WhatsApp</b></Nav.Link>
+            </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
