@@ -1,15 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Proptypes from 'prop-types'
-
-//import "./index.css"
 
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Carousel from 'react-bootstrap/Carousel'
-import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
-//import { ProductsData } from '../../../data/MockData'
-
 
 import Product from '../../Atoms/Product'
 import MediaQuery from 'react-responsive'
@@ -25,7 +19,7 @@ function ProfilesCarousel({ onClickFunction }) {
   }
 
   return (
-    
+
     <>
       <MediaQuery minWidth={1200}>
         <Row className="mb-5">
@@ -64,9 +58,9 @@ function ProfilesCarousel({ onClickFunction }) {
           </Carousel>
         </Row>
 
-              
+
       </MediaQuery>
-      
+
       <MediaQuery minWidth={599} maxWidth={1199}>
         <Row className="mb-5">
           <Carousel className="products-carousel" variant="dark" data-ride="">
@@ -89,20 +83,20 @@ function ProfilesCarousel({ onClickFunction }) {
             </Carousel.Item>
 
             <Carousel.Item>
-            <Row className="text-center">
-              <Col xl="6" l="6" md="6" sm="6" xs="6">
-                <Product
-                  data={ProductsData.profiles[2]}
-                  onClickFunction={handleProductClick}
-                />
-              </Col>
+              <Row className="text-center">
+                <Col xl="6" l="6" md="6" sm="6" xs="6">
+                  <Product
+                    data={ProductsData.profiles[2]}
+                    onClickFunction={handleProductClick}
+                  />
+                </Col>
 
-              <Col xl="6" l="6" md="6" sm="6" xs="6">
-                <Product
-                  data={ProductsData.profiles[3]}
-                  onClickFunction={handleProductClick}
-                />
-              </Col>
+                <Col xl="6" l="6" md="6" sm="6" xs="6">
+                  <Product
+                    data={ProductsData.profiles[3]}
+                    onClickFunction={handleProductClick}
+                  />
+                </Col>
               </Row>
             </Carousel.Item>
           </Carousel>
@@ -124,8 +118,8 @@ function ProfilesCarousel({ onClickFunction }) {
             </Carousel.Item>
 
             <Carousel.Item>
-            <Row className="text-center">
-            <Col xl="12" l="12" md="12" sm="12" xs="12">
+              <Row className="text-center">
+                <Col xl="12" l="12" md="12" sm="12" xs="12">
                   <Product
                     data={ProductsData.profiles[1]}
                     onClickFunction={handleProductClick}
@@ -135,25 +129,25 @@ function ProfilesCarousel({ onClickFunction }) {
             </Carousel.Item>
 
             <Carousel.Item>
-            <Row className="text-center">
-            <Col xl="12" l="12" md="12" sm="12" xs="12">
-                <Product
-                  data={ProductsData.profiles[2]}
-                  onClickFunction={handleProductClick}
-                />
-              </Col>
-            </Row>
+              <Row className="text-center">
+                <Col xl="12" l="12" md="12" sm="12" xs="12">
+                  <Product
+                    data={ProductsData.profiles[2]}
+                    onClickFunction={handleProductClick}
+                  />
+                </Col>
+              </Row>
             </Carousel.Item>
 
             <Carousel.Item>
-            <Row className="text-center">
-            <Col xl="12" l="12" md="12" sm="12" xs="12">
-                <Product
-                  data={ProductsData.profiles[3]}
-                  onClickFunction={handleProductClick}
-                />
-              </Col>
-            </Row>
+              <Row className="text-center">
+                <Col xl="12" l="12" md="12" sm="12" xs="12">
+                  <Product
+                    data={ProductsData.profiles[3]}
+                    onClickFunction={handleProductClick}
+                  />
+                </Col>
+              </Row>
             </Carousel.Item>
           </Carousel>
         </Row>
@@ -163,7 +157,7 @@ function ProfilesCarousel({ onClickFunction }) {
 }
 
 
-              
+
 ProfilesCarousel.propTypes = {
   handleProductClick: Proptypes.func
 }

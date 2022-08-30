@@ -1,5 +1,5 @@
 import React from 'react'
-import {useState} from 'react'
+import { useState } from 'react'
 import "./index.css"
 
 import SectionSubtitle from '../../Atoms/SectionSubtitle/SectionSubtitle'
@@ -68,52 +68,52 @@ function Articles() {
   };
 
   return (
-    
-    
+
+
     <>
       <ReactWOW animation='fadeInUp' duration='0.8s'>
-      <section className="section-container justify-content-center" id="Articles">
-        <Container>
+        <section className="section-container justify-content-center" id="Articles">
+          <Container>
 
-          <Row className="mb-5">
-            <Col xl="12 text-center"><SectionSubtitle label={"Conoce nuestro catálogo"} /></Col>
-          </Row>
+            <Row className="mb-5">
+              <Col xl="12 text-center"><SectionSubtitle label={"Conoce nuestro catálogo"} /></Col>
+            </Row>
 
-          <ProductsCarousel handleProductClick={updateProductDetailData}/>
+            <ProductsCarousel handleProductClick={updateProductDetailData} />
 
 
-          <Row>
-            <Col xl="6">
-              <Row>
-                <h3 className="display-3">{productTitle}</h3>
-                <p>{productDescription}</p>
-              </Row>
-
-              <Row>
+            <Row>
+              <Col xl="6">
                 <Row>
-                  <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p><b>Textura tipo:</b></p></Col>
-                  <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p>{productTextureType}</p></Col>
+                  <h3 className="display-3">{productTitle}</h3>
+                  <p>{productDescription}</p>
                 </Row>
 
                 <Row>
-                  <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p><b>Uso:</b></p></Col>
-                  <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p>{productUseCase}</p></Col>
+                  <Row>
+                    <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p><b>Textura tipo:</b></p></Col>
+                    <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p>{productTextureType}</p></Col>
+                  </Row>
+
+                  <Row>
+                    <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p><b>Uso:</b></p></Col>
+                    <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p>{productUseCase}</p></Col>
+                  </Row>
+
+                  <Row>
+                    <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p><b>Precio:</b></p></Col>
+                    <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p>${productPrice}</p></Col>
+                  </Row>
+
+                  <Row>
+                    <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p><b>Medidas:</b></p></Col>
+                    <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p>{productSize}</p></Col>
+                  </Row>
                 </Row>
 
-                <Row>
-                  <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p><b>Precio:</b></p></Col>
-                  <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p>${productPrice}</p></Col>
-                </Row>
-
-                <Row>
-                  <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p><b>Medidas:</b></p></Col>
-                  <Col xxl="6" xl="6" l="6" md="6" sm="12" xs="12"><p>{productSize}</p></Col>
-                </Row>
-              </Row>
-
-            </Col>
-            <Col xl="6">
-              <Carousel slide={false} className="product-installation-carousel" variant="dark"  interval={null} activeIndex={index} onSelect={handleSelect}>
+              </Col>
+              <Col xl="6">
+                <Carousel slide={false} className="product-installation-carousel" variant="dark" interval={null} activeIndex={index} onSelect={handleSelect}>
                   {
                     productGallery.map((element) => (
                       <Carousel.Item key={element.id}>
@@ -121,11 +121,11 @@ function Articles() {
                       </Carousel.Item>
                     ))
                   }
-              </Carousel>
-            </Col>
-          </Row>
-        </Container>
-      </section>
+                </Carousel>
+              </Col>
+            </Row>
+          </Container>
+        </section>
       </ReactWOW>
     </>
   )

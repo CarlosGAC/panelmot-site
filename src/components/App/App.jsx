@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Root, addPrefetchExcludes } from 'react-static'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,12 +18,11 @@ import * as Styled from './App.styled'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import Articles from '../Organisms/Articles/Articles'
-// Any routes that start with 'dynamic' will be treated as non-static routes
+
 addPrefetchExcludes(['dynamic'])
 
 function App() {
-
-  //window.addEventListener('scroll', changeNavBarColor);
+  
   return (
     <Root>
       <Navbar id="navbar" bg="dark" variant="dark" expand="lg" fixed="top">
@@ -38,7 +37,7 @@ function App() {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+            <Nav className="me-auto">
             </Nav>
             <Nav className="me-auto">
               <Nav.Link className="navlink" href="#Hero">Home</Nav.Link>

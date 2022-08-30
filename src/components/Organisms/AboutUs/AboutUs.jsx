@@ -12,14 +12,14 @@ import ReactWOW from 'react-wow'
 function About() {
   return (
     <>
-    <ReactWOW animation='fadeInUp' duration='1s'>
-      <section className="section-container justify-content-center" id="AboutUs">
-        <Container>
-          <AboutUsHeader />
-          <AboutUsVideo videoSrc={video} />
-          <AboutUsPartners />
-        </Container>
-      </section>
+      <ReactWOW animation='fadeInUp' duration='1s'>
+        <section className="section-container justify-content-center" id="AboutUs">
+          <Container>
+            <AboutUsHeader />
+            <AboutUsVideo videoSrc={video} />
+            <AboutUsPartners />
+          </Container>
+        </section>
       </ReactWOW>
     </>
   )
