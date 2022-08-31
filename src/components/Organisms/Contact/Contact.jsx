@@ -27,10 +27,10 @@ function FAQ() {
     event.preventDefault();
 
     const nameInput = event.target.name.value;
-    const mailInput = event.target.email.value;
+    const subjectInput = event.target.subject.value;
     const messageInput = event.target.message.value;
 
-    window.open("https://api.whatsapp.com/send?phone=5213322890918&text=" + "Buen día, mi nombre es " + nameInput + ", " + messageInput + ". Mi correo electrónico es " + mailInput);
+    location.href = "mailto:gerenciaventas@panelmotpvc.com?subject=" + subjectInput + "&body=" + "Nombre: " + nameInput + ". " + messageInput
   }
 
   return (
@@ -60,9 +60,9 @@ function FAQ() {
 
                     <ContactTextInput
                       type={"text"}
-                      label={"Correo Electrónico"}
-                      id={"emailInput"}
-                      name={"email"}
+                      label={"Asunto"}
+                      id={"subjectInput"}
+                      name={"subject"}
                     />
 
                     <ContactTextInput
