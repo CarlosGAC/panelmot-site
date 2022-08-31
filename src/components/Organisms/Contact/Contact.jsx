@@ -4,7 +4,7 @@ import "./index.css"
 
 import panelmotLogo from '../../../images/panelmot_logo.jpg'
 
-import { BsTelephone } from 'react-icons/bs'
+import { BsTelephone, BsInstagram } from 'react-icons/bs'
 import { GoMail } from 'react-icons/go'
 import { FaFacebookSquare } from 'react-icons/fa'
 import { HiOutlineLocationMarker } from 'react-icons/hi'
@@ -102,8 +102,13 @@ function FAQ() {
               />
 
               <ContactDataRow
+                icon={<BsInstagram />}
+                content={<ContactLink label={"@panel_pvc_mot"} linkRef={"https://www.instagram.com/panel_pvc_mot"} />}
+              />
+
+              <ContactDataRow
                 icon={<HiOutlineLocationMarker />}
-                content={<p className="contact-data"><b>Guadalajara, Jalisco</b></p>}
+                content={<ContactLink label={"Avenida López Mateos Sur 6815 interior A1. Zapopan, Jalisco"} linkRef={"https://www.google.com/maps/place/Av.+Adolfo+L%C3%B3pez+Mateos+Sur+6815,+El+Mante,+45080+Zapopan,+Jal./@20.6114572,-103.428699,19.87z"} />}
               />
             </Col>
           </Row>

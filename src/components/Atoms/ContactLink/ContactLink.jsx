@@ -4,7 +4,7 @@ import * as Styled from './ContactLink.styled.js'
 
 function ContactLink({ label, linkRef }) {
   return (
-    <Styled.ContactLink href={linkRef ? linkRef : "#"} className="contact-link">{label ? label : "Section Title"}</Styled.ContactLink>
+    <Styled.ContactLink href={linkRef ? linkRef : "#"} className="contact-link" target="_blank" rel="noopener noreferrer">{label ? label : "Section Title"}</Styled.ContactLink>
   )
 }
 
