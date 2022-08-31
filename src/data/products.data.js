@@ -425,7 +425,7 @@ const data = {
             "description" : "",
             "textureType" : "Metal",
             "useCase" : "Estructura oculta",
-            "price" : "65 MXN por pieza",
+            "price" : "45 MXN por pieza",
             "size" : "305cm",
             "headerImage": {
                 "id": 0,
@@ -447,7 +447,7 @@ const data = {
             "description" : "",
             "textureType" : "Metal",
             "useCase" : "Estructura oculta",
-            "price" : "35 MXN por pieza",
+            "price" : "65 MXN por pieza",
             "size" : "305cm",
             "headerImage": {
                 "id": 0,
