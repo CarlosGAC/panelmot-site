@@ -93,7 +93,17 @@ function FAQ() {
 
               <ContactDataRow
                 icon={<GoMail />}
-                content={<p className="contact-data"><b>panelpvcmot@gmail.com</b></p>}
+                content={<p className="contact-data"><b>direcciongeneral@panelmotpvc.com</b></p>}
+              />
+
+              <ContactDataRow
+                icon={<GoMail />}
+                content={<p className="contact-data"><b>gerenciaventas@panelmotpvc.com</b></p>}
+              />
+
+              <ContactDataRow
+                icon={<GoMail />}
+                content={<p className="contact-data"><b>gerencicompras@panelmotpvc.com</b></p>}
               />
 
               <ContactDataRow
