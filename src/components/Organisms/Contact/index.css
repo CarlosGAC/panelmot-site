@@ -14,6 +14,31 @@
 
 .contact-data {
     font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+}
+svg {
+    height: 50px;
+    width: 50px;
+}
+
+@media only screen and (max-width: 440px) {
+    .contact-data {
+        font-size: 1rem;
+    }
+
+    .contactdata-link {
+        font-size: 1rem !important;
+    }
+
+    svg {
+        height: 40px;
+        width: 40px;
+    }
+
+    .footer-data {
+        font-size: 1rem;
+    }
 }
 
 .form-control {
@@ -22,10 +47,7 @@
     background-color: white;
 }
 
-svg {
-    height: 50px;
-    width: 50px;
-}
+
 
 #Contact {
     padding-top: 100px;
@@ -34,4 +56,9 @@ svg {
 
 .form-label {
     font-size: 1.5rem;
+}
+
+.contactdata-content {
+    display: flex;
+    align-items: center;
 }

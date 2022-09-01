@@ -8,7 +8,7 @@ function ContactDataRow({ icon, content }) {
       <Col xl="2" l="2" md="2" sm="2" xs="0">
         <i>{icon}</i>
       </Col>
-      <Col>
+      <Col className="contactdata-content">
         {content}
       </Col>
     </Row>

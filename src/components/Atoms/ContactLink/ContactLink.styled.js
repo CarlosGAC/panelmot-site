@@ -5,4 +5,8 @@ font-weight: bold;
 color: black;
 text-decoration: underline;
 font-size: 1.2rem;
+
+@media (max-width: 440px) {
+    font-size: 1rem;
+  }
 `;

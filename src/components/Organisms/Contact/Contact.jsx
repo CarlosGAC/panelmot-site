@@ -90,6 +90,10 @@ function FAQ() {
                 icon={<BsTelephone />}
                 content={<p className="contact-data"><b>33 2289 0918</b></p>}
               />
+              <ContactDataRow
+                icon={<BsTelephone />}
+                content={<p className="contact-data"><b>34 2108 4567</b></p>}
+              />
 
               <ContactDataRow
                 icon={<GoMail />}
@@ -103,7 +107,7 @@ function FAQ() {
 
               <ContactDataRow
                 icon={<GoMail />}
-                content={<p className="contact-data"><b>gerencicompras@panelmotpvc.com</b></p>}
+                content={<p className="contact-data"><b>gerenciacompras@panelmotpvc.com</b></p>}
               />
 
               <ContactDataRow

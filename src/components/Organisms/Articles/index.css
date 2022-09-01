@@ -24,11 +24,11 @@
 }
 
 .products-carousel .carousel-control-prev {
-  margin-left: -10%;
+  margin-left: -12%;
 }
 
 .products-carousel .carousel-control-next {
-  margin-right: -10%;
+  margin-right: -12%;
 }
 
 .product {
@@ -37,6 +37,10 @@
   padding: 15px;
   border-radius: 8px;
   width: 100%;
+}
+
+.products-carousel .carousel-indicators {
+  bottom: -1.7vw;
 }
 
 .product:hover {

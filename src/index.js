@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { AppContainer } from 'react-hot-loader'
-import './styles.scss';
+
 
 // Your top level component
 import App from './components/App'

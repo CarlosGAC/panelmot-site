@@ -39,3 +39,12 @@
 .faq-answer-text {
     font-size: 1.5rem;
 }
+
+@media only screen and (max-width: 500px) {
+    .accordion-button {
+        font-size: 1.2rem !important;
+    }
+    .accordion-item {
+        width: 100%;
+    }
+}
