@@ -22,6 +22,8 @@ import Articles from '../Organisms/Articles/Articles'
 import CookieConsent from "react-cookie-consent"
 import ManualInstalacion from "../../assets/documents/manual_instalacion_ago2022.pdf"
 
+import { BsWhatsapp } from 'react-icons/bs'
+
 
 //addPrefetchExcludes(['dynamic'])
 
@@ -72,7 +74,8 @@ function App() {
         >
           Este sitio web utiliza cookies para mejorar la experiencia de usuario. {" "}
         </CookieConsent>
-
+      <a href="https://api.whatsapp.com/send?phone=5213322890918" class="float" target="_blank"><i className="my-float">{<BsWhatsapp />}</i></a>
+      
     </Root>
   )
 }
