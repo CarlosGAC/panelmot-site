@@ -17,10 +17,10 @@ import AnguloAmarre from '../images/angulo_amarre.webp'
 import CanalListon from '../images/canal_liston.webp'
 
 // Installation Examples
-import FX8721_1 from '../images/FX8721/FX8721_1.webp'
-import FX8721_2 from '../images/FX8721/FX8721_2.webp'
-import FX8721_3 from '../images/FX8721/FX8721_3.webp'
-import FX8721_4 from '../images/FX8721/FX8721_4.webp'
+import FX8721_1 from '../images/FX8721/FX8721_1_cropped.webp'
+import FX8721_2 from '../images/FX8721/FX8721_2_cropped.webp'
+import FX8721_3 from '../images/FX8721/FX8721_3_cropped.webp'
+import FX8721_4 from '../images/FX8721/FX8721_4_cropped.webp'
 
 import FX8724_1 from '../images/FX8724/FX8724_1.webp'
 import FX8724_2 from '../images/FX8724/FX8724_2.webp'
@@ -32,9 +32,9 @@ import FX1421_2 from '../images/FX1421/FX1421_2.webp'
 import FX1421_3 from '../images/FX1421/FX1421_3.webp'
 import FX1421_4 from '../images/FX1421/FX1421_4.webp'
 
-import FX1533_1 from '../images/FX1533/FX1533_1.webp'
-import FX1533_2 from '../images/FX1533/FX1533_2.webp'
-import FX1533_3 from '../images/FX1533/FX1533_3.webp'
+import FX1533_1 from '../images/FX1533/FX1533_1_cropped.webp'
+import FX1533_2 from '../images/FX1533/FX1533_2_cropped.webp'
+import FX1533_3 from '../images/FX1533/FX1533_3_cropped.webp'
 import FX1533_4 from '../images/FX1533/FX1533_4.webp'
 
 import Blanco_1 from '../images/Blanco/Blanco_1.webp'
@@ -205,11 +205,6 @@ const data = {
                     "alt": "Textura de panel FX142-1"
                 },
                 {
-                    "id": 1,
-                    "src": FX1421_1,
-                    "alt": "Ejemplo de instalación 1 de panel FX142-1"
-                },
-                {
                     "id": 2,
                     "src": FX1421_2,
                     "alt": "Ejemplo de instalación 2 de panel FX142-1"
@@ -371,11 +366,6 @@ const data = {
                     "id": 0,
                     "src": BlancoHumo,
                     "alt": "Textura de panel Blanco Humo"
-                },
-                {
-                    "id": 1,
-                    "src": BlancoHumo_1,
-                    "alt": "Ejemplo de instalación 1 de panel Blanco Humo"
                 },
                 {
                     "id": 2,
