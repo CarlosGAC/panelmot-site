@@ -16,19 +16,11 @@
 }
 
 .product-installation-carousel .carousel-control-prev {
-  margin-left: -15%;
+  margin-left: -11%;
 }
 
 .product-installation-carousel .carousel-control-next {
-  margin-right: -15%;
-}
-
-.products-carousel .carousel-control-prev {
-  margin-left: -12%;
-}
-
-.products-carousel .carousel-control-next {
-  margin-right: -12%;
+  margin-right: -11%;
 }
 
 .product {
@@ -36,7 +28,6 @@
   background-color: #F9F9F9;
   padding: 15px;
   border-radius: 8px;
-  width: 100%;
 }
 
 .products-carousel .carousel-indicators {
@@ -60,7 +51,6 @@
 .product-category-card {
   width: 100%;
 }
-
 
 .selected-category {
   text-decoration: none;

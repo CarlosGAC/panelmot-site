@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col'
 import Carousel from 'react-bootstrap/Carousel'
 import { ProductsData } from '../../../data/MockData'
 
-import ProductsCarousel from '../../Carousel'
+import ProductCategory from '../../Molecules/ArticlesProductCategory/ProductCategory'
 import ReactWOW from 'react-wow'
 function Articles() {
 
@@ -79,7 +79,7 @@ function Articles() {
               <Col xl="12 text-center"><SectionSubtitle label={"Conoce nuestro catálogo"} /></Col>
             </Row>
 
-            <ProductsCarousel handleProductClick={updateProductDetailData} />
+            <ProductCategory handleProductClick={updateProductDetailData} />
 
 
             <Row>
