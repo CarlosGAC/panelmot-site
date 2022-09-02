@@ -15,20 +15,30 @@
   padding-bottom: 0.5rem;
 }
 
-.product-installation-carousel .carousel-control-prev {
-  margin-left: -11%;
-}
-
-.product-installation-carousel .carousel-control-next {
-  margin-right: -11%;
-}
-
 .product {
   border: none;
   background-color: #F9F9F9;
-  padding: 15px;
-  border-radius: 8px;
+  padding: 3%;
 }
+
+.react-multiple-carousel__arrow {
+  background: rgba(0,0,0,0) !important;
+  top: calc(25% + 1px);
+}
+
+.react-multiple-carousel__arrow:hover:before {
+  color: black !important;
+  transition: all 0.1s ease-in-out;
+}
+
+.react-multiple-carousel__arrow::before {
+  font-size: 80px !important;
+}
+
+.react-multiple-carousel__arrow::before {
+  font-size: 80px !important;
+}
+
 
 .products-carousel .carousel-indicators {
   bottom: -1.7vw;
@@ -78,6 +88,6 @@
   flex-direction: row;
   justify-content: center;
   
-  height: 350px; 
+  height: 450px; 
   width: 100%;
 }
