@@ -16,29 +16,29 @@
   "entry": "index.js",
   "plugins": [
     [
-      "F:\\panelmot-site\\node_modules\\react-static-plugin-source-filesystem\\node.api.js",
+      "C:\\Users\\Carlos\\Documents\\panelmot-site\\node_modules\\react-static-plugin-source-filesystem\\node.api.js",
       {
-        "location": "F:\\panelmot-site\\src\\components\\Pages"
+        "location": "C:\\Users\\Carlos\\Documents\\panelmot-site\\src\\components\\Pages"
       }
     ],
-    "F:\\panelmot-site\\node_modules\\react-static-plugin-reach-router\\browser.api.js",
-    "F:\\panelmot-site\\node_modules\\react-static-plugin-sitemap\\dist\\node.api.js",
-    "F:\\panelmot-site"
+    "C:\\Users\\Carlos\\Documents\\panelmot-site\\node_modules\\react-static-plugin-reach-router\\browser.api.js",
+    "C:\\Users\\Carlos\\Documents\\panelmot-site\\node_modules\\react-static-plugin-sitemap\\dist\\node.api.js",
+    "C:\\Users\\Carlos\\Documents\\panelmot-site"
   ],
   "paths": {
-    "ROOT": "F:\\panelmot-site",
-    "SRC": "F:\\panelmot-site\\src",
-    "DIST": "F:\\panelmot-site\\dist",
-    "ASSETS": "F:\\panelmot-site\\dist",
-    "PLUGINS": "F:\\panelmot-site\\plugins",
-    "TEMP": "F:\\panelmot-site\\tmp",
-    "ARTIFACTS": "F:\\panelmot-site\\artifacts",
-    "PUBLIC": "F:\\panelmot-site\\public",
-    "NODE_MODULES": "F:\\panelmot-site\\node_modules",
-    "EXCLUDE_MODULES": "F:\\panelmot-site\\node_modules",
-    "PACKAGE": "F:\\panelmot-site\\package.json",
-    "HTML_TEMPLATE": "F:\\panelmot-site\\dist\\index.html",
-    "STATIC_DATA": "F:\\panelmot-site\\dist\\staticData"
+    "ROOT": "C:\\Users\\Carlos\\Documents\\panelmot-site",
+    "SRC": "C:\\Users\\Carlos\\Documents\\panelmot-site\\src",
+    "DIST": "C:\\Users\\Carlos\\Documents\\panelmot-site\\dist",
+    "ASSETS": "C:\\Users\\Carlos\\Documents\\panelmot-site\\dist",
+    "PLUGINS": "C:\\Users\\Carlos\\Documents\\panelmot-site\\plugins",
+    "TEMP": "C:\\Users\\Carlos\\Documents\\panelmot-site\\tmp",
+    "ARTIFACTS": "C:\\Users\\Carlos\\Documents\\panelmot-site\\artifacts",
+    "PUBLIC": "C:\\Users\\Carlos\\Documents\\panelmot-site\\public",
+    "NODE_MODULES": "C:\\Users\\Carlos\\Documents\\panelmot-site\\node_modules",
+    "EXCLUDE_MODULES": "C:\\Users\\Carlos\\Documents\\panelmot-site\\node_modules",
+    "PACKAGE": "C:\\Users\\Carlos\\Documents\\panelmot-site\\package.json",
+    "HTML_TEMPLATE": "C:\\Users\\Carlos\\Documents\\panelmot-site\\dist\\index.html",
+    "STATIC_DATA": "C:\\Users\\Carlos\\Documents\\panelmot-site\\dist\\staticData"
   },
   "siteRoot": "/",
   "basePath": "",

@@ -20,6 +20,7 @@ import ContactFooter from '../../Molecules/ContactFooter/ContactFooter'
 import FAQButton from '../../Atoms/FAQButton/FAQButton'
 
 import ReactWOW from 'react-wow'
+import ContactPayments from '../../Molecules/ContactPayments/ContactPayments'
 
 function FAQ() {
 
@@ -37,6 +38,7 @@ function FAQ() {
     <>
       <ReactWOW animation='fadeInUp' duration='0.8s'>
         <section className="section-container" id="Contact">
+          <ContactPayments />
           <Row className="mb-5">
             <Col xl="8" l="8" md="6" sm="12" xs="12">
               <Row className="mb-5">

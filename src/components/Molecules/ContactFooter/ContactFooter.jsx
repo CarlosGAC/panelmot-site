@@ -8,7 +8,7 @@ function ContactFooter() {
         <p className='h4 footer-data'>Página Web desarrollada por <a href="https://eldritchgames.com.mx">Eldritch Games</a></p>
       </Col>
       <Col xl="4" className="mb-4">
-        <p className='h4 footer-data'><u>Copyright © 2021 by Panelmot PVC</u></p>
+        <p className='h4 footer-data'><u>Copyright © 2023 by Panelmot PVC</u></p>
       </Col>
     </Row>
   )

@@ -4,6 +4,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import CarouselItem from 'react-bootstrap/CarouselItem'
 import Container from 'react-bootstrap/Container'
 
+import image0 from '../../../assets/home-banner-carousel/banner_image0.webp'
 import image1 from '../../../assets/home-banner-carousel/banner_image1.webp'
 import image2 from '../../../assets/home-banner-carousel/banner_image2.webp'
 import image3 from '../../../assets/home-banner-carousel/banner_image3.webp'
@@ -42,23 +43,27 @@ function Hero() {
             </CarouselItem>
 
             <CarouselItem className="carousel-hero-item">
-              <img className="carousel-hero-img" src={image2} alt="Ejemplo 3 de instalación de panel"></img>
+              <img className="carousel-hero-img" src={image2} alt="Ejemplo 2 de instalación de panel"></img>
             </CarouselItem>
 
             <CarouselItem className="carousel-hero-item">
-              <img className="carousel-hero-img" src={image3} alt="Ejemplo 4 de instalación de panel"></img>
+              <img className="carousel-hero-img" src={image3} alt="Ejemplo 3 de instalación de panel"></img>
             </CarouselItem>
 
             <CarouselItem className="carousel-hero-item">
-              <img className="carousel-hero-img" src={image4} alt="Ejemplo 5 de instalación de panel"></img>
+              <img className="carousel-hero-img" src={image4} alt="Ejemplo 4 de instalación de panel"></img>
             </CarouselItem>
 
             <CarouselItem className="carousel-hero-item">
-              <img className="carousel-hero-img" src={image5} alt="Ejemplo 6 de instalación de panel"></img>
+              <img className="carousel-hero-img" src={image5} alt="Ejemplo 5 de instalación de panel"></img>
             </CarouselItem>
 
             <CarouselItem className="carousel-hero-item">
               <img className="carousel-hero-img" src={image6} alt="Ejemplo 6 de instalación de panel"></img>
+            </CarouselItem>
+
+            <CarouselItem className="carousel-hero-item">
+              <img className="carousel-hero-img" src={image0} alt="Ejemplo 7 de instalación de panel"></img>
             </CarouselItem>
           </Carousel>
         </Container>

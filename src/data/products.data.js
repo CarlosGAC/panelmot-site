@@ -1,8 +1,9 @@
 // Products
 import FX87_21 from '../images/FX87-21.webp'
 import FX142_1 from '../images/FX142-1.webp'
-import FX153_3 from '../images/FX153-3.webp'
 import FX87_24 from '../images/FX87-24.webp'
+import X81703_9 from '../images/81703-9.webp'
+import LM201 from '../images/LM201.webp'
 
 import Blanco from '../images/blanco.webp'
 import BlancoHumo from '../images/blancoHumo.webp'
@@ -32,10 +33,10 @@ import FX1421_2 from '../images/FX1421/FX1421_2.webp'
 import FX1421_3 from '../images/FX1421/FX1421_3.webp'
 import FX1421_4 from '../images/FX1421/FX1421_4.webp'
 
-import FX1533_1 from '../images/FX1533/FX1533_1_cropped.webp'
-import FX1533_2 from '../images/FX1533/FX1533_2_cropped.webp'
-import FX1533_3 from '../images/FX1533/FX1533_3_cropped.webp'
-import FX1533_4 from '../images/FX1533/FX1533_4.webp'
+import LM201_1 from '../images/LM201/LM201_1.webp'
+import LM201_2 from '../images/LM201/LM201_2.webp'
+import LM201_3 from '../images/LM201/LM201_3.webp'
+import LM201_4 from '../images/LM201/LM201_4.webp'
 
 import Blanco_1 from '../images/Blanco/Blanco_1.webp'
 import Blanco_2 from '../images/Blanco/Blanco_2.webp'
@@ -46,6 +47,12 @@ import BlancoHumo_1 from '../images/BlancoHumo/BlancoHumo_1.webp'
 import BlancoHumo_2 from '../images/BlancoHumo/BlancoHumo_2.webp'
 import BlancoHumo_3 from '../images/BlancoHumo/BlancoHumo_3.webp'
 import BlancoHumo_4 from '../images/BlancoHumo/BlancoHumo_4.webp'
+
+import BlancoMarmol_1 from '../images/BlancoMarmol/BlancoMarmol_1.webp'
+import BlancoMarmol_2 from '../images/BlancoMarmol/BlancoMarmol_2.webp'
+
+import X81703_9_1 from '../images/81703-9/81703-9_1.webp'
+import X81703_9_2 from '../images/81703-9/81703-9_2.webp'
 
 const data = {
     "profiles": [
@@ -185,6 +192,37 @@ const data = {
             ]
         },
         {
+            "id" : "X81703-9",
+            "title" : "81703-9",
+            "description" : "Increíble panel con tonos rojizos y ocres que darán ese extra a tu espacio",
+            "textureType" : "Madera",
+            "useCase" : "Interiores/Exteriores",
+            "price" : "215.00 por metro cuadrado",
+            "size" : "595cm x 25cm x 0.7cm",
+            "headerImage": {
+                "id": 0,
+                "src": X81703_9,
+                "alt": "81703_9"
+            },
+            "gallery": [
+                {
+                    "id": 0,
+                    "src": X81703_9,
+                    "alt": "Textura de panel 81703_9"
+                },
+                {
+                    "id": 1,
+                    "src": X81703_9_1,
+                    "alt": "Ejemplo de instalación 1 de panel 81703_9"
+                },
+                {
+                    "id": 2,
+                    "src": X81703_9_2,
+                    "alt": "Ejemplo de instalación 2 de panel 81703_9"
+                }
+            ]
+        },
+        {
             "id" : "FX142-1",
             "title" : "FX142-1",
             "description" : "Excelente tono rústico que evoca cordialidad",
@@ -218,48 +256,6 @@ const data = {
                     "id": 4,
                     "src": FX1421_4,
                     "alt": "Ejemplo de instalación 4 de panel FX142-1"
-                }
-            ]
-        },
-        {
-            "id" : "FX153-3",
-            "title" : "FX153-3",
-            "description" : "Nuestro tono más oscuro, ideal para ambientes formales",
-            "textureType" : "Madera",
-            "useCase" : "Interiores/Exteriores",
-            "price" : "215.00 por metro cuadrado",
-            "size" : "595cm x 25cm x 0.7cm",
-            "headerImage": {
-                "id": 0,
-                "src": FX153_3,
-                "alt": "FX153_3"
-                
-            },
-            "gallery": [
-                {
-                    "id": 0,
-                    "src": FX153_3,
-                    "alt": "Textura de panel FX153-3"
-                },
-                {
-                    "id": 1,
-                    "src": FX1533_1,
-                    "alt": "Ejemplo de instalación 1 de panel FX153-3"
-                },
-                {
-                    "id": 2,
-                    "src": FX1533_2,
-                    "alt": "Ejemplo de instalación 2 de panel FX153-3"
-                },
-                {
-                    "id": 3,
-                    "src": FX1533_3,
-                    "alt": "Ejemplo de instalación 3 de panel FX153-3"
-                },
-                {
-                    "id": 4,
-                    "src": FX1533_4,
-                    "alt": "Ejemplo de instalación 4 de panel FX153-3"
                 }
             ]
         },
@@ -302,6 +298,48 @@ const data = {
                     "id": 4,
                     "src": FX8724_4,
                     "alt": "Ejemplo de instalación 4 de panel FX87-24"
+                }
+            ]
+        },
+        {
+            "id" : "LM201",
+            "title" : "LM201",
+            "description" : "Textura clásica de madera que evoca sencillez y clase.",
+            "textureType" : "Madera",
+            "useCase" : "Interiores/Exteriores",
+            "price" : "215.00 por metro cuadrado",
+            "size" : "595cm x 25cm x 0.7cm",
+            "headerImage": {
+                "id": 0,
+                "src": LM201,
+                "alt": "LM201"
+                
+            },
+            "gallery": [
+                {
+                    "id": 0,
+                    "src": LM201,
+                    "alt": "Textura de panel LM201"
+                },
+                {
+                    "id": 1,
+                    "src": LM201_1,
+                    "alt": "Ejemplo de instalación 1 de panel LM201"
+                },
+                {
+                    "id": 2,
+                    "src": LM201_2,
+                    "alt": "Ejemplo de instalación 2 de panel LM201"
+                },
+                {
+                    "id": 3,
+                    "src": LM201_3,
+                    "alt": "Ejemplo de instalación 3 de panel LM201"
+                },
+                {
+                    "id": 4,
+                    "src": LM201_4,
+                    "alt": "Ejemplo de instalación 4 de panel LM201"
                 }
             ]
         },
@@ -403,6 +441,16 @@ const data = {
                     "id": 0,
                     "src": BlancoMarmol,
                     "alt": "Blanco Marmol"
+                },
+                {
+                    "id": 1,
+                    "src": BlancoMarmol_1,
+                    "alt": "Ejemplo de instalación 1 de panel Blanco Mármol"
+                },
+                {
+                    "id": 2,
+                    "src": BlancoMarmol_2,
+                    "alt": "Ejemplo de instalación 2 de panel Blanco Mármol"
                 }
             ]
         }
